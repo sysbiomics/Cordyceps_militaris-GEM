@@ -10705,7 +10705,7 @@
       - C14819_c: 4
       - H2O: 2
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00224
     - subsystem: Porphyrin and chlorophyll metabolism
     - annotation: !!omap
@@ -10720,7 +10720,7 @@
       - H2O: -1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04641 or CCM_08700 or CCM_05534
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -10739,7 +10739,7 @@
       - NAD: 1
       - NADH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00077 or CCM_02639 or CCM_05498 or CCM_08034
     - subsystem: Amino sugar and nucleotide sugar metabolism
     - annotation: !!omap
@@ -10754,7 +10754,7 @@
       - NAD: -1
       - NICD: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01648 or CCM_04691 or CCM_05249 or CCM_05955
     - subsystem: Nicotinate and nicotinamide metabolism
     - annotation: !!omap
@@ -10772,7 +10772,7 @@
       - C01260_c: 1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02703 or CCM_02754
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -10786,7 +10786,7 @@
       - AMP: -1
       - ATP: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04983 or CCM_07479 or CCM_03940
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -10800,7 +10800,7 @@
       - CO2: 1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01858 or CCM_08864
     - annotation: !!omap
       - ec-code: ec-code/4.2.1.1
@@ -10814,7 +10814,7 @@
       - LLAC: -1
       - PYR: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01896 or CCM_02991 or CCM_08217
     - subsystem: Pyruvate metabolism
     - annotation: !!omap
@@ -10829,7 +10829,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04115 or CCM_08806 or CCM_09024
     - annotation: !!omap
       - ec-code: ec-code/1.6.99.1
@@ -10843,7 +10843,7 @@
       - H2O: -1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06336
     - subsystem: Pyruvate metabolism
     - annotation: !!omap
@@ -10881,7 +10881,7 @@
       - undefined_20_c: 1
       - undefined_39_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01054 or CCM_01290 or CCM_02533 or CCM_03220
     - annotation: !!omap
       - ec-code:
@@ -10900,7 +10900,7 @@
       - undefined_20_c: 1
       - undefined_39_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01054 or CCM_01290
     - annotation: !!omap
       - ec-code:
@@ -10915,7 +10915,7 @@
       - PYR: 1
       - aor0367: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05289 or CCM_07759 or CCM_07861
     - subsystem: Arginine and proline metabolism
     - annotation: !!omap
@@ -10930,7 +10930,7 @@
       - H2SO3: -1
       - SLF: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06046
     - subsystem: Sulfur metabolism
     - annotation: !!omap
@@ -10945,7 +10945,7 @@
       - GLY: -1
       - ORN: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04987
     - subsystem:
         - Glycine, serine and threonine metabolism
@@ -10962,7 +10962,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06943
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.228
@@ -10975,7 +10975,7 @@
       - H2O2: 1
       - METHOL: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09512
     - subsystem: Methane metabolism
     - annotation: !!omap
@@ -10991,7 +10991,7 @@
       - H2O2: 1
       - SARC: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00374 or CCM_04511 or CCM_04603 or CCM_04974 or CCM_05950 or CCM_09198
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -11007,7 +11007,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03625 or CCM_05662 or CCM_09091
     - subsystem: Aminobenzoate degradation
     - annotation: !!omap
@@ -11020,7 +11020,7 @@
       - C00090_c: -1
       - C02480_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05331 or CCM_08212
     - subsystem: Benzoate degradation
     - annotation: !!omap
@@ -11037,7 +11037,7 @@
       - NAD: 1
       - NADH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00583 or CCM_02700 or CCM_06214 or CCM_08211 or CCM_08274 or CCM_08664
     - subsystem:
         - Dioxin degradation
@@ -11054,7 +11054,7 @@
       - C00196_c: -1
       - CO2: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08209
     - subsystem:
         - Benzoate degradation
@@ -11071,7 +11071,7 @@
       - C01094_c: 1
       - FRU: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05591
     - subsystem: Fructose and mannose metabolism
     - annotation: !!omap
@@ -11086,7 +11086,7 @@
       - UMP: -1
       - URA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02534 or CCM_03945
     - subsystem: Pyrimidine metabolism
     - annotation: !!omap
@@ -11100,7 +11100,7 @@
       - UDP: 1
       - UDPG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07183
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -11112,7 +11112,7 @@
     - metabolites: !!omap
       - GDPMAN: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00704 or CCM_01823 or CCM_05300
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -11127,7 +11127,7 @@
       - C00030_c: 1
       - CHO: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01940 or CCM_05124 or CCM_06408
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -11142,7 +11142,7 @@
       - GL3P: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06073 or CCM_05136 or CCM_08480
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11157,7 +11157,7 @@
       - R5P: -1
       - RL5P: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00462 or CCM_01641 or CCM_08256
     - subsystem:
         - Pentose phosphate pathway
@@ -11188,7 +11188,7 @@
       - COA: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08776
     - subsystem:
         - Fatty acid elongation
@@ -11209,7 +11209,7 @@
       - COA: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05072 or CCM_05690 or CCM_08889
     - subsystem:
         - Fatty acid biosynthesis
@@ -11227,7 +11227,7 @@
       - C03161_c: 1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08604
     - subsystem:
         - Benzoate degradation
@@ -11244,7 +11244,7 @@
       - PC: -1
       - aor0565: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04826 or CCM_08292 or CCM_08305 or CCM_08323
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11259,7 +11259,7 @@
       - H2O: -1
       - PC: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08202 or CCM_02980
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11274,7 +11274,7 @@
       - GL: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07647
     - annotation: !!omap
       - ec-code: ec-code/3.1.1.23
@@ -11287,7 +11287,7 @@
       - H2O: 1
       - aor0326: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07886
     - subsystem: Cyanoamino acid metabolism
     - annotation: !!omap
@@ -11302,7 +11302,7 @@
       - H2O: -1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03168 or CCM_08592 or CCM_09487
     - subsystem: Arginine and proline metabolism
     - annotation: !!omap
@@ -11317,7 +11317,7 @@
       - NADH: 1
       - aor0212: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08633
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -11332,7 +11332,7 @@
       - H2O: -1
       - aor0212: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03413 or CCM_08202
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -11347,7 +11347,7 @@
       - C00319_c: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02037 or CCM_04614 or CCM_05845
     - subsystem: Sphingolipid metabolism
     - annotation: !!omap
@@ -11362,7 +11362,7 @@
       - ATP: -1
       - G: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04216
     - subsystem:
         - Glycine, serine and threonine metabolism
@@ -11380,7 +11380,7 @@
       - INS: 1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09449 or CCM_02911 or CCM_07169
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -11394,7 +11394,7 @@
       - COA: 1
       - MALCOA: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09164 or CCM_02997
     - subsystem: Fatty acid biosynthesis
     - annotation: !!omap
@@ -11412,7 +11412,7 @@
       - PYR: 1
       - aor0665: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01804
     - annotation: !!omap
       - ec-code: ec-code/4.1.2.52
@@ -11441,7 +11441,7 @@
       - PDXAL: 1
       - PDXI: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02321
     - subsystem: Vitamin B6 metabolism
     - annotation: !!omap
@@ -11455,7 +11455,7 @@
       - PDXAL: 1
       - PDXI: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03012 or CCM_04235
     - subsystem: Vitamin B6 metabolism
     - annotation: !!omap
@@ -11472,7 +11472,7 @@
       - S7P: -1
       - T3P1: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03324 or CCM_08905
     - subsystem: Pentose phosphate pathway
     - annotation: !!omap
@@ -11503,7 +11503,7 @@
       - C01755_c: 1
       - H2SO3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04151 or CCM_05523
     - subsystem: Sulfur metabolism
     - annotation: !!omap
@@ -11519,7 +11519,7 @@
       - MET: 1
       - OTHIO: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00916
     - subsystem: Cysteine and methionine metabolism
     - annotation: !!omap
@@ -11536,7 +11536,7 @@
       - H2O: -1
       - PG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04826 or CCM_08292 or CCM_08305 or CCM_08323 or CCM_00521
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11553,7 +11553,7 @@
       - PE: 1
       - aor0199: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03250 or CCM_07652
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11568,7 +11568,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08297
     - subsystem: Histidine metabolism
     - annotation: !!omap
@@ -11583,7 +11583,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02138 or CCM_01790
     - subsystem: Steroid hormone biosynthesis
     - annotation: !!omap
@@ -11599,7 +11599,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02795
     - subsystem: Caprolactam degradation
     - annotation: !!omap
@@ -11614,7 +11614,7 @@
       - PA: -1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05427 or CCM_01708
     - subsystem:
         - Glycerolipid metabolism
@@ -11633,7 +11633,7 @@
       - PA: -1
       - aor0054: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02787 or CCM_05827 or CCM_08202 or CCM_03720
     - subsystem:
         - Glycerolipid metabolism
@@ -11650,7 +11650,7 @@
       - H2O: -1
       - TAGLY: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08435 or CCM_08202 or CCM_06233 or CCM_06112
     - subsystem: Glycerolipid metabolism
     - annotation: !!omap
@@ -11665,7 +11665,7 @@
       - H2O: -1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06504 or CCM_04317
     - subsystem: Nicotinate and nicotinamide metabolism
     - annotation: !!omap
@@ -11683,7 +11683,7 @@
       - NAD: 1
       - NADH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02058 or CCM_04043 or CCM_07390 or CCM_08750 or CCM_09562
     - subsystem: Isoquinoline alkaloid biosynthesis
     - annotation: !!omap
@@ -11700,7 +11700,7 @@
       - UGC: 1
       - UREA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09208
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -11714,7 +11714,7 @@
       - C00524_c: 1
       - C02248_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04455 or CCM_08580
     - subsystem: Porphyrin and chlorophyll metabolism
     - annotation: !!omap
@@ -11730,7 +11730,7 @@
       - MTHGXL: 1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00142 or CCM_01805 or CCM_02614 or CCM_05218 or CCM_06912 or CCM_08193
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -11748,7 +11748,7 @@
       - H2O2: 1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00142 or CCM_01805
     - subsystem: Tyrosine metabolism
     - annotation: !!omap
@@ -11763,7 +11763,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06614
     - subsystem: Tyrosine metabolism
     - annotation: !!omap
@@ -11778,7 +11778,7 @@
       - H2O: -1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09449
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -11791,7 +11791,7 @@
       - C00628_c: -1
       - C02167_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00823
     - subsystem: Tyrosine metabolism
     - annotation: !!omap
@@ -11806,7 +11806,7 @@
       - C04230_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04741
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11821,7 +11821,7 @@
       - C04233_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08626 or CCM_04741
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11835,7 +11835,7 @@
       - NADPH: 1
       - aor0054: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00856 or CCM_02900 or CCM_06840
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -11850,7 +11850,7 @@
       - NAD: 1
       - NADH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06005
     - subsystem: Ubiquinone and other terpenoid-quinone biosynthesis
     - annotation: !!omap
@@ -11864,7 +11864,7 @@
       - C01144_c: -1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01474 or CCM_01647
     - subsystem:
         - Fatty acid degradation
@@ -11885,7 +11885,7 @@
       - C02165_c: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04998
     - subsystem: Arachidonic acid metabolism
     - annotation: !!omap
@@ -11900,7 +11900,7 @@
       - C15980_c: -1
       - aor0675: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05293 or CCM_07749
     - subsystem: Valine, leucine and isoleucine degradation
     - annotation: !!omap
@@ -11916,7 +11916,7 @@
       - C01163_c: 1
       - C04553_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05099
     - subsystem: Benzoate degradation
     - annotation: !!omap
@@ -11931,7 +11931,7 @@
       - C02067_c: -1
       - PURI5P: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06297
     - subsystem: Pyrimidine metabolism
     - annotation: !!omap
@@ -11946,7 +11946,7 @@
       - MI1P: 1
       - PINS: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04826 or CCM_08292 or CCM_08305 or CCM_08323 or CCM_02309 or CCM_09301 or CCM_07897
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -11962,7 +11962,7 @@
       - C01189_c: -1
       - C03845_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07516 or CCM_07586 or CCM_08895
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -11977,7 +11977,7 @@
       - H2O: -1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08801
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -11994,7 +11994,7 @@
       - D45PI: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07897
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -12010,7 +12010,7 @@
       - CO2: 1
       - SUCC: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07727
     - subsystem: Lysine degradation
     - annotation: !!omap
@@ -12025,7 +12025,7 @@
       - C01284_c: 1
       - C04477_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08832
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -12040,7 +12040,7 @@
       - C02320_c: 1
       - RGT: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01615 or CCM_02411 or CCM_02549 or CCM_03961 or CCM_03992 or CCM_05274 or CCM_06544 or CCM_09672
     - subsystem: Glutathione metabolism
     - annotation: !!omap
@@ -12057,7 +12057,7 @@
       - MET: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00011 or CCM_07913
     - subsystem: Aminoacyl-tRNA biosynthesis
     - annotation: !!omap
@@ -12072,7 +12072,7 @@
       - COA: 1
       - PROPCOA: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02487 or CCM_07334
     - subsystem: Primary bile acid biosynthesis
     - annotation: !!omap
@@ -12086,7 +12086,7 @@
       - C02991_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02003
     - subsystem: Fructose and mannose metabolism
     - annotation: !!omap
@@ -12101,7 +12101,7 @@
       - C01978_c: 1
       - GN: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05624 or CCM_07337
     - annotation: !!omap
       - ec-code: ec-code/2.4.2.29
@@ -12115,7 +12115,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04520
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.56
@@ -12129,7 +12129,7 @@
       - GTP: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02636
     - annotation: !!omap
       - ec-code: ec-code/2.7.7.50
@@ -12142,7 +12142,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06493 or CCM_00746 or CCM_03919 or CCM_07296 or CCM_06781 or CCM_08113 or CCM_09043
     - subsystem: Lysine degradation
     - annotation: !!omap
@@ -12159,7 +12159,7 @@
       - C04431_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04801 or CCM_06771
     - subsystem: Chlorocyclohexane and chlorobenzene degradation
     - annotation: !!omap
@@ -12174,7 +12174,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06493 or CCM_00746 or CCM_03919 or CCM_07296 or CCM_06781 or CCM_08113
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.43
@@ -12188,7 +12188,7 @@
       - NAD: -1
       - NADH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06363
     - subsystem: Fructose and mannose metabolism
     - annotation: !!omap
@@ -12201,7 +12201,7 @@
       - C02189_c: -1
       - C02863_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06553 or CCM_08903 or CCM_09188
     - annotation: !!omap
       - ec-code: ec-code/2.4.1.109
@@ -12215,7 +12215,7 @@
       - FAD: -1
       - aor0431: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05293 or CCM_07749 or CCM_03372
     - subsystem: Valine, leucine and isoleucine degradation
     - annotation: !!omap
@@ -12236,7 +12236,7 @@
       - H2O: 1
       - PI: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05240 or CCM_01003
     - subsystem: Aminoacyl-tRNA biosynthesis
     - annotation: !!omap
@@ -12251,7 +12251,7 @@
       - C04213_c: -1
       - C11572_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06368
     - annotation: !!omap
       - ec-code: ec-code/2.4.99.18
@@ -12265,7 +12265,7 @@
       - PI: 1
       - PINS4P: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09079 or CCM_06956
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -12278,7 +12278,7 @@
       - 5THR1P: -1
       - C04582_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00840
     - subsystem: Cysteine and methionine metabolism
     - annotation: !!omap
@@ -12293,7 +12293,7 @@
       - C04598_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07112 or CCM_07702
     - subsystem: Ether lipid metabolism
     - annotation: !!omap
@@ -12308,7 +12308,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05030
     - subsystem: Terpenoid backbone biosynthesis
     - annotation: !!omap
@@ -12323,7 +12323,7 @@
       - NADP: -1
       - NADPH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_02998
     - subsystem: Fatty acid biosynthesis
     - annotation: !!omap
@@ -12344,7 +12344,7 @@
       - PI: 1
       - SAICAR: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02686 or CCM_09138
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -12359,7 +12359,7 @@
       - H2O: -3
       - PI: 3
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03826 or CCM_09478 or CCM_07718
     - subsystem: Folate biosynthesis
     - annotation: !!omap
@@ -12373,7 +12373,7 @@
       - C15522_c: -1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04264
     - subsystem: Folate biosynthesis
     - annotation: !!omap
@@ -12388,7 +12388,7 @@
       - C60COA: -1
       - FAD: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00678 or CCM_05293 or CCM_07749
     - subsystem: Fatty acid degradation
     - annotation: !!omap
@@ -12405,7 +12405,7 @@
       - C05279_c: 1
       - C05280_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01892 or CCM_07290
     - subsystem: Fatty acid degradation
     - annotation: !!omap
@@ -12420,7 +12420,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03609 or CCM_03831
     - subsystem: Cysteine and methionine metabolism
     - annotation: !!omap
@@ -12435,7 +12435,7 @@
       - C05697_c: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06434
     - subsystem: Selenocompound metabolism
     - annotation: !!omap
@@ -12450,7 +12450,7 @@
       - NADP: -1
       - NADPH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_02998 or CCM_02997
     - subsystem: Fatty acid biosynthesis
     - annotation: !!omap
@@ -12469,7 +12469,7 @@
       - C01204_c: -1
       - C01284_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01434
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -12484,7 +12484,7 @@
       - GLYA: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01970 or CCM_03854
     - subsystem:
         - Chlorocyclohexane and chlorobenzene degradation
@@ -12503,7 +12503,7 @@
       - undefined_124_c: 1
       - undefined_134_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01483 or CCM_04777 or CCM_06941
     - subsystem: Terpenoid backbone biosynthesis
     - annotation: !!omap
@@ -12518,7 +12518,7 @@
       - C13425_c: 1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07474 or CCM_08326
     - subsystem: Ubiquinone and other terpenoid-quinone biosynthesis
     - annotation: !!omap
@@ -12533,7 +12533,7 @@
       - C11556_c: 1
       - PINS3P: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07600
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -12546,7 +12546,7 @@
       - PINS: -1
       - UDPNAG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05129 or CCM_02504 or CCM_03311 or CCM_01018 or CCM_05437 or CCM_01823
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
@@ -12560,7 +12560,7 @@
       - G00144_c: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08051
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
@@ -12574,7 +12574,7 @@
       - G00144_c: -1
       - G00145_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00061
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
@@ -12588,7 +12588,7 @@
       - G00147_c: 1
       - PE: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02937
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
@@ -12602,7 +12602,7 @@
       - G00141_c: 1
       - PE: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00275 or CCM_07258
     - confidence_score: 0
   - !!omap
@@ -12613,7 +12613,7 @@
       - G00151_c: 1
       - PE: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00275 or CCM_05781
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
@@ -12626,7 +12626,7 @@
       - G00002_c: 1
       - UDPNAG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09129 or CCM_09110
     - subsystem:
         - N-Glycan biosynthesis
@@ -12642,7 +12642,7 @@
       - G10614_c: -1
       - GDP: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04210
     - subsystem:
         - N-Glycan biosynthesis
@@ -12658,7 +12658,7 @@
       - G10614_c: -1
       - GDP: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02067
     - subsystem:
         - N-Glycan biosynthesis
@@ -12674,7 +12674,7 @@
       - H2O: -1
       - bDGLC: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07809
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12689,7 +12689,7 @@
       - G00171_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07128
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12703,7 +12703,7 @@
       - H2O: -4
       - MAN: 4
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733
     - subsystem:
         - N-Glycan biosynthesis
@@ -12718,7 +12718,7 @@
       - G00019_c: 1
       - UDPNAG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00141 or CCM_00974 or CCM_01490 or CCM_03026
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12733,7 +12733,7 @@
       - G10614_c: -1
       - GDP: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02472
     - subsystem:
         - N-Glycan biosynthesis
@@ -12749,7 +12749,7 @@
       - C05519_c: -1
       - GLY: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08747 or CCM_09574
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -12765,7 +12765,7 @@
       - G00006_c: -1
       - G10595_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00021
     - subsystem:
         - N-Glycan biosynthesis
@@ -12781,7 +12781,7 @@
       - G10595_c: -1
       - G10596_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00885
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12795,7 +12795,7 @@
       - G10596_c: -1
       - G10597_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06927
     - subsystem:
         - N-Glycan biosynthesis
@@ -12812,7 +12812,7 @@
       - G10598_c: 1
       - G10618_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07273
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12827,7 +12827,7 @@
       - G10599_c: 1
       - G10618_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01588
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12842,7 +12842,7 @@
       - G10599_c: -1
       - G10618_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00015
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
@@ -12858,7 +12858,7 @@
       - C11907_c: 1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01068
     - subsystem:
         - Streptomycin biosynthesis
@@ -12877,7 +12877,7 @@
       - C18SPH: -1
       - COA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00967 or CCM_01351 or CCM_05215
     - subsystem: Sphingolipid metabolism
     - annotation: !!omap
@@ -12892,7 +12892,7 @@
       - C18SPH: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08188
     - subsystem: Sphingolipid metabolism
     - annotation: !!omap
@@ -12906,7 +12906,7 @@
       - C12248_c: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08140
     - subsystem: Purine metabolism
     - annotation: !!omap
@@ -12921,7 +12921,7 @@
       - NADP: -1
       - NADPH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03363
     - subsystem: Fatty acid elongation
     - annotation: !!omap
@@ -12937,7 +12937,7 @@
       - C01189_c: -1
       - H2O: 2
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01839 or CCM_08632
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -12952,7 +12952,7 @@
       - C15813_c: 1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03549
     - subsystem: Thiamine metabolism
     - annotation: !!omap
@@ -12968,7 +12968,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05983
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -12983,7 +12983,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05105
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
@@ -12998,7 +12998,7 @@
       - COA: 1
       - MALCOA: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03752
     - subsystem: Biosynthesis of unsaturated fatty acids
     - annotation: !!omap
@@ -13012,7 +13012,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_04252 or CCM_09322
     - subsystem: Biosynthesis of unsaturated fatty acids
     - annotation: !!omap
@@ -13025,7 +13025,7 @@
       - C16218_c: 1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01449
     - subsystem: Biosynthesis of unsaturated fatty acids
     - annotation: !!omap
@@ -13040,7 +13040,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05177
     - subsystem: Biosynthesis of unsaturated fatty acids
     - annotation: !!omap
@@ -13056,7 +13056,7 @@
       - C18OACP: 1
       - CO2: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01811 or CCM_03752
     - subsystem:
         - Fatty acid biosynthesis
@@ -13077,7 +13077,7 @@
       - C16240_c: -1
       - C80ACP: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03425
     - subsystem: Lipoic acid metabolism
     - annotation: !!omap
@@ -13094,7 +13094,7 @@
       - MET: 2
       - SAM: -2
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04889
     - subsystem: Lipoic acid metabolism
     - annotation: !!omap
@@ -13108,7 +13108,7 @@
       - C16241_c: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02165
     - subsystem: Lipoic acid metabolism
     - annotation: !!omap
@@ -13122,7 +13122,7 @@
       - H2O: -1
       - NAG: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02201 or CCM_04090
     - subsystem: Glycosaminoglycan degradation
     - annotation: !!omap
@@ -13138,7 +13138,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05972 or CCM_06484 or CCM_08923
     - subsystem: Drug metabolism - cytochrome P450
     - annotation: !!omap
@@ -13153,7 +13153,7 @@
       - LAC: -1
       - NAGA6P: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00491 or CCM_02643
     - subsystem: Amino sugar and nucleotide sugar metabolism
     - annotation: !!omap
@@ -13167,7 +13167,7 @@
       - G10694_c: -1
       - GDP: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05217
     - subsystem: Various types of N-glycan biosynthesis
     - annotation: !!omap
@@ -13186,7 +13186,7 @@
       - H2O: 1
       - THF: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05830 or CCM_07813
     - confidence_score: 0
   - !!omap
@@ -13196,7 +13196,7 @@
       - C02962_c: -1
       - C18096_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01641 or CCM_08256
     - subsystem: Fructose and mannose metabolism
     - annotation: !!omap
@@ -13211,7 +13211,7 @@
       - COA: 1
       - PINS: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05827
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -13225,7 +13225,7 @@
       - CL: 1
       - COA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05795
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -13240,7 +13240,7 @@
       - CL: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04700
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -13255,7 +13255,7 @@
       - C18168_c: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00098
     - subsystem: Glycerophospholipid metabolism
     - confidence_score: 0
@@ -13268,7 +13268,7 @@
       - C01204_c: -1
       - C11526_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09107
     - annotation: !!omap
       - ec-code: ec-code/2.7.4.21
@@ -13282,17 +13282,17 @@
       - C18218_c: -1
       - COA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07193
     - subsystem: Cutin, suberine and wax biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/2.3.1.188
     - confidence_score: 0
   - !!omap
-    - id: R09145_c
+    - id: R09144_c
     - metabolites: !!omap
       - C11148_c: -1
-      - FOR: 1
+      - aor0367: 1
     - lower_bound: 0
     - upper_bound: 0
     - subsystem: Chloroalkane and chloroalkene degradation
@@ -13306,7 +13306,7 @@
       - NADP: -1
       - NADPH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00435
     - subsystem:
         - Pyrimidine metabolism
@@ -13323,7 +13323,7 @@
       - G12573_c: 1
       - UDPNAG: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09057
     - subsystem: Other types of O-glycan biosynthesis
     - annotation: !!omap
@@ -13338,7 +13338,7 @@
       - C15814_c: -2
       - C18239_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03158
     - subsystem: Folate biosynthesis
     - annotation: !!omap
@@ -13350,7 +13350,7 @@
       - C19589_c: -1
       - C19591_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00257 or CCM_03116
     - subsystem: Metabolism of xenobiotics by cytochrome P450
     - confidence_score: 0
@@ -13366,7 +13366,7 @@
       - LYS: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06784
     - annotation: !!omap
       - ec-code: ec-code/6.3.4.19
@@ -13381,7 +13381,7 @@
       - C19848_c: -1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04738
     - subsystem: Folate biosynthesis
     - annotation: !!omap
@@ -13395,7 +13395,7 @@
       - C08613_c: -1
       - C19892_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06728
     - subsystem: Carotenoid biosynthesis
     - annotation: !!omap
@@ -13410,7 +13410,7 @@
       - FPP: -1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05066 or CCM_07935
     - subsystem: Terpenoid backbone biosynthesis
     - annotation: !!omap
@@ -13425,7 +13425,7 @@
       - C20120_c: -1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02175 or CCM_07901 or CCM_05829
     - subsystem: Terpenoid backbone biosynthesis
     - annotation: !!omap
@@ -13442,7 +13442,7 @@
       - CTP: -1
       - PA: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00191
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
@@ -13457,7 +13457,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982
     - subsystem: Biotin metabolism
     - annotation: !!omap
@@ -13472,7 +13472,7 @@
       - H2O: -5
       - SLF: 2
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02454
     - subsystem: Sulfur metabolism
     - confidence_score: 0
@@ -13485,7 +13485,7 @@
       - H2O: -1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03277
     - annotation: !!omap
       - ec-code: ec-code/3.5.4.34
@@ -13499,7 +13499,7 @@
       - NADPH: -1
       - aor0536: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08014
     - subsystem: Aflatoxin biosynthesis
     - annotation: !!omap
@@ -13514,7 +13514,7 @@
       - C20663_c: -1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05185
     - annotation: !!omap
       - ec-code: ec-code/2.5.1.108
@@ -13530,7 +13530,7 @@
       - THR: -1
       - aor0394: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06220
     - annotation: !!omap
       - ec-code: ec-code/2.7.7.87
@@ -13543,7 +13543,7 @@
       - C20680_c: 1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00320
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
@@ -13557,7 +13557,7 @@
       - C20680_c: -1
       - PYR: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03105
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
@@ -13572,7 +13572,7 @@
       - NAD: -1
       - NADH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03106
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
@@ -13587,7 +13587,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07440
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.290
@@ -13601,7 +13601,7 @@
       - C20641_c: -1
       - C20751_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02350 or CCM_03869
     - annotation: !!omap
       - ec-code: ec-code/2.3.1.234
@@ -13618,7 +13618,7 @@
       - NAD: -1
       - NICD: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01639
     - subsystem: Thiamine metabolism
     - annotation: !!omap
@@ -13631,7 +13631,7 @@
       - HIS: -1
       - PDXL5PI: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05035
     - subsystem: Thiamine metabolism
     - confidence_score: 0
@@ -13643,7 +13643,7 @@
       - GLY: 1
       - PI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06455
     - subsystem: Phosphonate and phosphinate metabolism
     - annotation: !!omap
@@ -13658,7 +13658,7 @@
       - C20863_c: 1
       - H2O: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06723
     - annotation: !!omap
       - ec-code: ec-code/3.6.1.62
@@ -13672,7 +13672,7 @@
       - NADP: -1
       - NADPH: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04252 or CCM_09322
     - subsystem: Fatty acid elongation
     - annotation: !!omap
@@ -13687,7 +13687,7 @@
       - CYS: -1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04506 or CCM_04972 or CCM_07351
     - subsystem: Histidine metabolism
     - annotation: !!omap
@@ -13704,7 +13704,7 @@
       - NH3: 1
       - PYR: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01645
     - subsystem: Histidine metabolism
     - annotation: !!omap
@@ -13719,7 +13719,7 @@
       - H2O: -1
       - METHOL: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01239
     - annotation: !!omap
       - ec-code: ec-code/3.1.1.97
@@ -13733,7 +13733,7 @@
       - PI: 1
       - PURI5P: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05654 or CCM_08710
     - annotation: !!omap
       - ec-code: ec-code/3.1.3.96
@@ -13747,7 +13747,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00198 or CCM_06888 or CCM_07460
     - annotation: !!omap
       - ec-code:
@@ -13764,7 +13764,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00198
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.320
@@ -13778,7 +13778,7 @@
       - SAH: 1
       - SAM: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06279
     - annotation: !!omap
       - ec-code: ec-code/2.1.1.322
@@ -13788,7 +13788,7 @@
     - metabolites: !!omap
       - C01898_c: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06251 or CCM_06716 or CCM_09183
     - subsystem: Starch and sucrose metabolism
     - annotation: !!omap
@@ -13808,7 +13808,7 @@
       - CYS: -1
       - H2O: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07073
     - subsystem: Folate biosynthesis
     - annotation: !!omap
@@ -13821,7 +13821,7 @@
       - C05223_c: 1
       - MALCOA: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_09164
     - subsystem: Prodigiosin biosynthesis
     - confidence_score: 0
@@ -13833,7 +13833,7 @@
       - CGLY: 1
       - RGT: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06345
     - subsystem: Glutathione metabolism
     - annotation: !!omap
@@ -13848,7 +13848,7 @@
       - C16634_c: -1
       - C21748_c: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01353 or CCM_02335
     - subsystem: Drug metabolism - other enzymes
     - annotation: !!omap
@@ -13864,7 +13864,7 @@
       - H2S: -1
       - RGT: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03171 or CCM_04152
     - subsystem: Sulfur metabolism
     - annotation: !!omap
@@ -13879,7 +13879,7 @@
       - COA: 1
       - GLUGSAL: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01296
     - subsystem: Arginine and proline metabolism
     - annotation: !!omap
@@ -32536,7 +32536,7 @@
       - aor0934: 1
       - aor0935: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07337
     - subsystem: Pyrimidine metabolism
     - annotation: !!omap
@@ -34598,7 +34598,7 @@
       - H2O: 1
       - PPI: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05072 or CCM_06701 or CCM_05690 or CCM_08889
     - subsystem: Fatty acid metabolism
     - annotation: !!omap
@@ -35875,7 +35875,7 @@
       - GLYN: -1
       - T3P2: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01642 or CCM_03212 or CCM_08253
     - subsystem: Glycerol metabolism
     - annotation: !!omap
@@ -36394,7 +36394,7 @@
       - ZYMST: -1
       - aor0214: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07516 or CCM_08895 or CCM_07586 or CCM_08895
     - subsystem: Cholesterol Metabolism
     - annotation: !!omap
@@ -36409,7 +36409,7 @@
       - aor0212: -1
       - aor0213: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07840
     - subsystem: Cholesterol Metabolism
     - annotation: !!omap
@@ -36424,7 +36424,7 @@
       - PC: 1
       - aor0197: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07652 or CCM_03250
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36439,7 +36439,7 @@
       - PA: 1
       - aor0054: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02787 or CCM_05827
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36456,7 +36456,7 @@
       - aor0054: 1
       - aor0100: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06840 or CCM_02900 or CCM_06840
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36471,7 +36471,7 @@
       - PINS: -1
       - aor0595: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04900 or CCM_03362
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36485,7 +36485,7 @@
       - aor0234: -1
       - aor0686: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05033 or CCM_05033 or CCM_05033
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36532,7 +36532,7 @@
       - LPC: -1
       - aor0190: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01743 or CCM_02898 or CCM_01743 or CCM_02898 or CCM_03865 or CCM_08626 or CCM_01743 or CCM_02898
     - subsystem: Phospholipid metabolism
     - annotation: !!omap
@@ -36547,7 +36547,7 @@
       - ETHAM: -1
       - aor0579: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01118
     - subsystem: Ethanolamine, choline, phosphocholine metabolism
     - annotation: !!omap
@@ -36564,7 +36564,7 @@
       - aor0565: 1
       - aor0579: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07258
     - subsystem: Ethanolamine, choline, phosphocholine metabolism
     - annotation: !!omap
@@ -36579,7 +36579,7 @@
       - CHO: -1
       - aor0565: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04857
     - subsystem: Ethanolamine, choline, phosphocholine metabolism
     - annotation: !!omap
@@ -36596,7 +36596,7 @@
       - aor0197: 1
       - aor0565: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08417
     - subsystem: Ethanolamine, choline, phosphocholine metabolism
     - annotation: !!omap
@@ -36613,7 +36613,7 @@
       - aor0199: 1
       - aor0579: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09577
     - subsystem: Ethanolamine, choline, phosphocholine metabolism
     - annotation: !!omap
@@ -36630,7 +36630,7 @@
       - C18PSPH: -1
       - aor0591: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00739
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36644,7 +36644,7 @@
       - aor0270: -1
       - aor0579: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01057
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36660,7 +36660,7 @@
       - aor0579: 1
       - aor0591: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01057 or CCM_01057
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36676,7 +36676,7 @@
       - aor0202: -1
       - aor0203: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01655
     - subsystem: Sphingoglycolipid metabolism
     - confidence_score: 0
@@ -36687,7 +36687,7 @@
       - aor0201: 1
       - aor0202: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_09611
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36702,7 +36702,7 @@
       - aor0565: 1
       - aor0658: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02087 or CCM_03231
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36717,7 +36717,7 @@
       - aor0339: 1
       - aor0666: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08538 or CCM_09356
     - subsystem: Sphingoglycolipid metabolism
     - annotation: !!omap
@@ -36737,7 +36737,7 @@
       - aor0154: -0.5328
       - aor0157: -2.3362
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03961 or CCM_05029
     - subsystem: Glycerolipid Metabolism
     - annotation: !!omap
@@ -36757,7 +36757,7 @@
       - aor0154: 0.5328
       - aor0157: 2.3362
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03046 or CCM_03562 or CCM_04970 or CCM_08221 or CCM_09597 or CCM_08967 or CCM_05287 or CCM_04892 or CCM_06567 or CCM_04892
     - subsystem: Glycerolipid Metabolism
     - annotation: !!omap
@@ -36772,7 +36772,7 @@
       - PC: -1
       - TAGLY: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01242
     - subsystem: Glycerolipid Metabolism
     - annotation: !!omap
@@ -36786,7 +36786,7 @@
       - PC: -1
       - aor0565: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08292 or CCM_08305 or CCM_08323 or CCM_04826
     - subsystem: Glycerolipid Metabolism
     - annotation: !!omap
@@ -36802,7 +36802,7 @@
       - UDPG: -1
       - aor0700: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01686
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
@@ -36817,7 +36817,7 @@
       - aor1014: -1
       - aor1015: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08805
     - subsystem: NAD and NADP Conversion
     - annotation: !!omap
@@ -36832,7 +36832,7 @@
       - NICA: 1
       - NICD: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05240 or CCM_00075
     - subsystem: NAD and NADP Conversion
     - annotation: !!omap
@@ -36848,7 +36848,7 @@
       - PPI: 1
       - PRPP: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07624
     - subsystem: NAD and NADP Conversion
     - annotation: !!omap
@@ -36863,7 +36863,7 @@
       - PPGIX: -1
       - PPRIXm: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00262
     - subsystem: Porphyrin and Chrophyll metabolism
     - annotation: !!omap
@@ -36877,7 +36877,7 @@
       - aor0870: -1
       - aor0926: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08580 or CCM_04455
     - subsystem: Porphyrin and Chrophyll metabolism
     - annotation: !!omap
@@ -36891,7 +36891,7 @@
       - PI: 1
       - RIBFLAV: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05599 or CCM_00481
     - subsystem: Riboflavin, FMN and FAD metabolism
     - annotation: !!omap
@@ -36905,7 +36905,7 @@
       - PIe: 1
       - aor0825: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02266 or CCM_08728 or CCM_02266 or CCM_08728 or CCM_02266 or CCM_08728
     - subsystem: Riboflavin, FMN and FAD metabolism
     - annotation: !!omap
@@ -36920,7 +36920,7 @@
       - aor0114: -1
       - aor1209: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05319
     - subsystem: Biotin Metabolism
     - annotation: !!omap
@@ -36937,7 +36937,7 @@
       - PPI: 1
       - aor0583: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06033 or CCM_00779 or CCM_06033 or CCM_08214 or CCM_00779
     - subsystem: Penincillin biosynthesis
     - annotation: !!omap
@@ -36950,7 +36950,7 @@
       - aor0427: -1
       - aor0577: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01386
     - subsystem: Penincillin biosynthesis
     - annotation: !!omap
@@ -36963,7 +36963,7 @@
       - aor0574: -1
       - aor0575: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00428 or CCM_05721 or CCM_08641 or CCM_05721 or CCM_08641
     - subsystem: Penincillin biosynthesis
     - annotation: !!omap
@@ -36978,7 +36978,7 @@
       - O2: -1
       - aor0536: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01921 or CCM_02998
     - subsystem: Sterigmatocystin/Aflatoxin biosynthesis
     - confidence_score: 0
@@ -36990,7 +36990,7 @@
       - aor0716: -1
       - aor0717: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01940
     - subsystem: Sterigmatocystin/Aflatoxin biosynthesis
     - confidence_score: 0
@@ -37004,7 +37004,7 @@
       - aor0281: 1
       - aor0715: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03662
     - subsystem: Sterigmatocystin/Aflatoxin biosynthesis
     - annotation: !!omap
@@ -37021,7 +37021,7 @@
       - aor0050: 1
       - aor0547: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01530
     - subsystem: Sterigmatocystin/Aflatoxin biosynthesis
     - annotation: !!omap
@@ -37038,7 +37038,7 @@
       - aor0307: 1
       - aor0527: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06054
     - subsystem: Flavonoid Biosynthesis
     - annotation: !!omap
@@ -37053,7 +37053,7 @@
       - O2: -1
       - TYR: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02058
     - subsystem: Melanin biosynthesis
     - annotation: !!omap
@@ -37066,7 +37066,7 @@
       - ARG: 1
       - ARGe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37078,7 +37078,7 @@
       - PI: 6
       - aor0625: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02971
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -37091,7 +37091,7 @@
       - ASP: 1
       - ASPe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_00736 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37102,7 +37102,7 @@
       - GLY: 1
       - GLYe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37115,7 +37115,7 @@
       - aor0234: -1
       - aor0594: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04116
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -37128,7 +37128,7 @@
       - MET: 1
       - METe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_00213 or CCM_04655 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37141,7 +37141,7 @@
       - aor0513: 1
       - aor0686: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07890
     - subsystem: Inositol phosphate metabolism
     - annotation: !!omap
@@ -37154,7 +37154,7 @@
       - PRO: 1
       - PROe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_04891 or CCM_06868 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_04891 or CCM_08789 or CCM_04891 or CCM_06868 or CCM_06911 or CCM_04891 or CCM_06868 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37165,7 +37165,7 @@
       - LYS: 1
       - LYSe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02825 or CCM_07738 or CCM_08184 or CCM_08994 or CCM_09228 or CCM_02688 or CCM_08453 or CCM_02688 or CCM_08184 or CCM_08453 or CCM_02373
     - subsystem: Transport, plasma membrane (Amino acids)
     - confidence_score: 0
@@ -37176,7 +37176,7 @@
       - SLF: 1
       - SLFe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00881 or CCM_06311
     - subsystem: Transport, plasma membrane (Other compounds)
     - confidence_score: 0
@@ -37188,7 +37188,7 @@
       - aor0786: -1
       - aor0792: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01486 or CCM_07165 or CCM_01486 or CCM_07165
     - subsystem: Transport, plasma membrane (Other compounds)
     - confidence_score: 0
@@ -37200,7 +37200,7 @@
       - aor0786: 1
       - aor0810: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08056
     - subsystem: Transport, plasma membrane (Other compounds)
     - confidence_score: 0
@@ -37213,7 +37213,7 @@
       - H2Oe: -1
       - MELIe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08208
     - subsystem: Galactose/Galactitol metabolism
     - annotation: !!omap
@@ -37227,7 +37227,7 @@
       - aor0771: 1
       - aor0821: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08599
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37241,7 +37241,7 @@
       - H2O: -1
       - aor0208: -2
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00485 or CCM_07471 or CCM_03279 or CCM_06071 or CCM_05688 or CCM_00318 or CCM_03652 or CCM_05688 or CCM_07121 or CCM_07455 or CCM_00318
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37256,7 +37256,7 @@
       - NAG: -1
       - NAGA6P: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02643
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37270,7 +37270,7 @@
       - UDPNAG: -1
       - aor0208: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02965 or CCM_02966 or CCM_06973 or CCM_00447 or CCM_01980 or CCM_08511 or CCM_01980 or CCM_00447 or CCM_08511 or CCM_00447 or CCM_01980 or CCM_08511 or CCM_00447 or CCM_01980 or CCM_08511 or CCM_02965 or CCM_06973 or CCM_02965 or CCM_02966 or CCM_06973 or CCM_02953 or CCM_00447 or CCM_01980 or CCM_08511 or CCM_00447 or CCM_01980
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37285,7 +37285,7 @@
       - CHITe: -1
       - H2Oe: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_08095 or CCM_08780
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37300,7 +37300,7 @@
       - H2O: -1
       - aor0208: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02855
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37313,7 +37313,7 @@
       - CHITO: -1
       - GLCN: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04645 or CCM_09571 or CCM_04645 or CCM_09571
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37326,7 +37326,7 @@
       - 13GLUCANe: -1
       - GLCe: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04632 or CCM_01698 or CCM_02756 or CCM_03532 or CCM_08230 or CCM_09485
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37339,7 +37339,7 @@
       - MAN: 1
       - MANNAN: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04640 or CCM_08185 or CCM_08733 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_00160 or CCM_06392 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37352,7 +37352,7 @@
       - MANNANe: -1
       - MANe: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00160
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37365,7 +37365,7 @@
       - ARABINe: -1
       - LARABe: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05740
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
@@ -37382,7 +37382,7 @@
       - NADm: -1
       - PYRm: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01079 and CCM_01079 and CCM_08657 and CCM_05680 and CCM_01808 and CCM_01222
     - subsystem: Glycolysis/gluconeogenesis
     - annotation: !!omap
@@ -37397,7 +37397,7 @@
       - NADP: 1
       - NADPH: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06765
     - subsystem: Oxidative phosphorylation
     - annotation: !!omap
@@ -37416,7 +37416,7 @@
       - aor0960: -3.87
       - aor0983: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01962 or (CCM_03289 and CCM_01962) or CCM_03289
     - subsystem: Oxidative phosphorylation
     - annotation: !!omap
@@ -37435,7 +37435,7 @@
       - aor0925: 1
       - aor0960: -3.87
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05534 and CCM_04500
     - subsystem: Oxidative phosphorylation
     - annotation: !!omap
@@ -37454,7 +37454,7 @@
       - aor0960: -3.87
       - aor1011: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01629 or CCM_02511 or CCM_04844 or (CCM_08837 and CCM_01629) or CCM_02511 or CCM_04844 or CCM_08837
     - subsystem: Oxidative phosphorylation
     - annotation: !!omap
@@ -37473,7 +37473,7 @@
       - aor0912: 1
       - aor0960: -3.87
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: (CCM_06222 and CCM_06967 and CCM_01629) or CCM_02511 or CCM_04844 or (CCM_08837 and CCM_04692) or CCM_06057 or (CCM_07949 and CCM_04692) or CCM_06057 or (CCM_07949 and CCM_04692) or CCM_06057 or CCM_07949
     - subsystem: Oxidative phosphorylation
     - annotation: !!omap
@@ -37487,7 +37487,7 @@
       - UGCp: 1
       - UREAp: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_05880
     - subsystem: Nitrogen metabolism
     - annotation: !!omap
@@ -37501,7 +37501,7 @@
       - aor0190: 1
       - aor0533: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_02131 or CCM_09207 or CCM_09207
     - subsystem: Nitrogen metabolism
     - annotation: !!omap
@@ -37518,7 +37518,7 @@
       - OA: 1
       - aor0246: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00020
     - subsystem: Alanine/aspartate and asparagine metabolism
     - annotation: !!omap
@@ -37532,7 +37532,7 @@
       - T3P1: 1
       - aor0254: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04888
     - subsystem: Pentose-phosphate pathway
     - annotation: !!omap
@@ -37547,7 +37547,7 @@
       - PPI: 1
       - SLF: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_06434 or CCM_06642
     - subsystem: Cysteine metabolism
     - annotation: !!omap
@@ -37563,7 +37563,7 @@
       - GLU: 1
       - NH3: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00364 or CCM_08485
     - subsystem: Glutamate and glutamine metabolism
     - annotation: !!omap
@@ -37581,7 +37581,7 @@
       - NH3: 1
       - THF: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01222 or CCM_04861 or CCM_06828 or CCM_09406
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -37602,7 +37602,7 @@
       - aor0866: -1
       - aor1003: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03659 or CCM_02339 or CCM_01805 or CCM_03497
     - subsystem: Glycine, serine and threonine metabolism
     - annotation: !!omap
@@ -37617,7 +37617,7 @@
       - UGC: -1
       - aor0367: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_01083
     - subsystem: Histidine metabolism
     - annotation: !!omap
@@ -37631,7 +37631,7 @@
       - aor0325: 1
       - aor0422: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_07145 or CCM_07145
     - subsystem: Histidine metabolism
     - annotation: !!omap
@@ -37647,7 +37647,7 @@
       - NADH: 1
       - SACP: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00396 or CCM_02270 or CCM_03749 or CCM_04910
     - subsystem: Lysine metabolism
     - annotation: !!omap
@@ -37662,7 +37662,7 @@
       - aor0186: -1
       - aor0289: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04207
     - subsystem: Methionine metabolism
     - annotation: !!omap
@@ -37675,7 +37675,7 @@
       - FUACAC: 1
       - MACAC: -1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_00183 or CCM_06450
     - subsystem: Phenylalanine, tyrosine and tryptophan biosynthesis (Aromatic amino acids)
     - annotation: !!omap
@@ -37689,7 +37689,7 @@
       - PHE: -1
       - aor0216: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_04719
     - subsystem: Phenylalanine, tyrosine and tryptophan biosynthesis (Aromatic amino acids)
     - annotation: !!omap
@@ -37703,7 +37703,7 @@
       - aor0275: -1
       - aor0709: 1
     - lower_bound: 0
-    - upper_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: CCM_03844 or CCM_03844
     - subsystem: Beta-alanine metabolism
     - annotation: !!omap
