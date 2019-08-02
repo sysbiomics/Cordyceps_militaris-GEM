@@ -22,12 +22,7 @@ This repository contains a genome-scale metabolic model **iNR1320** for _Cordyce
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|
-| _Cordyceps_militaris_ | _iAL1006_ | -- | -- | _1320_ |
-| -- | _iJDZ808_ | -- | -- | -- |
-| -- | _iHD666_ | -- | -- | -- |
-| -- | _iWV1346_ | -- | -- | -- |
-| -- | _iWV1170_ | -- | -- | -- |
-| -- | _KEGG_ | -- | -- | -- |
+| _Cordyceps_militaris_ | _iNR1320_ | -1739- | -1528- | _1320_ |
 
 This repository is administered by Nachon Raethong, Kasetsart University.
 
