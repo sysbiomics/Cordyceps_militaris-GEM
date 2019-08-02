@@ -3,9 +3,10 @@ Cordyceps militaris genome scale metabolic model (Cordyceps_militaris-GEM)
 
 - Brief Repository Description
 
-This repository contains a genome-scale metabolic model **cmtGEM2018** for the medicinal fungus _Cordyceps_militaris_.
+This repository contains a genome-scale metabolic model **iNR1320** for _Cordyceps_militaris_.
 
 - Abstract:
+
 
 - Model KeyWords:
 
@@ -15,16 +16,18 @@ This repository contains a genome-scale metabolic model **cmtGEM2018** for the m
 
 - Pubmed ID: TBA
 
-- Last update: 2019-01-26
+- Last update: 2019-08-02
 
 - The model contains:
 
 | Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|
-| _Cordyceps_militaris_ | _iAL1006_ | -- | -- | _818_ |
+| _Cordyceps_militaris_ | _iAL1006_ | -- | -- | _1320_ |
 | -- | _iJDZ808_ | -- | -- | -- |
 | -- | _iHD666_ | -- | -- | -- |
+| -- | _iWV1346_ | -- | -- | -- |
 | -- | _iWV1170_ | -- | -- | -- |
+| -- | _KEGG_ | -- | -- | -- |
 
 This repository is administered by Nachon Raethong, Kasetsart University.
 
