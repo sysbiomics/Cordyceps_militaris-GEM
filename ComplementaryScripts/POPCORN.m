@@ -73,4 +73,11 @@ for i = 1:numel(variedN)
 end
 %Show the output on screen
 struct2table(growthProfile)
+
+%Draw the resulting scatter plots of umax and targetP againt CNratio series
+x = cell2mat(growthProfile.CNratios);
+y1 = cell2mat(growthProfile.umax);
+y2 = cell2mat(growthProfile.targetP);
+createfigure(x,y1,15,[1 0 1],y2,[0 0 0]);
+
 end
