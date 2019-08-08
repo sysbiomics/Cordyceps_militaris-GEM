@@ -1,47 +1,76 @@
-function growthProfile = POPCORN(model)
-% This is the constain-based modeling function, POPCORN used to determine the optimal PrOPortion of CarbOn and 
-% nitRogeN for growth and cordycepin production in C. militaris 
-%
-% INPUT:
-%		model = model (in this case, it must be iNR1320)
-% OUTPUT:
-%		growthProfile = the table of CNratios and their umax, cordycepin production, glucose uptake rate and 
-% ammonia uptake rate
+function [growthProfile] = POPCORN(model,biomassRxn,targetRxn,carbonSource,nitrogenSource,nCarbon,nNitrogen)
+% POPCORN was developed for determining the optimal PrOPortion of CarbOn and 
+% nitRogeN for growth and target production 
 % 
-% Usage:
-% 			growthProfile = POPCORN(model)
+% USAGE:
+%    [growthProfile] = POPCORN(model,,biomassRxn,targetRxn,carbonSource,nitrogenSource,nCarbon,nNitrogen)
+%
+% INPUTS:
+%    model:            RAVEN model structure
+%    biomassRxn:       reaction ID of the biomass production or growth reaction
+%    targetRxn:        reaction ID of target production reaction
+%    carbonSource:     reaction ID of uptake reaction of carbon source
+%    nitrogenSource:   reaction ID of uptake reaction of nitrogen source
+%    nCarbon:          number of carbon atom(s) of carbon source
+%    nNitrogen:        number of nitrogen atom(s) of nitrogen source
+%
+% OUTPUTS:
+%    growthProfile:    a structure of: 1) cell of C:N ratio series, named CNratios
+%                                      2) cell of the maximum growth rate (/h), named umax
+%                                      3) cell of the maximum target production (mmol/gDW/h), named targetP
+%                                      4) cell of the yield of target on
+%                                      biomass (mmol/gDW), named targetY
+%                                      5) cell of the upper bound used for
+%                                      the uptake reaction of carbon
+%                                      source, named carbonLB
+%                                      6) cell of the upper bound used for
+%                                      the uptake reaction of nitrogen
+%                                      source, named nitrogenLB
+%
 %
 % Written by Nachon Raethong, 02-AUG-2019
+% Updated by Nachon Raethong, 08-AUG-2019
 %
 %
-sugars = {'glcIN' 'fruIN' 'xylIN' 'arabIN' 'sucIN'};
-model = setParam(model,'ub',sugars,0);
-model = setParam(model,'ub','cordycepinOUT',1000);
-model = setParam(model,'lb','cordycepinOUT',0);
-model = setParam(model,'obj','bmOUT',1);
 
-variedN = [0.05:0.04:1.05];
-CNratios = cell(numel(variedN),1);
-umax = cell(numel(variedN),1);
-cordycepin = cell(numel(variedN),1);
-glucose = cell(numel(variedN),1);
-ammonia = cell(numel(variedN),1);
+% generate a series of upper bounds used for the uptake reaction of nitrogen source
+variedN = [0.01:0.2:19.99]; % 100 values
 
+% create a structure and cells for the results
+growthProfile = struct();
+growthProfile.CNratios = cell(numel(variedN),1);
+growthProfile.umax = cell(numel(variedN),1);
+growthProfile.targetP = cell(numel(variedN),1);
+growthProfile.targetY = cell(numel(variedN),1);
+growthProfile.carbonUP = cell(numel(variedN),1);
+growthProfile.nitrogenUP = cell(numel(variedN),1);
+
+%Find out the umax, target production and yield in different C:N ratios iteratively
+model = setParam(model,'obj',biomassRxn,1);
 for i = 1:numel(variedN)
-    variedC = 1.1 - variedN(i);
-    model = setParam(model,'ub','glcIN',variedC);
-    model = setParam(model,'ub','nh3IN',variedN(i));
-    sol = solveLP(model,1);
-    CNratios{i} = num2str((variedC*6)/(variedN(i)*1));
-    umax{i} = num2str((sol.f*-1)/1.1);
-    model2 = setParam(model,'lb','bmOUT',((sol.f*-1)/1.125));
-    model2 = setParam(model2,'obj','cordycepinOUT',1);
+    % generate an upper bound used for the uptake reaction of carbon source
+    variedC = 20 - variedN(i);
+    % define the upper bounds for the uptake reactions of carbon and
+    % nitrogen sources
+    model = setParam(model,'ub',carbonSource,variedC);
+    model = setParam(model,'ub',nitrogenSource,variedN(i));
+    %Find out the umax 
+    sol = solveLP(model,1); 
+        
+    %Find out the target production with 90% of umax
+    model2 = setParam(model,'lb',biomassRxn,(sol.f*-0.9));
+    model2 = setParam(model2,'obj',targetRxn,1);
     sol2 = solveLP(model2,1);
-    cordycepin{i} = num2str(sol2.f*-1);
-    glucose{i} = variedC;
-    ammonia{i} = variedN(i);
-
+    
+    %Generating output
+    growthProfile.CNratios{i} = ((variedC*nCarbon)/(variedN(i)*nNitrogen));
+    growthProfile.umax{i} = (sol.f*-1);
+    growthProfile.targetP{i} = (sol2.f*-1);
+    growthProfile.targetY{i} = ((sol2.f*-1)/(sol.f*-0.9));
+    growthProfile.carbonUP{i} = (variedC);
+    growthProfile.nitrogenUP{i} = (variedN(i));
+    
 end
-
-growthProfile = table(CNratios,umax,cordycepin,glucose,ammonia);
+%Show the output on screen
+struct2table(growthProfile)
 end
