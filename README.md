@@ -1,52 +1,42 @@
 # Cordyceps_militaris-GEM
-Cordyceps militaris genome scale metabolic model (Cordyceps_militaris-GEM)
 
 - Brief Repository Description
 
-This repository contains a genome-scale metabolic model **iNR1320** for _Cordyceps_militaris_.
+This repository contains a genome-scale metabolic model **iNRxxxx** for _Cordyceps_militaris_.
 
 - Abstract:
 
-
 - Model KeyWords:
 
-**GEM Category:** Species; **Utilisation:** Predictive simulation; **Field:** Metabolic-network reconstruction; **Type of Model:** Reconstruction and refinement; **Model Source:** [---](http://dx.doi.org////); **Omic Source:** [Genomics](http://dx.doi.org...); **Taxonomy:** _Cordyceps_militaris_; **Metabolic System:** General Metabolism; **Strain:** Cm01);
+**GEM Category:** Species; **Utilisation:** Predictive simulation; **Field:** Genome-scale modeling; Metabolic
+engineering; **Type of Model:** Reconstruction and refinement; **Taxonomy:** _Cordyceps_militaris_ ; **Metabolic System:** General Metabolism; **Condition:** Synthetic media;
 
 - Reference: TBA
 
 - Pubmed ID: TBA
 
-- Last update: 2019-08-02
+- Last update: 2019-08-17
 
 - The model contains:
 
-| Taxonomy | Template Model | Reactions | Metabolites| Genes |
+| Taxonomy | Model Name | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|
-| _Cordyceps_militaris_ | _iNR1320_ | -1739- | -1528- | _1320_ |
+| _Cordyceps_militaris_ | -iNRxxxx- | -- | -- | -- |
 
-This repository is administered by Nachon Raethong, Kasetsart University.
-
-
+This repository is administered by Nachon Raethong ([@sysbiomics](https://github.com/sysbiomics)), Interdisciplinary Graduate Program in Bioscience, Faculty of Science, Kasetsart University, Bangkok, Thailand
 
 ## Installation
 
-### Required Software:
-
+### Recommended Software:
 * A functional Matlab installation (MATLAB 7.3 or higher).
-* The model was developed and also recommended to be used with the [RAVEN](https://github.com/SysBioChalmers/RAVEN) Toolbox ver 2.0 for MATLAB. 
-* An up-to-date version from COBRA GitHub repository is strongly recommended.
-* Add the directories to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
-
-### Dependencies - Recommended Software:
-* libSBML MATLAB API ([version 5.13.0](https://sourceforge.net/projects/sbml/files/libsbml/5.13.0/stable/MATLAB%20interface/)  is recommended).
+* [RAVEN Toolbox 2.0](https://github.com/SysBioChalmers/RAVEN) for MATLAB (required for contributing to development). 
+* libSBML MATLAB API ([version 5.16.0](https://sourceforge.net/projects/sbml/files/libsbml/5.13.0/stable/MATLAB%20interface/)  is recommended).
 * [Gurobi Optimizer for MATLAB](http://www.gurobi.com/registration/download-reg).
-
+* For contributing to development: a [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Installation Instructions
-* Clone the [master](https://github.com/nachonase/Cordyceps_militaris-GEM) branch from [SysBio // / GitHub](https://github.com/SysBioC...ers).
-* Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
-
+* Clone the [master](https://github.com/sysbiomics/Cordyceps_militaris-GEM) branch from [sysbiomics GitHub](https://github.com//sysbiomics).
 
 ## Contributors
-* Nachon Raethong ([@nachonase](https://github.com/nachonasee)), Kasetsart University, Thailand
+* Nachon Raethong (https://www.researchgate.net/profile/Nachon_Raethong),([@nachonase](https://github.com/nachonase)), Faculty of Science, Kasetsart University, Bangkok, Thailand
 * Hao Wang (https://www.chalmers.se/en/staff/Pages/hao-wang.aspx) ([@Hao-Chalmers](https://github.com/Hao-Chalmers)), Chalmers University of Technology, Göteborg, Sweden
