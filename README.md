@@ -15,7 +15,7 @@ engineering; **Type of Model:** Reconstruction and refinement; **Taxonomy:** _Co
 
 - Pubmed ID: TBA
 
-- Last update: 2019-08-17
+- Last update: 2019-08-21
 
 - The model contains:
 
@@ -38,5 +38,5 @@ This repository is administered by Nachon Raethong ([@sysbiomics](https://github
 * Clone the [master](https://github.com/sysbiomics/Cordyceps_militaris-GEM) branch from [sysbiomics GitHub](https://github.com//sysbiomics).
 
 ## Contributors
-* Nachon Raethong (https://www.researchgate.net/profile/Nachon_Raethong),([@nachonase](https://github.com/nachonase)), Faculty of Science, Kasetsart University, Bangkok, Thailand
+* Nachon Raethong (https://www.researchgate.net/profile/Nachon_Raethong) ([@nachonase](https://github.com/nachonase)), Faculty of Science, Kasetsart University, Bangkok, Thailand
 * Hao Wang (https://www.chalmers.se/en/staff/Pages/hao-wang.aspx) ([@Hao-Chalmers](https://github.com/Hao-Chalmers)), Chalmers University of Technology, Göteborg, Sweden
