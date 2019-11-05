@@ -296,7 +296,7 @@ r0391	ADP + RTHIO  -> DADP + H2O + OTHIO 	CCM_01863	  0.00	1000.00	  0.00
 r0392	GDP + RTHIO  -> DGDP + H2O + OTHIO 	CCM_01863	  0.00	1000.00	  0.00
 r0393	CDP + RTHIO  -> DCDP + H2O + OTHIO 	CCM_01863	  0.00	1000.00	  0.00
 r0394	RTHIO + UDP  -> DUDP + H2O + OTHIO 	CCM_01863	  0.00	1000.00	  0.00
-r0395	GDP + H2O  -> GMP + PI 	CCM_07752 or CCM_00441	  0.00	1000.00	  0.00
+r0395	GDP + H2O  -> GMP + PI 	CCM_00441 or CCM_07752	  0.00	1000.00	  0.00
 r0397	ATP + DGDP  <=> ADP + DGTP 	CCM_07126	-1000.00	1000.00	  0.00
 r0398	ATP + DADP  <=> ADP + DATP 	CCM_07126	-1000.00	1000.00	  0.00
 r0399	ATP + GDP  <=> ADP + GTP 	CCM_07126	-1000.00	1000.00	  0.00
@@ -433,7 +433,7 @@ r0565	H2O + O2 + SPRMD  -> GABAL + H2O2 + DAPRP 	CCM_04765	  0.00	1000.00	  0.00
 r0566	ACCOAm + GLUm  -> COAm + NAGLUm 	CCM_03230	  0.00	1000.00	  0.00
 r0567	ATPm + NAGLUm  -> ADPm + NAGLUPm 	CCM_01946 or CCM_02941 or CCM_06281 or CCM_09169	  0.00	1000.00	  0.00
 r0568	GLUm + NAGLUSm  -> AKGm + NAORNm 	CCM_08964	  0.00	1000.00	  0.00
-r0569	H2O + NAORN  -> AC + ORN 	CCM_00841 or CCM_02857 or CCM_03627 or CCM_06895	  0.00	1000.00	  0.00
+r0569	H2O + NAORN  -> AC + ORN 	CCM_00841 or CCM_02857 or CCM_03627 or CCM_05862 or CCM_06895	  0.00	1000.00	  0.00
 r0570	AMP + PPI + ARGSUCC  <=> ATP + ASP + CITR 	CCM_02400	-1000.00	1000.00	  0.00
 r0571	FUM + ARG  <=> ARGSUCC 	CCM_02430 or CCM_08039	-1000.00	1000.00	  0.00
 r0572	H2O + ARG  -> ORN + UREA 	CCM_00464	  0.00	1000.00	  0.00
@@ -540,7 +540,7 @@ r0685	HACNm + H2Om  <=> HICITm 	CCM_07793	-1000.00	1000.00	  0.00
 r0688	HICITm + NADm  -> AKAm + CO2m + NADHm 	CCM_06018	  0.00	1000.00	  0.00
 r0689	AKAm + GLUm  <=> AKGm + AMAm 	CCM_00427 or CCM_00427	-1000.00	1000.00	  0.00
 r0690	AKG + LYS + NADH  <=> H2O + SACP + NAD 	CCM_03749 or CCM_04910	-1000.00	1000.00	  0.00
-r0691	ASPSA + PYR  -> DIDIPC + 2 H2O 	CCM_08247	  0.00	1000.00	  0.00
+r0691	ASPSA + PYR  -> DIDIPC + 2 H2O 	CCM_03105 or CCM_08247	  0.00	1000.00	  0.00
 r0693	E4P + H2O + PEP  -> 3DDAH7P + PI 	CCM_05313 or CCM_05988 or CCM_06156	  0.00	1000.00	  0.00
 r0694	3DDAH7P  -> DQT + PI 	CCM_07445	  0.00	1000.00	  0.00
 r0695	DQT  -> DHSK + H2O 	CCM_05999 or CCM_07445 or CCM_08444	  0.00	1000.00	  0.00
@@ -634,7 +634,7 @@ r0794	ATP + GC + GLY  -> ADP + RGT + PI 	CCM_01501	  0.00	1000.00	  0.00
 r0795	RGT + H2O  -> CGLY + GLU 	CCM_02065 or CCM_02473 or CCM_05577 or CCM_05722 or CCM_09583	  0.00	1000.00	  0.00
 r0796	5OXOPRO + ATP + 2 H2O  -> ADP + GLU + PI 	CCM_05361 or CCM_07164	  0.00	1000.00	  0.00
 r0797	NADPH + OGT  -> 2 RGT + NADP 	CCM_09201	  0.00	1000.00	  0.00
-r0798	H2O + CGLY  -> GLY + CYS 	CCM_01450 or CCM_01571 or CCM_01695 or CCM_05545	  0.00	1000.00	  0.00
+r0798	H2O + CGLY  -> GLY + CYS 	CCM_01450 or CCM_01571 or CCM_01695 or CCM_05545 or CCM_05888	  0.00	1000.00	  0.00
 r0799	2 RGT + H2O2  -> 2 H2O + OGT 	CCM_03086	  0.00	1000.00	  0.00
 r0808	2HPAAp + ATPp + COAp  -> 2HPAACOAp + AMPp + PPIp 	CCM_06033	  0.00	1000.00	  0.00
 r0821	CRONYLCOAm + FADH2m  -> C40COAm + FADm 	CCM_00006	  0.00	1000.00	  0.00
@@ -1452,7 +1452,7 @@ r440	CHITe + H2Oe  -> ACe + CHITOe 	CCM_08095 or CCM_08780	  0.00	1000.00	  0.00
 r441	H2O + aor0208  -> AC + CHITO 	CCM_02855	  0.00	1000.00	  0.00
 r443	CHITO  -> GLCN 	CCM_04645 or CCM_09571 or CCM_04645 or CCM_09571	  0.00	1000.00	  0.00
 r447	13GLUCANe  -> GLCe 	CCM_04632 or CCM_01698 or CCM_02756 or CCM_03532 or CCM_08230 or CCM_09485	  0.00	1000.00	  0.00
-r466	MANNAN  -> MAN 	CCM_04640 or CCM_08185 or CCM_08733 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_00160 or CCM_06392 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733	  0.00	1000.00	  0.00
+r466	MANNAN  -> MAN 	CCM_00160 or CCM_01277 or CCM_01968 or CCM_02744 or CCM_02902 or CCM_04640 or CCM_04718 or CCM_06392 or CCM_08185 or CCM_08733	  0.00	1000.00	  0.00
 r473	MANNANe  -> MANe 	CCM_00160	  0.00	1000.00	  0.00
 r477	ARABINe  -> LARABe 	CCM_05740	  0.00	1000.00	  0.00
 r499	NADPH + 2 FERIm  -> NADP + 2 FEROm 	CCM_06765	  0.00	1000.00	  0.00
@@ -1477,8 +1477,6 @@ r975	H2O + aor0275  -> aor0709 	CCM_03844 or CCM_03844	  0.00	1000.00	  0.00
 r1113	METTHFm + aor0935  -> DHFm + aor0934 	CCM_07337	  0.00	1000.00	  0.00
 r1283	ATP + C40 + COA  -> AMP + C40COA + PPI + H2O 	CCM_05072 or CCM_06701 or CCM_05690 or CCM_08889	  0.00	1000.00	  0.00
 r1399	ATP + GLYN  -> ADP + T3P2 	CCM_01642 or CCM_03212 or CCM_08253	  0.00	1000.00	  0.00
-r1487	ZYMST  -> aor0214 	CCM_07516 or CCM_08895 or CCM_07586 or CCM_08895	  0.00	1000.00	  0.00
-r1495	aor0040 + aor0212  -> COA + aor0213 	CCM_07840	  0.00	1000.00	  0.00
 r1510	DAGLY + aor0197  -> CMP + PC 	CCM_07652 or CCM_03250	  0.00	1000.00	  0.00
 r1512	ACYLACP + aor0054  -> ACP + PA 	CCM_02787 or CCM_05827	  0.00	1000.00	  0.00
 r1526	NADPH + aor0100  -> NADP + aor0054 	CCM_06840 or CCM_02900 or CCM_06840	  0.00	1000.00	  0.00
@@ -1530,7 +1528,7 @@ r2093	SLFe  -> SLF 	CCM_00881 or CCM_06311	  0.00	1000.00	  0.00
 r2099	aor0786 + aor0792  <=> aor0435 	CCM_01486 or CCM_07165 or CCM_01486 or CCM_07165	  0.00	1000.00	  0.00
 r2101	aor0810  <=> aor0518 + aor0786 	CCM_08056	  0.00	1000.00	  0.00
 R00078_c	4 C14818_c  -> 2 H2O + 4 C14819_c 	CCM_00224	  0.00	1000.00	  0.00
-R00086_c	ATP + H2O  -> ADP + PI 	CCM_04641 or CCM_08700 or CCM_05534	  0.00	1000.00	  0.00
+R00086_c	ATP + H2O  -> ADP + PI 	CCM_00302 or CCM_02511 or CCM_04641 or CCM_05534 or CCM_08700	  0.00	1000.00	  0.00
 R00100_c	NADH + 2 C00996_c  -> NAD + 2 C00999_c 	CCM_00077 or CCM_02639 or CCM_05498 or CCM_08034	  0.00	1000.00	  0.00
 R00102_c	H2O + NAD  -> ADPR + NICD 	CCM_01648 or CCM_04691 or CCM_05249 or CCM_05955	  0.00	1000.00	  0.00
 R00126_c	ADP + ATP  -> PI + C01260_c 	CCM_02703 or CCM_02754	  0.00	1000.00	  0.00
@@ -1553,7 +1551,6 @@ R00821_c	C00196_c  -> CO2 + C00090_c 	CCM_08209	  0.00	1000.00	  0.00
 R00866_c	ATP + FRU  -> ADP + C01094_c 	CCM_05591	  0.00	1000.00	  0.00
 R00966_c	PPI + UMP  -> PRPP + URA 	CCM_02534 or CCM_03945	  0.00	1000.00	  0.00
 R01005_c	UDPG  -> UDP + C01246_c 	CCM_07183	  0.00	1000.00	  0.00
-R01009_c	GDPMAN  -> 	CCM_00704 or CCM_01823 or CCM_05300	  0.00	1000.00	  0.00
 R01025_c	CHO + C00028_c  -> BETALD + C00030_c 	CCM_01940 or CCM_05124 or CCM_06408	  0.00	1000.00	  0.00
 R01030_c	H2O + C00670_c  -> CHO + GL3P 	CCM_06073 or CCM_05136 or CCM_08480	  0.00	1000.00	  0.00
 R01056_c	R5P  -> RL5P 	CCM_00462 or CCM_01641 or CCM_08256	  0.00	1000.00	  0.00
@@ -1599,7 +1596,6 @@ R02556_c	DA + H2O  -> NH3 + C05512_c 	CCM_09449	  0.00	1000.00	  0.00
 R02656_c	C00628_c  -> C02167_c 	CCM_00823	  0.00	1000.00	  0.00
 R02746_c	H2O + C04230_c  -> C00162_c + C00670_c 	CCM_04741	  0.00	1000.00	  0.00
 R02747_c	H2O + C04233_c  -> C00162_c + C00670_c 	CCM_08626 or CCM_04741	  0.00	1000.00	  0.00
-R02756_c	NADP + aor0054  -> NADPH + C03372_c 	CCM_00856 or CCM_02900 or CCM_06840	  0.00	1000.00	  0.00
 R02964_c	NADH + C00828_c  -> NAD + C05819_c 	CCM_06005	  0.00	1000.00	  0.00
 R03026_c	C01144_c  -> H2O + C00877_c 	CCM_01474 or CCM_01647	  0.00	1000.00	  0.00
 R03057_c	H2O + C00909_c  -> C02165_c 	CCM_04998	  0.00	1000.00	  0.00
@@ -1619,7 +1615,6 @@ R03772_c	H2O + C02991_c  -> C01934_c 	CCM_02003	  0.00	1000.00	  0.00
 R03789_c	C01449_c + C01977_c  -> GN + C01978_c 	CCM_05624 or CCM_07337	  0.00	1000.00	  0.00
 R03805_c	SAM + C02031_c  -> SAH + C02339_c 	CCM_04520	  0.00	1000.00	  0.00
 R03828_c	GTP + C02100_c  -> PPI + C02031_c 	CCM_02636	  0.00	1000.00	  0.00
-R03875_c	SAM + C02188_c  -> SAH + C05544_c 	CCM_06493 or CCM_00746 or CCM_03919 or CCM_07296 or CCM_06781 or CCM_08113 or CCM_09043	  0.00	1000.00	  0.00
 R03893_c	H2O + C04431_c  -> C02222_c 	CCM_04801 or CCM_06771	  0.00	1000.00	  0.00
 R03938_c	SAM + C02415_c  -> SAH + C03702_c 	CCM_06493 or CCM_00746 or CCM_03919 or CCM_07296 or CCM_06781 or CCM_08113	  0.00	1000.00	  0.00
 R03942_c	NAD + C02431_c  -> NADH + C02991_c 	CCM_06363	  0.00	1000.00	  0.00
@@ -1644,24 +1639,9 @@ R05202_c	ADP + C01204_c  -> ATP + C01284_c 	CCM_01434	  0.00	1000.00	  0.00
 R05287_c	H2O + C06755_c  -> GLYA + C01327_c 	CCM_01970 or CCM_03854	  0.00	1000.00	  0.00
 R05616_c	4HBA + C01230_c  -> PPI + C13425_c 	CCM_07474 or CCM_08326	  0.00	1000.00	  0.00
 R05802_c	PINS3P + ATP  -> ADP + C11556_c 	CCM_07600	  0.00	1000.00	  0.00
-R05916_c	PINS + UDPNAG  -> G00143_c 	CCM_05129 or CCM_02504 or CCM_03311 or CCM_01018 or CCM_05437 or CCM_01823	  0.00	1000.00	  0.00
-R05917_c	H2O + G00143_c  -> AC + G00144_c 	CCM_08051	  0.00	1000.00	  0.00
-R05918_c	C160COA + G00144_c  -> COA + G00145_c 	CCM_00061	  0.00	1000.00	  0.00
-R05920_c	PE + G00146_c  -> C00641_c + G00147_c 	CCM_02937	  0.00	1000.00	  0.00
-R05923_c	PE + G00140_c  -> C00641_c + G00141_c 	CCM_00275 or CCM_07258	  0.00	1000.00	  0.00
-R05924_c	PE + G00141_c  -> C00641_c + G00151_c 	CCM_00275 or CCM_05781	  0.00	1000.00	  0.00
-R05970_c	UDPNAG + G00001_c  -> G00002_c 	CCM_09129 or CCM_09110	  0.00	1000.00	  0.00
-R05972_c	G00002_c + G10614_c  -> GDP + G00003_c 	CCM_04210	  0.00	1000.00	  0.00
-R05973_c	G00003_c + G10614_c  -> GDP + G00004_c 	CCM_02067	  0.00	1000.00	  0.00
-R05979_c	H2O + G00009_c  -> bDGLC + G00171_c 	CCM_07809	  0.00	1000.00	  0.00
 R05980_c	H2O + G00171_c  -> DGLC + G00010_c 	CCM_07128	  0.00	1000.00	  0.00
-R05982_c	4 H2O + G00011_c  -> 4 MAN + G00012_c 	CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733	  0.00	1000.00	  0.00
-R05986_c	UDPNAG + G00015_c  -> G00019_c 	CCM_00141 or CCM_00974 or CCM_01490 or CCM_03026	  0.00	1000.00	  0.00
 R06127_c	G00005_c + G10614_c  -> GDP + G10526_c 	CCM_02472	  0.00	1000.00	  0.00
 R06171_c	C05519_c  -> ACAL + GLY 	CCM_08747 or CCM_09574	  0.00	1000.00	  0.00
-R06258_c	C03862_c + G00006_c  -> C00110_c + G10595_c 	CCM_00021	  0.00	1000.00	  0.00
-R06259_c	C03862_c + G10595_c  -> C00110_c + G10596_c 	CCM_00885	  0.00	1000.00	  0.00
-R06260_c	C03862_c + G10596_c  -> C00110_c + G10597_c 	CCM_06927	  0.00	1000.00	  0.00
 R06262_c	G00007_c + G10618_c  -> C00110_c + G10598_c 	CCM_07273	  0.00	1000.00	  0.00
 R06263_c	G10598_c + G10618_c  -> C00110_c + G10599_c 	CCM_01588	  0.00	1000.00	  0.00
 R06264_c	G10599_c + G10618_c  -> C00110_c + G00008_c 	CCM_00015	  0.00	1000.00	  0.00
@@ -1672,31 +1652,20 @@ R06601_c	H2O + C11821_c  -> C12248_c 	CCM_08140	  0.00	1000.00	  0.00
 R07162_c	ACYLCOA + NADP  -> NADPH + C00658_c 	CCM_03363	  0.00	1000.00	  0.00
 R07215_c	2 C00999_c + C01189_c  -> 2 H2O + 2 C00996_c + C01164_c 	CCM_01839 or CCM_08632	  0.00	1000.00	  0.00
 R07459_c	ATP + C15810_c  -> PPI + C15813_c 	CCM_03549	  0.00	1000.00	  0.00
-R07488_c	NADPH + C08821_c  -> NADP + C01753_c 	CCM_05983	  0.00	1000.00	  0.00
 R07495_c	NADPH + C15816_c  -> NADP + C05103_c 	CCM_05105	  0.00	1000.00	  0.00
-R07758_c	MALCOA + C160COA  -> CO2 + COA + C16216_c 	CCM_03752	  0.00	1000.00	  0.00
-R07759_c	NADPH + C16216_c  -> NADP + C16217_c 	CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_04252 or CCM_09322	  0.00	1000.00	  0.00
-R07760_c	C16217_c  -> H2O + C16218_c 	CCM_01449	  0.00	1000.00	  0.00
 R07761_c	NADPH + C16218_c  -> NADP + C180COA 	CCM_05177	  0.00	1000.00	  0.00
-R07762_c	C160ACP  -> C18OACP + ACP + CO2 	CCM_01811 or CCM_03752	  0.00	1000.00	  0.00
 R07766_c	C80ACP + C16240_c  -> ACP + C16236_c 	CCM_03425	  0.00	1000.00	  0.00
 R07767_c	2 SAM + C16236_c + 2 C17023_c  -> 2 MET + 2 C05198_c + C16237_c 	CCM_04889	  0.00	1000.00	  0.00
-R07770_c	ATP + C16241_c  -> PPI + C16238_c 	CCM_02165	  0.00	1000.00	  0.00
-R07816_c	H2O + G13038_c  -> NAG + G13039_c 	CCM_02201 or CCM_04090	  0.00	1000.00	  0.00
 R08266_c	NADPH + C07108_c  -> H2O + NADP + C16545_c 	CCM_05972 or CCM_06484 or CCM_08923	  0.00	1000.00	  0.00
 R08555_c	LAC + NAGA6P  -> H2O + C16698_c 	CCM_00491 or CCM_02643	  0.00	1000.00	  0.00
-R08599_c	G10614_c + G10694_c  -> GDP + G01813_c 	CCM_05217	  0.00	1000.00	  0.00
 R09030_c	C02962_c  -> C18096_c 	CCM_01641 or CCM_08256	  0.00	1000.00	  0.00
 R09034_c	ACYLCOA + C03819_c  -> PINS + COA 	CCM_05827	  0.00	1000.00	  0.00
-R09037_c	ACYLCOA + C18129_c  -> CL + COA 	CCM_05795	  0.00	1000.00	  0.00
 R09038_c	CL + H2O  -> C00162_c + C18129_c 	CCM_04700	  0.00	1000.00	  0.00
 R09072_c	SAM + C00641_c  -> 5MTA + C18168_c 	CCM_00098	  0.00	1000.00	  0.00
 R09087_c	ATP + C01204_c  -> ADP + C11526_c 	CCM_09107	  0.00	1000.00	  0.00
 R09106_c	C00406_c + C18218_c  -> COA + C18217_c 	CCM_07193	  0.00	1000.00	  0.00
 R09289_c	NADP + C01013_c  -> NADPH + C00222_c 	CCM_00435	  0.00	1000.00	  0.00
-R09304_c	UDPNAG + C02189_c  -> G12573_c 	CCM_09057	  0.00	1000.00	  0.00
 R09395_c	2 C15814_c + C18239_c  -> C05924_c + 2 C15810_c 	CCM_03158	  0.00	1000.00	  0.00
-R09412_c	C19589_c  -> C19591_c 	CCM_00257 or CCM_03116	  0.00	1000.00	  0.00
 R09597_c	ATP + LYS + C19722_c  -> AMP + PPI + H2O + C19723_c 	CCM_06784	  0.00	1000.00	  0.00
 R09735_c	C06232_c + C19848_c  -> AMP + H2O + C18237_c 	CCM_04738	  0.00	1000.00	  0.00
 R09782_c	C08613_c  -> C07330_c + C19892_c 	CCM_06728	  0.00	1000.00	  0.00
@@ -1704,7 +1673,6 @@ R09844_c	FPP + C20119_c  -> PPI + C20120_c 	CCM_05066 or CCM_07935	  0.00	1000.0
 R09845_c	H2O + C20120_c  -> C00012_c + C04506_c 	CCM_02175 or CCM_07901 or CCM_05829	  0.00	1000.00	  0.00
 R09944_c	CTP + C00641_c  -> CDP + PA 	CCM_00191	  0.00	1000.00	  0.00
 R10116_c	NADPH + C20372_c  -> NADP + C20373_c 	CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982	  0.00	1000.00	  0.00
-R10151_c	5 H2O + 8 C00125_c + C00320_c  -> 2 SLF + 8 C00126_c 	CCM_02454	  0.00	1000.00	  0.00
 R10231_c	H2O + C20459_c  -> NH3 + C20458_c 	CCM_03277	  0.00	1000.00	  0.00
 R10309_c	NADPH + aor0536  -> NADP + C20499_c 	CCM_08014	  0.00	1000.00	  0.00
 R10455_c	SAM + C20663_c  -> 5MTA + C04441_c 	CCM_05185	  0.00	1000.00	  0.00
@@ -1725,16 +1693,130 @@ R11180_c	H2O + PURI5P  -> PI + C02067_c 	CCM_05654 or CCM_08710	  0.00	1000.00	 
 R11216_c	SAM + C00613_c  -> SAH + C04143_c 	CCM_00198 or CCM_06888 or CCM_07460	  0.00	1000.00	  0.00
 R11218_c	SAM + C04143_c  -> SAH + C21189_c 	CCM_00198	  0.00	1000.00	  0.00
 R11221_c	SAM + C00613_c  -> SAH + C21190_c 	CCM_06279	  0.00	1000.00	  0.00
-R11308_c	C01898_c  -> 	CCM_06251 or CCM_06716 or CCM_09183	  0.00	1000.00	  0.00
 R11583_c	CYS + C00030_c + C18237_c  -> H2O + ALA + C00028_c + C21486_c 	CCM_07073	  0.00	1000.00	  0.00
-R11671_c	ACCOA + MALCOA  -> C05223_c 	CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_09164	  0.00	1000.00	  0.00
 R11861_c	RGT  -> 5OXOPRO + CGLY 	CCM_06345	  0.00	1000.00	  0.00
 R11891_c	ATP + C16634_c  -> ADP + C21748_c 	CCM_01353 or CCM_02335	  0.00	1000.00	  0.00
 R11929_c	RGT + H2S + C15602_c  -> C15603_c + C17267_c 	CCM_03171 or CCM_04152	  0.00	1000.00	  0.00
 R12085_c	ACCOA + GLUGSAL  -> COA + C01250_c 	CCM_01296	  0.00	1000.00	  0.00
-R09144_c	C11148_c  -> aor0367 		  0.00	  0.00	  0.00
 R00381_c	ATP + undefined_18_c + undefined_39_c  -> AMP + PPI + undefined_20_c 	CCM_01054 or CCM_01290 or CCM_02533 or CCM_03220	  0.00	1000.00	  0.00
 R00382_c	NAD + undefined_18_c + undefined_39_c  -> AMP + C00455_c + undefined_20_c 	CCM_01054 or CCM_01290	  0.00	1000.00	  0.00
 R05556_c	FPP + undefined_134_c  -> C05859_c + undefined_124_c 	CCM_01483 or CCM_04777 or CCM_06941	  0.00	1000.00	  0.00
-R08701_c	GLY + C00030_c + C03479_c + C17322_c  -> H2O + THF + C00028_c + C17323_c 	CCM_05830 or CCM_07813	  0.00	1000.00	  0.00
-R10686_c	HIS + PDXL5PI  -> AHMP 	CCM_05035	  0.00	1000.00	  0.00
+wv_R00373	ORN  -> PRO + NH3 		  0.00	1000.00	  0.00
+wv_R00337	H2O + O2 + SPRMD  -> 1,3-diaminopropane + 4-aminobutyraldehyde + hydrogen peroxide 		  0.00	1000.00	  0.00
+wv_R01105	NADP + tetrahydrobiopterin  -> NADPH + 6,7-dihydropteridine 	CCM_01430	  0.00	1000.00	  0.00
+wv_R01104	2 NADPH + 6-pyruvoyl-5,6,7,8-tetrahydropterin  -> 2 NADP + tetrahydrobiopterin 	CCM_05251	  0.00	1000.00	  0.00
+wv_R01102	AHTD  -> 3 PI + 6-pyruvoyl-5,6,7,8-tetrahydropterin 		  0.00	1000.00	  0.00
+wv_R00457	GLN + -5[(5-phospho-1-deoxy-d-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-d-ribosyl)imidazole-4-carboxamide  -> AICAR + DIMGP + GLU 	CCM_04678	  0.00	1000.00	  0.00
+wv_R00520	C01259_c  -> GLY + 4-trimethylammoniobutanal 		  0.00	1000.00	  0.00
+wv_R00166	GTP + alpha-d-mannose 1-phosphate  -> PPI + GDPMAN 	CCM_08766	  0.00	1000.00	  0.00
+wv_R00269	C01246_c + d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol  -> C00110_c + d-glc-alpha-(1->2)-d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol 	CCM_00015	  0.00	1000.00	  0.00
+wv_R00264	GDPMAN + d-man-alpha-(1->3)-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol  -> GDP + d-man-alpha-(1->3)-[d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol 	CCM_02067	  0.00	1000.00	  0.00
+wv_R00260	UDPNAG + C00110_c  -> UMP + n-acetyl-d-glucosaminyl-diphosphodolichol 	CCM_04175	  0.00	1000.00	  0.00
+wv_R00271	H2O + C00621_c  -> PI + C00110_c 	CCM_05596	  0.00	1000.00	  0.00
+wv_R00261	UDPNAG + n-acetyl-d-glucosaminyl-diphosphodolichol  -> UDP + chitobiosyldiphosphodolichol 	CCM_09129	  0.00	1000.00	  0.00
+wv_R01139	H2O + nicotinamide mononucleotide  -> R5P + NICD 		  0.00	1000.00	  0.00
+wv_R00145	ATP + d-ribulose  -> ADP + RL5P 	CCM_00854	  0.00	1000.00	  0.00
+wv_R00144	AOL + NAD  -> NADH + d-ribulose 	CCM_03371	  0.00	1000.00	  0.00
+wv_R00118	NADP + 2-dehydro-d-gluconate  -> NADPH + 2,5-didehydro-d-gluconate 	CCM_03850	  0.00	1000.00	  0.00
+wv_R00148	XYL + NADP  -> NADPH + d-xylono-1,5-lactone 	CCM_04763	  0.00	1000.00	  0.00
+wv_R00114	H2O + beta-d-glucuronoside  -> GLCUNT + alcohol 	CCM_04958	  0.00	1000.00	  0.00
+wv_R00110	H2O + aor0700  -> UDP + beta-d-glucuronoside 	CCM_09558	  0.00	1000.00	  0.00
+wv_R00572	PHE + O2 + tetrahydrobiopterin  -> TYR + C15522_c 		  0.00	1000.00	  0.00
+wv_R00577	4HPP  -> 2-hydroxy-3-(4-hydroxyphenyl)propenoate 		  0.00	1000.00	  0.00
+wv_R01246	SAM + caffeoyl-coa  -> SAH + C00406_c 		  0.00	1000.00	  0.00
+wv_R01174	ATP + cobinamide  -> 3 PI + adenosylcobinamide 		  0.00	1000.00	  0.00
+wv_R00691	PI + URI  -> R1P + URA 		  0.00	1000.00	  0.00
+wv_R00096	ACCOA + H2O  -> AC + COA 		  0.00	1000.00	  0.00
+wv_R00825	NADPH + O2 + C18PSPH  -> 2 H2O + NADP + delta8-phytosphingenine 	CCM_01221	  0.00	1000.00	  0.00
+wv_R00819	C18SPH  -> C18PSPH 	CCM_09611	  0.00	1000.00	  0.00
+R11308_c	cellodextrin  -> CELLOB 	CCM_06251 or CCM_06716 or CCM_09183	  0.00	1000.00	  0.00
+wv_R00788	S23E  -> cycloartenol 		  0.00	1000.00	  0.00
+wv_R00791	cycloeucalenol  -> obtusifoliol 		  0.00	1000.00	  0.00
+wv_R01129	ATP + THME  -> ADP + THMP 		  0.00	1000.00	  0.00
+wv_R01130	ATP + THMP  -> ADP + THDP 		  0.00	1000.00	  0.00
+wv_R01177	O2 + 2-octaprenylphenol  -> 6-hydroxy-2-octaprenylphenol 		  0.00	1000.00	  0.00
+wv_R01184	4HBA + NADPH + O2  -> H2O + NADP + 3,4-dihydroxybenzoate 		  0.00	1000.00	  0.00
+wv_R01233	2 NADPH + 2 O2 + o-methylsterigmatocystin  -> CO2 + H2O + METHOL + 2 NADP + aor0050 	CCM_01530	  0.00	1000.00	  0.00
+wv_R01230	SAM + aor0281  -> SAH + sterigmatocystin 	CCM_02106	  0.00	1000.00	  0.00
+wv_R01231	SAM + sterigmatocystin  -> SAH + o-methylsterigmatocystin 	CCM_07823	  0.00	1000.00	  0.00
+wv_R00323	GLY + H2O + O2  -> NH3 + aor0367 + hydrogen peroxide 	CCM_00020	  0.00	1000.00	  0.00
+wv_R00334	H2O + 2-oxosuccinamate  -> NH3 + OA 	CCM_00553	  0.00	1000.00	  0.00
+wv_R00320	ASP  -> aor0246 	CCM_05547	  0.00	1000.00	  0.00
+wv_R00319	ALA  -> d-alanine 	CCM_05940	  0.00	1000.00	  0.00
+wv_R01264	ACCOA + arylamine  -> COA + n-acetylarylamine 	CCM_00179	  0.00	1000.00	  0.00
+wv_R01263	H2O + 4-nitrophenyl phosphate  -> PI + 4-nitrophenol 	CCM_01841	  0.00	1000.00	  0.00
+wv_R00367	ACCOA + PTRSC  -> COA + APRUT 	CCM_00942	  0.00	1000.00	  0.00
+wv_R00358	FAD + PRO  -> P5C + C01352_c 	CCM_02842	  0.00	1000.00	  0.00
+wv_R00360	GLUGSAL + NADP  -> GLU + NADPH 	CCM_06901	  0.00	1000.00	  0.00
+wv_R00241	O2 + l-gulono-1,4-lactone  -> hydrogen peroxide + l-xylo-hex-2-ulono-1,4-lactone 	CCM_00852	  0.00	1000.00	  0.00
+wv_R00238	O2 + 4 l-ascorbate  -> 2 H2O + 4 monodehydroascorbate 	CCM_02267	  0.00	1000.00	  0.00
+wv_R00242	NAD + l-galactose  -> NADH + l-galactono-1,4-lactone 	CCM_04947	  0.00	1000.00	  0.00
+wv_R00244	2 RGT + monodehydroascorbate  -> l-ascorbate + glutathione disulfide 	CCM_07575	  0.00	1000.00	  0.00
+wv_R00338	SPRMD + [eif5a-precursor]-lysine  -> 1,3-diaminopropane + [eif5a-precursor]-deoxyhypusine 	CCM_04765	  0.00	1000.00	  0.00
+wv_R01255	NAD + (2s,3s)-2,3-dihydro-2,3-dihydroxybenzoate  -> NADH + C00196_c 	CCM_01528	  0.00	1000.00	  0.00
+wv_R01208	MALACP + SAM  -> SAH + malonyl-[acyl-carrier protein] methyl ester 	CCM_04790	  0.00	1000.00	  0.00
+wv_R01204	ATP + BT  -> PPI + aor0114 	CCM_05319	  0.00	1000.00	  0.00
+wv_R01258	paraxanthine  -> 5-acetylamino-6-formylamino-3-methyluracil 	CCM_00179	  0.00	1000.00	  0.00
+wv_R01017	CAR + C160COA  -> COA + palmitoyl-carnitine 	CCM_02926	  0.00	1000.00	  0.00
+wv_R01266	(2s)-2-methylacyl-coa  -> (2r)-2-methylacyl-coa 	CCM_01386	  0.00	1000.00	  0.00
+wv_R00754	AD + H2O  -> HYXN + NH3 	CCM_07145	  0.00	1000.00	  0.00
+wv_R00610	H2O + aor0326  -> FOR + NH3 	CCM_01689	  0.00	1000.00	  0.00
+wv_R01265	H2O + carboxylic ester  -> carboxylate + alcohol 	CCM_02209	  0.00	1000.00	  0.00
+wv_R00883	ACCOA + 1-alkyl-sn-glycero-3-phosphocholine  -> COA + C04598_c 	CCM_05827	  0.00	1000.00	  0.00
+wv_R00892	C4HACP  -> H2O + C4DACP 	CCM_02997	  0.00	1000.00	  0.00
+wv_R00894	ACCOA + MALCOA + 2 NADPH  -> C40COA + CO2 + COA + 2 NADP 	CCM_02997	  0.00	1000.00	  0.00
+wv_R00955	NADH + O2 + C181COA  -> 2 H2O + NAD + C183COA 	CCM_06866	  0.00	1000.00	  0.00
+wv_R00974	3-hydroxyhexanoyl-coa  -> C05271_c 	CCM_00065	  0.00	1000.00	  0.00
+wv_R01010	NADP + trans-2,3-didehydroacyl-coa  -> NADPH + trans,trans-2,3,4,5-tetradehydroacyl-coa 	CCM_02294	  0.00	1000.00	  0.00
+wv_R01031	3-hydroxypalmitoyl-coa  -> trans-hexadec-2-enoyl-coa 	CCM_00065	  0.00	1000.00	  0.00
+wv_R01088	FAD + glutaryl-coa  -> CO2 + C01352_c + trans-but-2-enoyl-coa 	CCM_01359	  0.00	1000.00	  0.00
+wv_R01248	ATP + COA + trans-cinnamate  -> AMP + PPI + cinnamoyl-coa 	CCM_00779	  0.00	1000.00	  0.00
+wv_R00395	AKG + GLN + NADH  -> 2 GLU + NAD 	CCM_03495	  0.00	1000.00	  0.00
+wv_R01222	hydroperoxide + tryparedoxin  -> H2O + roh + tryparedoxin disulfide 	CCM_03275	  0.00	1000.00	  0.00
+wv_R00018	3PG  -> 2PG 	CCM_01016	  0.00	1000.00	  0.00
+wv_R00014	H2O + sedoheptulose 1,7-bisphosphate  -> PI + S7P 	CCM_02605	  0.00	1000.00	  0.00
+wv_R00510	AKG + TYR  -> 4HPP + GLU 	CCM_06021	  0.00	1000.00	  0.00
+wv_R00524	H2O + n-succinyl-ll-2,6-diaminoheptanedioate  -> SUCC + ll-2,6-diaminoheptanedioate 	CCM_08717	  0.00	1000.00	  0.00
+wv_R00523	AKG + O2 + 4-trimethylammoniobutanoate  -> CAR + CO2 + SUCC 	CCM_09523	  0.00	1000.00	  0.00
+wv_R01267	H2O + cis-stilbene oxide  -> (+)-(1r,2r)-1,2-diphenylethane-1,2-diol  	CCM_01516	  0.00	1000.00	  0.00
+wv_R01145	NICD + SAM  -> SAH + 1-methylnicotinamide 	CCM_04599	  0.00	1000.00	  0.00
+wv_R01136	H2O + nicotinamide beta riboside  -> RIB + NICD 	CCM_06141	  0.00	1000.00	  0.00
+wv_R00304	NADH + HNO3  -> H2O + NAD + HNO2 	CCM_02639	  0.00	1000.00	  0.00
+wv_R00303	3 NADPH + HNO2  -> H2O + 3 NADP + ammonium hydroxide 	CCM_02951	  0.00	1000.00	  0.00
+wv_R00306	O2 + 2 2-nitropropane  -> 2 HNO2 + 2 acetone 	CCM_04031	  0.00	1000.00	  0.00
+wv_R00750	ATP + 2 H2O  -> AMP + 2 PI 	CCM_00441	  0.00	1000.00	  0.00
+wv_R00604	PHE + O2  -> CO2 + phenylacetamide 	CCM_01912	  0.00	1000.00	  0.00
+wv_R00605	2 HAN + 4 O2  -> cinnabarinic acid + 2 hydrogen peroxide + 2 superoxide 	CCM_01912	  0.00	1000.00	  0.00
+wv_R00582	H2O + 3-acylpyruvate  -> FUM + PYR 	CCM_02220	  0.00	1000.00	  0.00
+wv_R01235	coniferyl alcohol  -> guaiacyl lignin 	CCM_01912	  0.00	1000.00	  0.00
+wv_R00612	1-carboxyvinyl carboxyphosphonate  -> CO2 + 3-(hydrohydroxyphosphoryl)pyruvate 	CCM_05734	  0.00	1000.00	  0.00
+wv_R00611	ACCOA + phosphinothricin  -> COA + n-acetylphosphinothricin 	CCM_07875	  0.00	1000.00	  0.00
+wv_R00196	1,4-beta-d-mannan  -> MAN 	CCM_01279	  0.00	1000.00	  0.00
+wv_R00230	13GLUCAN  -> DGLC 	CCM_01678	  0.00	1000.00	  0.00
+wv_R00229	d-glucosaminide  -> GLCN 	CCM_04923	  0.00	1000.00	  0.00
+wv_R00123	SAM  -> ACPC + 5MTA 	CCM_03731	  0.00	1000.00	  0.00
+wv_R00132	FAD + (s)-2-hydroxyglutarate  -> AKG + C01352_c 	CCM_05328	  0.00	1000.00	  0.00
+wv_R00131	NAD + (r)-3-hydroxybutanoate  -> ACTAC + NADH 	CCM_06032	  0.00	1000.00	  0.00
+wv_R00645	H2O + ITP  -> PPI + IMP 	CCM_03944	  0.00	1000.00	  0.00
+wv_R00653	PAPS + H2O  -> SLF + 3'-phospho-adenylate 	CCM_03944	  0.00	1000.00	  0.00
+wv_R00656	H2O + p1,p3-bis(5'-adenosyl) triphosphate  -> ADP + AMP 	CCM_04282	  0.00	1000.00	  0.00
+wv_R00657	ADN + H2O  -> AD + RIB 	CCM_06141	  0.00	1000.00	  0.00
+wv_R00655	H2O + p1,p4-bis(5'-adenosyl) tetraphosphate  -> AMP + ATP 	CCM_08362	  0.00	1000.00	  0.00
+wv_R00688	H2O + CYTS  -> NH3 + URA 	CCM_06584	  0.00	1000.00	  0.00
+wv_R00665	DOROA + O2  -> OROA + hydrogen peroxide 	CCM_08217	  0.00	1000.00	  0.00
+wv_R00105	LLAC + O2  -> AC + CO2 + H2O 	CCM_06299	  0.00	1000.00	  0.00
+wv_R01192	DB4P + 5-amino-6-ribityluracil  -> D8RL + 2 H2O + PI 	CCM_06814	  0.00	1000.00	  0.00
+wv_R00784	ERTROL + NADPH + O2  -> ERGOT + NADP 	CCM_02962	  0.00	1000.00	  0.00
+wv_R00770	GGPP + C20119_c  -> PPI + s-geranylgeranyl-protein 	CCM_05579	  0.00	1000.00	  0.00
+wv_R00796	NADP + C01189_c  -> NADPH + 5alpha-cholesta-7,24-dien-3beta-ol 	CCM_05983	  0.00	1000.00	  0.00
+wv_R00772	NADPH + O2 + SQL  -> S23E + NADP 	CCM_07184	  0.00	1000.00	  0.00
+wv_R01125	ATP + 4-amino-5-hydroxymethyl-2-methylpyrimidine  -> AHMP + ADP 	CCM_09434	  0.00	1000.00	  0.00
+wv_R00066	ACCOA + C00012_c  -> COA + nalpha-acetylpeptide 	CCM_01241	  0.00	1000.00	  0.00
+wv_R00073	2 hydrogen peroxide  -> 2 H2O + O2 	CCM_01912	  0.00	1000.00	  0.00
+wv_R00079	2 superoxide  -> O2 + hydrogen peroxide 	CCM_03403	  0.00	1000.00	  0.00
+wv_R00078	2 C00126_c + hydrogen peroxide  -> 2 H2O + 2 C00125_c 	CCM_06954	  0.00	1000.00	  0.00
+wv_R00056	NADPH + 2 Q  -> NADP + 2 semiquinone  	CCM_07582	  0.00	1000.00	  0.00
+wv_R01254	SAM + demethylmenaquinol  -> SAH + C05819_c 	CCM_00363	  0.00	1000.00	  0.00
+wv_R01185	SAM + 6-hydroxy-2-octaprenylphenol  -> SAH + 6-methoxy-2-octaprenylphenol 	CCM_04502	  0.00	1000.00	  0.00
+wv_R00468	ALA + (r)-3-methyl-2-oxobutanoate  -> VAL + PYR 	CCM_04689	  0.00	1000.00	  0.00
+wv_R00497	NAD + 2-methyl-2-hydroxybutyryl-coa  -> NADH + 2-methylacetoacetyl-coa 	CCM_07593	  0.00	1000.00	  0.00

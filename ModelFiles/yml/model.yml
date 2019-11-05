@@ -1,6 +1,58 @@
 !!omap
 - metabolites:
   - !!omap
+    - id: (+)-(1r,2r)-1,2-diphenylethane-1,2-diol 
+    - name: (+)-(1r,2r)-1,2-diphenylethane-1,2-diol 
+    - compartment: c
+  - !!omap
+    - id: (2r)-2-methylacyl-coa
+    - name: (2r)-2-methylacyl-coa
+    - compartment: c
+  - !!omap
+    - id: (2s)-2-methylacyl-coa
+    - name: (2s)-2-methylacyl-coa
+    - compartment: c
+  - !!omap
+    - id: (2s,3s)-2,3-dihydro-2,3-dihydroxybenzoate
+    - name: (2s,3s)-2,3-dihydro-2,3-dihydroxybenzoate
+    - compartment: c
+  - !!omap
+    - id: (r)-3-hydroxybutanoate
+    - name: (r)-3-hydroxybutanoate
+    - compartment: c
+  - !!omap
+    - id: (r)-3-methyl-2-oxobutanoate
+    - name: 3-methyl-2-oxobutanoate
+    - compartment: c
+  - !!omap
+    - id: (s)-2-hydroxyglutarate
+    - name: (s)-2-hydroxyglutarate
+    - compartment: c
+  - !!omap
+    - id: -5[(5-phospho-1-deoxy-d-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-d-ribosyl)imidazole-4-carboxamide
+    - name: -5[(5-phospho-1-deoxy-d-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-d-ribosyl)imidazole-4-carboxamide
+    - compartment: c
+  - !!omap
+    - id: 1,3-diaminopropane
+    - name: trimethylenediamine
+    - compartment: c
+  - !!omap
+    - id: 1,4-beta-d-mannan
+    - name: 1,4-beta-d-mannan
+    - compartment: c
+  - !!omap
+    - id: 1-alkyl-sn-glycero-3-phosphocholine
+    - name: 1-alkyl-sn-glycero-3-phosphocholine
+    - compartment: c
+  - !!omap
+    - id: 1-carboxyvinyl carboxyphosphonate
+    - name: 1-carboxyvinyl carboxyphosphonate
+    - compartment: c
+  - !!omap
+    - id: 1-methylnicotinamide
+    - name: 1-methylnicotinamide
+    - compartment: c
+  - !!omap
     - id: 12D5TP
     - name: 1,2-dihydroxy-5-(methylthio)pent-1-en-3-one
     - compartment: c
@@ -28,6 +80,41 @@
     - formula: C3H8O10P2
     - annotation: !!omap
       - chebi: CHEBI:16001
+  - !!omap
+    - id: 2,5-didehydro-d-gluconate
+    - name: 2,5-didehydro-d-gluconate
+    - compartment: c
+  - !!omap
+    - id: 2-dehydro-d-gluconate
+    - name: 2-dehydro-d-gluconate
+    - compartment: c
+  - !!omap
+    - id: 2-hydroxy-3-(4-hydroxyphenyl)propenoate
+    - name: 2-hydroxy-3-(4-hydroxyphenyl)propenoate
+    - compartment: c
+  - !!omap
+    - id: 2-methyl-2-hydroxybutyryl-coa
+    - name: 2-methyl-2-hydroxybutyryl-coa
+    - compartment: c
+  - !!omap
+    - id: 2-methylacetoacetyl-coa
+    - name: 2-methylacetoacetyl-coa
+    - compartment: c
+    - formula: C26H42N7O18P3S
+    - annotation: !!omap
+      - chebi: CHEBI:15476
+  - !!omap
+    - id: 2-nitropropane
+    - name: 2-nitropropane
+    - compartment: c
+  - !!omap
+    - id: 2-octaprenylphenol
+    - name: 2-octaprenylphenol
+    - compartment: c
+  - !!omap
+    - id: 2-oxosuccinamate
+    - name: 2-oxosuccinamate
+    - compartment: c
   - !!omap
     - id: 2D3DGALT
     - name: 2-dehydro-3-deoxy-d-galactonate
@@ -78,6 +165,36 @@
     - formula: C3H7O7P
     - annotation: !!omap
       - chebi: CHEBI:17835
+  - !!omap
+    - id: 3'-phospho-adenylate
+    - name: 3'-phospho-adenylate
+    - compartment: c
+  - !!omap
+    - id: 3,4-dihydroxybenzoate
+    - name: 3,4-dihydroxybenzoate
+    - compartment: c
+  - !!omap
+    - id: 3-(hydrohydroxyphosphoryl)pyruvate
+    - name: 3-(hydrohydroxyphosphoryl)pyruvate
+    - compartment: c
+  - !!omap
+    - id: 3-acylpyruvate
+    - name: 3-acylpyruvate
+    - compartment: c
+  - !!omap
+    - id: 3-hydroxyhexanoyl-coa
+    - name: 3-hydroxyhexanoyl-coa
+    - compartment: c
+    - formula: C27H46N7O18P3S
+    - annotation: !!omap
+      - chebi: CHEBI:28276
+  - !!omap
+    - id: 3-hydroxypalmitoyl-coa
+    - name: 3-hydroxypalmitoyl-coa
+    - compartment: c
+    - formula: C37H66N7O18P3S
+    - annotation: !!omap
+      - chebi: CHEBI:27402
   - !!omap
     - id: 36MPPB
     - name: 2-polyprenyl-3-methyl-6-methoxy-1,4-benzoquinone
@@ -148,6 +265,30 @@
     - formula: C3H7NO4S
     - annotation: !!omap
       - chebi: CHEBI:16345
+  - !!omap
+    - id: 4-amino-5-hydroxymethyl-2-methylpyrimidine
+    - name: 4-amino-5-hydroxymethyl-2-methylpyrimidine
+    - compartment: c
+  - !!omap
+    - id: 4-aminobutyraldehyde
+    - name: 4-aminobutanal
+    - compartment: c
+  - !!omap
+    - id: 4-nitrophenol
+    - name: 4-nitrophenol
+    - compartment: c
+  - !!omap
+    - id: 4-nitrophenyl phosphate
+    - name: 4-nitrophenyl phosphate
+    - compartment: c
+  - !!omap
+    - id: 4-trimethylammoniobutanal
+    - name: 4-trimethylammoniobutanal
+    - compartment: c
+  - !!omap
+    - id: 4-trimethylammoniobutanoate
+    - name: 4-trimethylammoniobutanoate
+    - compartment: c
   - !!omap
     - id: 45HPPB
     - name: 3-polyprenyl-4,5-dihydroxybenzoate
@@ -233,6 +374,14 @@
     - annotation: !!omap
       - chebi: CHEBI:12886
   - !!omap
+    - id: 5-acetylamino-6-formylamino-3-methyluracil
+    - name: 5-acetylamino-6-formylamino-3-methyluracil
+    - compartment: c
+  - !!omap
+    - id: 5-amino-6-ribityluracil
+    - name: 5-amino-6-ribityluracil
+    - compartment: c
+  - !!omap
     - id: 5H36MPPB
     - name: 2-polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone
     - compartment: c
@@ -260,6 +409,26 @@
     - formula: C6H13O7PS
     - annotation: !!omap
       - chebi: CHEBI:27859
+  - !!omap
+    - id: 5alpha-cholesta-7,24-dien-3beta-ol
+    - name: 5alpha-cholesta-7,24-dien-3beta-ol
+    - compartment: c
+  - !!omap
+    - id: 6,7-dihydropteridine
+    - name: 6,7-dihydropteridine
+    - compartment: c
+  - !!omap
+    - id: 6-hydroxy-2-octaprenylphenol
+    - name: 6-hydroxy-2-octaprenylphenol
+    - compartment: c
+  - !!omap
+    - id: 6-methoxy-2-octaprenylphenol
+    - name: 6-methoxy-2-octaprenylphenol
+    - compartment: c
+  - !!omap
+    - id: 6-pyruvoyl-5,6,7,8-tetrahydropterin
+    - name: 6-pyruvoyl-5,6,7,8-tetrahydropterin
+    - compartment: c
   - !!omap
     - id: 6CARHEX
     - name: pimelate
@@ -1763,15 +1932,6 @@
       - kegg.compound: C01647
       - pubchem.substance: 4796
   - !!omap
-    - id: C01753_c
-    - name: beta-sitosterol
-    - compartment: c
-    - formula: C29H50O
-    - annotation: !!omap
-      - chebi: CHEBI:27693
-      - kegg.compound: C01753
-      - pubchem.substance: 4886
-  - !!omap
     - id: C01755_c
     - name: thiocyanate
     - compartment: c
@@ -1798,15 +1958,6 @@
       - chebi: CHEBI:17915
       - kegg.compound: C01880
       - pubchem.substance: 4993
-  - !!omap
-    - id: C01898_c
-    - name: cellodextrin
-    - compartment: c
-    - formula: C18H32O16
-    - annotation: !!omap
-      - chebi: CHEBI:3523
-      - kegg.compound: C01898
-      - pubchem.substance: 5010
   - !!omap
     - id: C01934_c
     - name: l-rhamnonate
@@ -1888,14 +2039,6 @@
         - CHEBI:30859
       - kegg.compound: C02167
       - pubchem.substance: 5242
-  - !!omap
-    - id: C02188_c
-    - name: protein lysine
-    - compartment: c
-    - formula: C7H13N3O2R2
-    - annotation: !!omap
-      - kegg.compound: C02188
-      - pubchem.substance: 5259
   - !!omap
     - id: C02189_c
     - name: [protein]-l-serine
@@ -2086,24 +2229,6 @@
       - kegg.compound: C03161
       - pubchem.substance: 6046
   - !!omap
-    - id: C03372_c
-    - name: acylglycerone phosphate
-    - compartment: c
-    - formula: C4H6O7PR
-    - annotation: !!omap
-      - chebi: CHEBI:15835
-      - kegg.compound: C03372
-      - pubchem.substance: 6207
-  - !!omap
-    - id: C03479_c
-    - name: folinic acid
-    - compartment: c
-    - formula: C20H23N7O7
-    - annotation: !!omap
-      - chebi: CHEBI:15640
-      - kegg.compound: C03479
-      - pubchem.substance: 6294
-  - !!omap
     - id: C03681_c
     - name: 5alpha-pregnane-3,20-dione
     - compartment: c
@@ -2156,15 +2281,6 @@
       - chebi: CHEBI:16608
       - kegg.compound: C03845
       - pubchem.substance: 6582
-  - !!omap
-    - id: C03862_c
-    - name: dolichyl phosphate d-mannose
-    - compartment: c
-    - formula: C31H55O9P
-    - annotation: !!omap
-      - chebi: CHEBI:15809
-      - kegg.compound: C03862
-      - pubchem.substance: 6598
   - !!omap
     - id: C04143_c
     - name: protein n(omega)-methyl-l-arginine
@@ -2324,14 +2440,6 @@
       - kegg.compound: C05198
       - pubchem.substance: 7603
   - !!omap
-    - id: C05223_c
-    - name: dodecanoyl-[acp]
-    - compartment: c
-    - formula: C12H23OSR
-    - annotation: !!omap
-      - kegg.compound: C05223
-      - pubchem.substance: 7620
-  - !!omap
     - id: C05271_c
     - name: trans-hex-2-enoyl-coa
     - compartment: c
@@ -2385,15 +2493,6 @@
       - chebi: CHEBI:28718
       - kegg.compound: C05519
       - pubchem.substance: 7864
-  - !!omap
-    - id: C05544_c
-    - name: protein n6-methyl-l-lysine
-    - compartment: c
-    - formula: C8H15N3O2R2
-    - annotation: !!omap
-      - chebi: CHEBI:8555
-      - kegg.compound: C05544
-      - pubchem.substance: 7880
   - !!omap
     - id: C05570_c
     - name: ergothioneine
@@ -2579,14 +2678,6 @@
       - kegg.compound: C08613
       - pubchem.substance: 10806
   - !!omap
-    - id: C08821_c
-    - name: isofucosterol
-    - compartment: c
-    - formula: C29H48O
-    - annotation: !!omap
-      - kegg.compound: C08821
-      - pubchem.substance: 11014
-  - !!omap
     - id: C100
     - name: decanoate
     - compartment: c
@@ -2745,15 +2836,6 @@
     - name: undecanoyl-coa
     - compartment: p
     - formula: C32H56N7O17P3S
-  - !!omap
-    - id: C11148_c
-    - name: tce epoxide
-    - compartment: c
-    - formula: C2HCl3O
-    - annotation: !!omap
-      - chebi: CHEBI:28888
-      - kegg.compound: C11148
-      - pubchem.substance: 13330
   - !!omap
     - id: C11526_c
     - name: 5-pp-insp5
@@ -3469,24 +3551,6 @@
     - compartment: c
     - formula: C16H27O2
   - !!omap
-    - id: C16216_c
-    - name: 3-oxostearoyl-coa
-    - compartment: c
-    - formula: C39H68N7O18P3S
-    - annotation: !!omap
-      - chebi: CHEBI:50571
-      - kegg.compound: C16216
-      - pubchem.substance: 47205524
-  - !!omap
-    - id: C16217_c
-    - name: 3-hydroxystearoyl-coa
-    - compartment: c
-    - formula: C39H70N7O18P3S
-    - annotation: !!omap
-      - chebi: CHEBI:50583
-      - kegg.compound: C16217
-      - pubchem.substance: 47205525
-  - !!omap
     - id: C16218_c
     - name: (2e)-octadecenoyl-coa
     - compartment: c
@@ -3514,15 +3578,6 @@
       - kegg.compound: C16237
       - pubchem.substance: 47205545
   - !!omap
-    - id: C16238_c
-    - name: lipoyl-amp
-    - compartment: c
-    - formula: C18H26N5O8PS2
-    - annotation: !!omap
-      - chebi: CHEBI:55451
-      - kegg.compound: C16238
-      - pubchem.substance: 47205546
-  - !!omap
     - id: C16240_c
     - name: apoprotein
     - compartment: c
@@ -3531,15 +3586,6 @@
       - chebi: CHEBI:13850
       - kegg.compound: C16240
       - pubchem.substance: 47205548
-  - !!omap
-    - id: C16241_c
-    - name: (r)-lipoate
-    - compartment: c
-    - formula: C8H14O2S2
-    - annotation: !!omap
-      - chebi: CHEBI:30314
-      - kegg.compound: C16241
-      - pubchem.substance: 47205549
   - !!omap
     - id: C162ACP
     - name: hexadecadienoyl-[acp]
@@ -3730,24 +3776,6 @@
       - kegg.compound: C17267
       - pubchem.substance: 96023674
   - !!omap
-    - id: C17322_c
-    - name: trna containing 2-thiouridine
-    - compartment: c
-    - formula: C9H13N2O8PS(C5H8O6PR)n(C5H8O6PR)n
-    - annotation: !!omap
-      - chebi: CHEBI:81006
-      - kegg.compound: C17322
-      - pubchem.substance: 96023686
-  - !!omap
-    - id: C17323_c
-    - name: trna containing 5-carboxymethylaminomethyl-2-thiouridine
-    - compartment: c
-    - formula: C12H18N3O10PS(C5H8O6PR)n(C5H8O6PR)n
-    - annotation: !!omap
-      - chebi: CHEBI:81007
-      - kegg.compound: C17323
-      - pubchem.substance: 96023687
-  - !!omap
     - id: C17324_c
     - name: trna adenine
     - compartment: c
@@ -3894,7 +3922,7 @@
       - pubchem.substance: 96024384
   - !!omap
     - id: C181ACP
-    - name: oleoyl-[acp]
+    - name: octadecenoyl-[acp]
     - compartment: c
     - formula: C18H33OSR
     - annotation: !!omap
@@ -3978,7 +4006,7 @@
       - chebi: CHEBI:36434
   - !!omap
     - id: C183ACP
-    - name: linolenoyl-[acp]
+    - name: octadecadienoyl-[acp]
     - compartment: c
     - formula: C18H29OSR
   - !!omap
@@ -4081,23 +4109,6 @@
     - name: sphinganine
     - compartment: c
     - formula: C19H39NO2
-  - !!omap
-    - id: C19589_c
-    - name: aflatoxin b1 dialdehyde
-    - compartment: c
-    - formula: C17H14O8
-    - annotation: !!omap
-      - kegg.compound: C19589
-      - pubchem.substance: 124490261
-  - !!omap
-    - id: C19591_c
-    - name: 1,2,3,4-tetrahydro-alpha,7-dihydroxy-beta-(hydroxymethyl)-9-methoxy-3,4-dioxocyclopenta[c][1]benzopyran-6-propanal
-    - compartment: c
-    - formula: C17H16O8
-    - annotation: !!omap
-      - chebi: CHEBI:82582
-      - kegg.compound: C19591
-      - pubchem.substance: 124490263
   - !!omap
     - id: C19722_c
     - name: [trna(ile2)]-cytidine34
@@ -6201,41 +6212,11 @@
     - annotation: !!omap
       - chebi: CHEBI:16659
   - !!omap
-    - id: G00001_c
-    - name: n-acetyl-d-glucosaminyldiphosphodolichol
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00001
-  - !!omap
-    - id: G00002_c
-    - name: n,n'-chitobiosyldiphosphodolichol
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00002
-  - !!omap
-    - id: G00003_c
-    - name: g00003
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00003
-  - !!omap
-    - id: G00004_c
-    - name: g00004
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00004
-  - !!omap
     - id: G00005_c
     - name: g00005
     - compartment: c
     - annotation: !!omap
       - kegg.glycan: G00005
-  - !!omap
-    - id: G00006_c
-    - name: g00006
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00006
   - !!omap
     - id: G00007_c
     - name: g00007
@@ -6249,89 +6230,11 @@
     - annotation: !!omap
       - kegg.glycan: G00008
   - !!omap
-    - id: G00009_c
-    - name: g00009
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00009
-  - !!omap
     - id: G00010_c
     - name: g00010
     - compartment: c
     - annotation: !!omap
       - kegg.glycan: G00010
-  - !!omap
-    - id: G00011_c
-    - name: g00011
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00011
-  - !!omap
-    - id: G00012_c
-    - name: g00012
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00012
-  - !!omap
-    - id: G00015_c
-    - name: g00015
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00015
-  - !!omap
-    - id: G00019_c
-    - name: g00019
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00019
-  - !!omap
-    - id: G00140_c
-    - name: g00140
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00140
-  - !!omap
-    - id: G00141_c
-    - name: g00141
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00141
-  - !!omap
-    - id: G00143_c
-    - name: g00143
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00143
-  - !!omap
-    - id: G00144_c
-    - name: g00144
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00144
-  - !!omap
-    - id: G00145_c
-    - name: g00145
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00145
-  - !!omap
-    - id: G00146_c
-    - name: g00146
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00146
-  - !!omap
-    - id: G00147_c
-    - name: g00147
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00147
-  - !!omap
-    - id: G00151_c
-    - name: g00151
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G00151
   - !!omap
     - id: G00171_c
     - name: g00171
@@ -6339,35 +6242,11 @@
     - annotation: !!omap
       - kegg.glycan: G00171
   - !!omap
-    - id: G01813_c
-    - name: g01813
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G01813
-  - !!omap
     - id: G10526_c
     - name: g10526
     - compartment: c
     - annotation: !!omap
       - kegg.glycan: G10526
-  - !!omap
-    - id: G10595_c
-    - name: g10595
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G10595
-  - !!omap
-    - id: G10596_c
-    - name: g10596
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G10596
-  - !!omap
-    - id: G10597_c
-    - name: g10597
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G10597
   - !!omap
     - id: G10598_c
     - name: g10598
@@ -6392,30 +6271,6 @@
     - compartment: c
     - annotation: !!omap
       - kegg.glycan: G10618
-  - !!omap
-    - id: G10694_c
-    - name: g10694
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G10694
-  - !!omap
-    - id: G12573_c
-    - name: g12573
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G12573
-  - !!omap
-    - id: G13038_c
-    - name: g13038
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G13038
-  - !!omap
-    - id: G13039_c
-    - name: g13039
-    - compartment: c
-    - annotation: !!omap
-      - kegg.glycan: G13039
   - !!omap
     - id: G1P
     - name: alpha-d-glucose 1-phosphate
@@ -10028,8 +9883,32 @@
     - annotation: !!omap
       - chebi: CHEBI:18252
   - !!omap
-    - id: aor0040
-    - name: acyl coas
+    - id: [eif5a-precursor]-deoxyhypusine
+    - name: [eif5a-precursor]-deoxyhypusine
+    - compartment: c
+  - !!omap
+    - id: [eif5a-precursor]-lysine
+    - name: [eif5a-precursor]-lysine
+    - compartment: c
+  - !!omap
+    - id: acetone
+    - name: acetone
+    - compartment: c
+  - !!omap
+    - id: adenosylcobinamide
+    - name: adenosylcobinamide
+    - compartment: c
+  - !!omap
+    - id: alcohol
+    - name: alcohol
+    - compartment: c
+  - !!omap
+    - id: alpha-d-mannose 1-phosphate
+    - name: d-mannose 1-phosphate
+    - compartment: c
+  - !!omap
+    - id: ammonium hydroxide
+    - name: ammonium hydroxide
     - compartment: c
   - !!omap
     - id: aor0050
@@ -10067,14 +9946,14 @@
       - chebi:CHEBI: 17600
   - !!omap
     - id: aor0154
-    - name: octadecenoyl-[acp]
+    - name: oleoyl-[acp]
     - compartment: c
     - formula: C18H33OSR
     - annotation: !!omap
       - kegg.compound: C01203
   - !!omap
     - id: aor0157
-    - name: octadecadienoyl-[acp]
+    - name: linoleoyl-[acp]
     - compartment: c
     - formula: C18H29OSR
     - annotation: !!omap
@@ -10149,17 +10028,6 @@
     - formula: C27H46O
     - annotation: !!omap
       - chebi:CHEBI: 16113
-  - !!omap
-    - id: aor0213
-    - name: cholesterol esters
-    - compartment: c
-    - formula: C28H45O2R
-    - annotation: !!omap
-      - chebi:CHEBI: 17002
-  - !!omap
-    - id: aor0214
-    - name: cholesta-7,24-dien-3?-ol
-    - compartment: c
   - !!omap
     - id: aor0216
     - name: cinnamate
@@ -10374,14 +10242,14 @@
       - chebi:CHEBI: 46970
   - !!omap
     - id: aor0594
-    - name: 1-phosphatidyl-1d-myo-inositol 4-phosphates
+    - name: 1-phosphatidyl-1d-myo-inositol 4-phosphate
     - compartment: c
     - formula: C11H18O16P2R2
     - annotation: !!omap
       - chebi:CHEBI: 17526
   - !!omap
     - id: aor0595
-    - name: 1-phosphatidyl-1d-myo-inositol 3-phosphates
+    - name: 1-phosphatidyl-1d-myo-inositol 3-phosphate
     - compartment: c
     - formula: C11H18O16P2R2
     - annotation: !!omap
@@ -10542,7 +10410,7 @@
       - chebi:CHEBI: 17622
   - !!omap
     - id: aor0960
-    - name: h(+)
+    - name: h(+) (energy metabolism)
     - compartment: m
     - formula: p+1
     - annotation: !!omap
@@ -10590,6 +10458,10 @@
     - annotation: !!omap
       - kegg.compound: C06249
   - !!omap
+    - id: arylamine
+    - name: arylamine
+    - compartment: c
+  - !!omap
     - id: bALA
     - name: beta-alanine
     - compartment: c
@@ -10625,6 +10497,10 @@
     - annotation: !!omap
       - chebi: CHEBI:15903
   - !!omap
+    - id: beta-d-glucuronoside
+    - name: beta-d-glucuronoside
+    - compartment: c
+  - !!omap
     - id: cAMP
     - name: 3',5'-cyclic amp
     - compartment: c
@@ -10639,12 +10515,280 @@
     - annotation: !!omap
       - chebi: CHEBI:16356
   - !!omap
+    - id: caffeoyl-coa
+    - name: caffeoyl-coa
+    - compartment: c
+  - !!omap
+    - id: carboxylate
+    - name: carboxylate
+    - compartment: c
+  - !!omap
+    - id: carboxylic ester
+    - name: carboxylic ester
+    - compartment: c
+  - !!omap
     - id: cdAMP
     - name: 3',5'-cyclic damp
     - compartment: c
     - formula: C10H12N5O5P
     - annotation: !!omap
       - chebi: CHEBI:28074
+  - !!omap
+    - id: cellodextrin
+    - name: cellodextrin
+    - compartment: c
+  - !!omap
+    - id: chitobiosyldiphosphodolichol
+    - name: chitobiosyldiphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: cinnabarinic acid
+    - name: cinnabarinic acid
+    - compartment: c
+  - !!omap
+    - id: cinnamoyl-coa
+    - name: cinnamoyl-coa
+    - compartment: c
+  - !!omap
+    - id: cis-stilbene oxide
+    - name: cis-stilbene oxide
+    - compartment: c
+  - !!omap
+    - id: cobinamide
+    - name: cobinamide
+    - compartment: c
+  - !!omap
+    - id: coniferyl alcohol
+    - name: coniferyl alcohol
+    - compartment: c
+  - !!omap
+    - id: cycloartenol
+    - name: cycloartenol
+    - compartment: c
+  - !!omap
+    - id: cycloeucalenol
+    - name: cycloeucalenol
+    - compartment: c
+  - !!omap
+    - id: d-alanine
+    - name: d-alanine
+    - compartment: c
+  - !!omap
+    - id: d-glc-alpha-(1->2)-d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - name: d-glc-alpha-(1->2)-d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - name: d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: d-glucosaminide
+    - name: d-glucosaminide
+    - compartment: c
+  - !!omap
+    - id: d-man-alpha-(1->3)-[d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - name: d-man-alpha-(1->3)-[d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: d-man-alpha-(1->3)-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - name: d-man-alpha-(1->3)-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: d-ribulose
+    - name: d-ribulose
+    - compartment: c
+  - !!omap
+    - id: d-xylono-1,5-lactone
+    - name: d-xylono-1,5-lactone
+    - compartment: c
+  - !!omap
+    - id: delta8-phytosphingenine
+    - name: delta8-phytosphingenine
+    - compartment: c
+  - !!omap
+    - id: demethylmenaquinol
+    - name: demethylmenaquinol
+    - compartment: c
+  - !!omap
+    - id: glutaryl-coa
+    - name: glutaryl-coa
+    - compartment: c
+    - formula: C26H42N7O19P3S
+    - annotation: !!omap
+      - chebi: CHEBI:15524
+  - !!omap
+    - id: glutathione disulfide
+    - name: oxidized glutathione
+    - compartment: c
+  - !!omap
+    - id: guaiacyl lignin
+    - name: guaiacyl lignin
+    - compartment: c
+  - !!omap
+    - id: hydrogen peroxide
+    - name: h2o2
+    - compartment: c
+  - !!omap
+    - id: hydroperoxide
+    - name: hydroperoxide
+    - compartment: c
+  - !!omap
+    - id: l-ascorbate
+    - name: l-ascorbate
+    - compartment: c
+  - !!omap
+    - id: l-galactono-1,4-lactone
+    - name: l-galactono-1,4-lactone
+    - compartment: c
+  - !!omap
+    - id: l-galactose
+    - name: l-galactose
+    - compartment: c
+  - !!omap
+    - id: l-gulono-1,4-lactone
+    - name: l-gulono-1,4-lactone
+    - compartment: c
+  - !!omap
+    - id: l-xylo-hex-2-ulono-1,4-lactone
+    - name: l-xylo-hex-2-ulono-1,4-lactone
+    - compartment: c
+  - !!omap
+    - id: ll-2,6-diaminoheptanedioate
+    - name: ll-2,6-diaminoheptanedioate
+    - compartment: c
+  - !!omap
+    - id: malonyl-[acyl-carrier protein] methyl ester
+    - name: malonyl-[acyl-carrier protein] methyl ester
+    - compartment: c
+  - !!omap
+    - id: monodehydroascorbate
+    - name: monodehydroascorbate
+    - compartment: c
+  - !!omap
+    - id: n-acetyl-d-glucosaminyl-diphosphodolichol
+    - name: n-acetyl-d-glucosaminyl-diphosphodolichol
+    - compartment: c
+  - !!omap
+    - id: n-acetylarylamine
+    - name: n-acetylarylamine
+    - compartment: c
+  - !!omap
+    - id: n-acetylphosphinothricin
+    - name: n-acetylphosphinothricin
+    - compartment: c
+  - !!omap
+    - id: n-succinyl-ll-2,6-diaminoheptanedioate
+    - name: n-succinyl-ll-2,6-diaminoheptanedioate
+    - compartment: c
+  - !!omap
+    - id: nalpha-acetylpeptide
+    - name: nalpha-acetylpeptide
+    - compartment: c
+  - !!omap
+    - id: nicotinamide beta riboside
+    - name: nicotinamide beta riboside
+    - compartment: c
+  - !!omap
+    - id: nicotinamide mononucleotide
+    - name: nicotinamide mononucleotide
+    - compartment: c
+    - formula: C11H15N2O8P
+    - annotation: !!omap
+      - chebi: CHEBI:50383
+  - !!omap
+    - id: o-methylsterigmatocystin
+    - name: o-methylsterigmatocystin
+    - compartment: c
+  - !!omap
+    - id: obtusifoliol
+    - name: obtusifoliol
+    - compartment: c
+  - !!omap
+    - id: p1,p3-bis(5'-adenosyl) triphosphate
+    - name: p1,p3-bis(5'-adenosyl) triphosphate
+    - compartment: c
+  - !!omap
+    - id: p1,p4-bis(5'-adenosyl) tetraphosphate
+    - name: p1,p4-bis(5'-adenosyl) tetraphosphate
+    - compartment: c
+  - !!omap
+    - id: palmitoyl-carnitine
+    - name: palmitoyl-carnitine
+    - compartment: c
+  - !!omap
+    - id: paraxanthine
+    - name: paraxanthine
+    - compartment: c
+  - !!omap
+    - id: phenylacetamide
+    - name: phenylacetamide
+    - compartment: c
+  - !!omap
+    - id: phosphinothricin
+    - name: phosphinothricin
+    - compartment: c
+  - !!omap
+    - id: roh
+    - name: roh
+    - compartment: c
+  - !!omap
+    - id: s-geranylgeranyl-protein
+    - name: s-geranylgeranyl-protein
+    - compartment: c
+  - !!omap
+    - id: sedoheptulose 1,7-bisphosphate
+    - name: sedoheptulose 7-phosphate
+    - compartment: c
+  - !!omap
+    - id: semiquinone 
+    - name: semiquinone 
+    - compartment: c
+  - !!omap
+    - id: sterigmatocystin
+    - name: sterigmatocystin
+    - compartment: c
+  - !!omap
+    - id: superoxide
+    - name: superoxide
+    - compartment: c
+  - !!omap
+    - id: tetrahydrobiopterin
+    - name: tetrahydrobiopterin
+    - compartment: c
+  - !!omap
+    - id: tetrahydrobiopterin
+    - name: tetrahydrobiopterin
+    - compartment: c
+  - !!omap
+    - id: trans,trans-2,3,4,5-tetradehydroacyl-coa
+    - name: trans,trans-2,3,4,5-tetradehydroacyl-coa
+    - compartment: c
+  - !!omap
+    - id: trans-2,3-didehydroacyl-coa
+    - name: trans-2,3-didehydroacyl-coa
+    - compartment: c
+  - !!omap
+    - id: trans-but-2-enoyl-coa
+    - name: trans-but-2-enoyl-coa
+    - compartment: c
+    - formula: C25H40N7O17P3S
+  - !!omap
+    - id: trans-cinnamate
+    - name: trans-cinnamate
+    - compartment: c
+  - !!omap
+    - id: trans-hexadec-2-enoyl-coa
+    - name: trans-hexadec-2-enoyl-coa
+    - compartment: c
+    - formula: C37H64N7O17P3S
+  - !!omap
+    - id: tryparedoxin
+    - name: tryparedoxin
+    - compartment: c
+  - !!omap
+    - id: tryparedoxin disulfide
+    - name: tryparedoxin disulfide
+    - compartment: c
   - !!omap
     - id: undefined_124_c
     - name: n c00013
@@ -10721,14 +10865,16 @@
       - PI: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_04641 or CCM_08700 or CCM_05534
+    - gene_reaction_rule: CCM_00302 or CCM_02511 or CCM_04641 or CCM_05534 or CCM_08700
     - subsystem: Purine metabolism
     - annotation: !!omap
       - ec-code:
+        - 3.6.3.9
+        - 3.6.4.1
+        - ec-code/3.6.1.15
         - ec-code/3.6.1.3
         - ec-code/3.6.1.5
         - ec-code/3.6.1.8
-        - ec-code/3.6.1.15
     - confidence_score: 0
   - !!omap
     - id: R00100_c
@@ -11105,18 +11251,6 @@
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/2.4.1.117
-    - confidence_score: 0
-  - !!omap
-    - id: R01009_c
-    - name: GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase
-    - metabolites: !!omap
-      - GDPMAN: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00704 or CCM_01823 or CCM_05300
-    - subsystem: N-Glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.83
     - confidence_score: 0
   - !!omap
     - id: R01025_c
@@ -11828,20 +11962,6 @@
       - ec-code: ec-code/3.1.1.5
     - confidence_score: 0
   - !!omap
-    - id: R02756_c
-    - metabolites: !!omap
-      - C03372_c: 1
-      - NADP: -1
-      - NADPH: 1
-      - aor0054: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00856 or CCM_02900 or CCM_06840
-    - subsystem: Glycerophospholipid metabolism
-    - annotation: !!omap
-      - ec-code: ec-code/1.1.1.101
-    - confidence_score: 0
-  - !!omap
     - id: R02964_c
     - name: NADH:menaquinone oxidoreductase
     - metabolites: !!omap
@@ -12133,23 +12253,6 @@
     - gene_reaction_rule: CCM_02636
     - annotation: !!omap
       - ec-code: ec-code/2.7.7.50
-    - confidence_score: 0
-  - !!omap
-    - id: R03875_c
-    - metabolites: !!omap
-      - C02188_c: -1
-      - C05544_c: 1
-      - SAH: 1
-      - SAM: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_06493 or CCM_00746 or CCM_03919 or CCM_07296 or CCM_06781 or CCM_08113 or CCM_09043
-    - subsystem: Lysine degradation
-    - annotation: !!omap
-      - ec-code:
-        - ec-code/2.1.1.43
-        - ec-code/2.1.1.59
-        - ec-code/2.1.1.60
     - confidence_score: 0
   - !!omap
     - id: R03893_c
@@ -12540,147 +12643,6 @@
       - ec-code: ec-code/2.7.1.150
     - confidence_score: 0
   - !!omap
-    - id: R05916_c
-    - metabolites: !!omap
-      - G00143_c: 1
-      - PINS: -1
-      - UDPNAG: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05129 or CCM_02504 or CCM_03311 or CCM_01018 or CCM_05437 or CCM_01823
-    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.198
-    - confidence_score: 0
-  - !!omap
-    - id: R05917_c
-    - metabolites: !!omap
-      - AC: 1
-      - G00143_c: -1
-      - G00144_c: 1
-      - H2O: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_08051
-    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/3.5.1.89
-    - confidence_score: 0
-  - !!omap
-    - id: R05918_c
-    - metabolites: !!omap
-      - C160COA: -1
-      - COA: 1
-      - G00144_c: -1
-      - G00145_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00061
-    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.3.-.-
-    - confidence_score: 0
-  - !!omap
-    - id: R05920_c
-    - metabolites: !!omap
-      - C00641_c: 1
-      - G00146_c: -1
-      - G00147_c: 1
-      - PE: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_02937
-    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.7.-.-
-    - confidence_score: 0
-  - !!omap
-    - id: R05923_c
-    - metabolites: !!omap
-      - C00641_c: 1
-      - G00140_c: -1
-      - G00141_c: 1
-      - PE: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00275 or CCM_07258
-    - confidence_score: 0
-  - !!omap
-    - id: R05924_c
-    - metabolites: !!omap
-      - C00641_c: 1
-      - G00141_c: -1
-      - G00151_c: 1
-      - PE: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00275 or CCM_05781
-    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.7.-.-
-    - confidence_score: 0
-  - !!omap
-    - id: R05970_c
-    - metabolites: !!omap
-      - G00001_c: -1
-      - G00002_c: 1
-      - UDPNAG: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_09129 or CCM_09110
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.141
-    - confidence_score: 0
-  - !!omap
-    - id: R05972_c
-    - metabolites: !!omap
-      - G00002_c: -1
-      - G00003_c: 1
-      - G10614_c: -1
-      - GDP: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_04210
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.142
-    - confidence_score: 0
-  - !!omap
-    - id: R05973_c
-    - metabolites: !!omap
-      - G00003_c: -1
-      - G00004_c: 1
-      - G10614_c: -1
-      - GDP: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_02067
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.132
-    - confidence_score: 0
-  - !!omap
-    - id: R05979_c
-    - metabolites: !!omap
-      - G00009_c: -1
-      - G00171_c: 1
-      - H2O: -1
-      - bDGLC: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_07809
-    - subsystem: N-Glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/3.2.1.106
-    - confidence_score: 0
-  - !!omap
     - id: R05980_c
     - name: Glc2Man9GlcNAc2-[protein] 3-alpha-glucohydrolase (configuration-inverting)
     - metabolites: !!omap
@@ -12694,35 +12656,6 @@
     - subsystem: N-Glycan biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/3.2.1.207
-    - confidence_score: 0
-  - !!omap
-    - id: R05982_c
-    - metabolites: !!omap
-      - G00011_c: -1
-      - G00012_c: 1
-      - H2O: -4
-      - MAN: 4
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/3.2.1.113
-    - confidence_score: 0
-  - !!omap
-    - id: R05986_c
-    - metabolites: !!omap
-      - G00015_c: -1
-      - G00019_c: 1
-      - UDPNAG: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00141 or CCM_00974 or CCM_01490 or CCM_03026
-    - subsystem: N-Glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.144
     - confidence_score: 0
   - !!omap
     - id: R06127_c
@@ -12756,52 +12689,6 @@
       - ec-code:
         - ec-code/4.1.2.48
         - ec-code/4.1.2.49
-    - confidence_score: 0
-  - !!omap
-    - id: R06258_c
-    - metabolites: !!omap
-      - C00110_c: 1
-      - C03862_c: -1
-      - G00006_c: -1
-      - G10595_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00021
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.258
-    - confidence_score: 0
-  - !!omap
-    - id: R06259_c
-    - metabolites: !!omap
-      - C00110_c: 1
-      - C03862_c: -1
-      - G10595_c: -1
-      - G10596_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00885
-    - subsystem: N-Glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.259
-    - confidence_score: 0
-  - !!omap
-    - id: R06260_c
-    - metabolites: !!omap
-      - C00110_c: 1
-      - C03862_c: -1
-      - G10596_c: -1
-      - G10597_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_06927
-    - subsystem:
-        - N-Glycan biosynthesis
-        - Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.260
     - confidence_score: 0
   - !!omap
     - id: R06262_c
@@ -12961,20 +12848,6 @@
         - ec-code/2.7.7.80
     - confidence_score: 0
   - !!omap
-    - id: R07488_c
-    - metabolites: !!omap
-      - C01753_c: 1
-      - C08821_c: -1
-      - NADP: 1
-      - NADPH: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05983
-    - subsystem: Steroid biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/1.3.1.-
-    - confidence_score: 0
-  - !!omap
     - id: R07495_c
     - name: 4alpha-methylzymosterol:NADP+ 3-oxidoreductase
     - metabolites: !!omap
@@ -12988,48 +12861,6 @@
     - subsystem: Steroid biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/1.1.1.270
-    - confidence_score: 0
-  - !!omap
-    - id: R07758_c
-    - metabolites: !!omap
-      - C160COA: -1
-      - C16216_c: 1
-      - CO2: 1
-      - COA: 1
-      - MALCOA: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_03752
-    - subsystem: Biosynthesis of unsaturated fatty acids
-    - annotation: !!omap
-      - ec-code: ec-code/2.3.1.199
-    - confidence_score: 0
-  - !!omap
-    - id: R07759_c
-    - metabolites: !!omap
-      - C16216_c: -1
-      - C16217_c: 1
-      - NADP: 1
-      - NADPH: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_04252 or CCM_09322
-    - subsystem: Biosynthesis of unsaturated fatty acids
-    - annotation: !!omap
-      - ec-code: ec-code/1.1.1.330
-    - confidence_score: 0
-  - !!omap
-    - id: R07760_c
-    - metabolites: !!omap
-      - C16217_c: -1
-      - C16218_c: 1
-      - H2O: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_01449
-    - subsystem: Biosynthesis of unsaturated fatty acids
-    - annotation: !!omap
-      - ec-code: ec-code/4.2.1.134
     - confidence_score: 0
   - !!omap
     - id: R07761_c
@@ -13047,26 +12878,6 @@
       - ec-code:
         - ec-code/1.3.1.38
         - ec-code/1.3.1.93
-    - confidence_score: 0
-  - !!omap
-    - id: R07762_c
-    - metabolites: !!omap
-      - ACP: 1
-      - C160ACP: -1
-      - C18OACP: 1
-      - CO2: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_01811 or CCM_03752
-    - subsystem:
-        - Fatty acid biosynthesis
-        - Biosynthesis of unsaturated fatty acids
-    - annotation: !!omap
-      - ec-code:
-        - ec-code/2.3.1.41
-        - ec-code/2.3.1.179
-        - ec-code/2.3.1.199
-        - ec-code/2.3.1.-
     - confidence_score: 0
   - !!omap
     - id: R07766_c
@@ -13101,34 +12912,6 @@
       - ec-code: ec-code/2.8.1.8
     - confidence_score: 0
   - !!omap
-    - id: R07770_c
-    - metabolites: !!omap
-      - ATP: -1
-      - C16238_c: 1
-      - C16241_c: -1
-      - PPI: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_02165
-    - subsystem: Lipoic acid metabolism
-    - annotation: !!omap
-      - ec-code: ec-code/6.3.1.20
-    - confidence_score: 0
-  - !!omap
-    - id: R07816_c
-    - metabolites: !!omap
-      - G13038_c: -1
-      - G13039_c: 1
-      - H2O: -1
-      - NAG: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_02201 or CCM_04090
-    - subsystem: Glycosaminoglycan degradation
-    - annotation: !!omap
-      - ec-code: ec-code/3.2.1.50
-    - confidence_score: 0
-  - !!omap
     - id: R08266_c
     - name: tamoxifen,NADPH:oxygen oxidoreductase (N-oxide-forming)
     - metabolites: !!omap
@@ -13160,36 +12943,6 @@
       - ec-code: ec-code/4.2.1.126
     - confidence_score: 0
   - !!omap
-    - id: R08599_c
-    - metabolites: !!omap
-      - G01813_c: 1
-      - G10614_c: -1
-      - G10694_c: -1
-      - GDP: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05217
-    - subsystem: Various types of N-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.232
-    - confidence_score: 0
-  - !!omap
-    - id: R08701_c
-    - name: tRNA uridine 5-carboxymethylaminomethyl modification
-    - metabolites: !!omap
-      - C00028_c: 1
-      - C00030_c: -1
-      - C03479_c: -1
-      - C17322_c: -1
-      - C17323_c: 1
-      - GLY: -1
-      - H2O: 1
-      - THF: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05830 or CCM_07813
-    - confidence_score: 0
-  - !!omap
     - id: R09030_c
     - name: D-allose-6-phosphate aldose-ketose-isomerase
     - metabolites: !!omap
@@ -13213,20 +12966,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: CCM_05827
-    - subsystem: Glycerophospholipid metabolism
-    - annotation: !!omap
-      - ec-code: ec-code/2.3.1.-
-    - confidence_score: 0
-  - !!omap
-    - id: R09037_c
-    - metabolites: !!omap
-      - ACYLCOA: -1
-      - C18129_c: -1
-      - CL: 1
-      - COA: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05795
     - subsystem: Glycerophospholipid metabolism
     - annotation: !!omap
       - ec-code: ec-code/2.3.1.-
@@ -13289,15 +13028,6 @@
       - ec-code: ec-code/2.3.1.188
     - confidence_score: 0
   - !!omap
-    - id: R09144_c
-    - metabolites: !!omap
-      - C11148_c: -1
-      - aor0367: 1
-    - lower_bound: 0
-    - upper_bound: 0
-    - subsystem: Chloroalkane and chloroalkene degradation
-    - confidence_score: 0
-  - !!omap
     - id: R09289_c
     - name: 3-hydroxypropionate:NADP+ oxidoreductase
     - metabolites: !!omap
@@ -13317,19 +13047,6 @@
         - ec-code/1.1.1.-
     - confidence_score: 0
   - !!omap
-    - id: R09304_c
-    - metabolites: !!omap
-      - C02189_c: -1
-      - G12573_c: 1
-      - UDPNAG: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_09057
-    - subsystem: Other types of O-glycan biosynthesis
-    - annotation: !!omap
-      - ec-code: ec-code/2.4.1.255
-    - confidence_score: 0
-  - !!omap
     - id: R09395_c
     - name: thiocarboxylated molybdopterin synthase:cyclic pyranopterin phosphate sulfurtransferase
     - metabolites: !!omap
@@ -13343,16 +13060,6 @@
     - subsystem: Folate biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/2.8.1.12
-    - confidence_score: 0
-  - !!omap
-    - id: R09412_c
-    - metabolites: !!omap
-      - C19589_c: -1
-      - C19591_c: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00257 or CCM_03116
-    - subsystem: Metabolism of xenobiotics by cytochrome P450
     - confidence_score: 0
   - !!omap
     - id: R09597_c
@@ -13462,19 +13169,6 @@
     - subsystem: Biotin metabolism
     - annotation: !!omap
       - ec-code: ec-code/1.1.1.100
-    - confidence_score: 0
-  - !!omap
-    - id: R10151_c
-    - metabolites: !!omap
-      - C00125_c: -8
-      - C00126_c: 8
-      - C00320_c: -1
-      - H2O: -5
-      - SLF: 2
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_02454
-    - subsystem: Sulfur metabolism
     - confidence_score: 0
   - !!omap
     - id: R10231_c
@@ -13623,17 +13317,6 @@
     - subsystem: Thiamine metabolism
     - annotation: !!omap
       - ec-code: ec-code/2.4.2.60
-    - confidence_score: 0
-  - !!omap
-    - id: R10686_c
-    - metabolites: !!omap
-      - AHMP: 1
-      - HIS: -1
-      - PDXL5PI: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_05035
-    - subsystem: Thiamine metabolism
     - confidence_score: 0
   - !!omap
     - id: R10722_c
@@ -13785,17 +13468,18 @@
     - confidence_score: 0
   - !!omap
     - id: R11308_c
+    - name: endoglucanase
     - metabolites: !!omap
-      - C01898_c: -1
+      - CELLOB: 1
+      - cellodextrin: -1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: CCM_06251 or CCM_06716 or CCM_09183
-    - subsystem: Starch and sucrose metabolism
     - annotation: !!omap
       - ec-code:
-        - ec-code/3.2.1.4
-        - ec-code/3.2.1.91
-    - confidence_score: 0
+        - 3.2.1.4
+        - 3.2.1.91
+    - confidence_score: 4
   - !!omap
     - id: R11583_c
     - name: L-cysteine:molybdenum cofactor sulfurtransferase
@@ -13813,17 +13497,6 @@
     - subsystem: Folate biosynthesis
     - annotation: !!omap
       - ec-code: ec-code/2.8.1.9
-    - confidence_score: 0
-  - !!omap
-    - id: R11671_c
-    - metabolites: !!omap
-      - ACCOA: -1
-      - C05223_c: 1
-      - MALCOA: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_00703 or CCM_01693 or CCM_03662 or CCM_03982 or CCM_09164
-    - subsystem: Prodigiosin biosynthesis
     - confidence_score: 0
   - !!omap
     - id: R11861_c
@@ -20902,10 +20575,12 @@
       - PI: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_07752 or CCM_00441
+    - gene_reaction_rule: CCM_00441 or CCM_07752
     - subsystem: Purine metabolism
     - annotation: !!omap
-      - ec-code: 3.6.1.6
+      - ec-code:
+        - 3.6.1.42
+        - 3.6.1.6
       - kegg.reaction: R00328
     - confidence_score: 2
   - !!omap
@@ -21833,6 +21508,7 @@
     - annotation: !!omap
       - ec-code:
         - 2.7.7.1
+        - 2.7.7.18
         - ec-code/2.7.7.1
         - ec-code/2.7.7.18
       - kegg.reaction: R03005
@@ -22563,7 +22239,9 @@
     - upper_bound: 1000
     - subsystem: Ubiquinone and other terpenoid-quinone biosynthesis
     - annotation: !!omap
-      - ec-code: 4.1.3.40
+      - ec-code:
+        - 4.1.3.-
+        - 4.1.3.40
     - confidence_score: 1
   - !!omap
     - id: r0506
@@ -23636,10 +23314,11 @@
       - ORN: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_00841 or CCM_02857 or CCM_03627 or CCM_06895
+    - gene_reaction_rule: CCM_00841 or CCM_02857 or CCM_03627 or CCM_05862 or CCM_06895
     - subsystem: Arginine and proline metabolism
     - annotation: !!omap
       - ec-code:
+        - 3.5.1.14
         - 3.5.1.16
         - ec-code/3.5.1.14
         - ec-code/3.5.1.16
@@ -25684,10 +25363,12 @@
       - PYR: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_08247
+    - gene_reaction_rule: CCM_03105 or CCM_08247
     - subsystem: Lysine metabolism
     - annotation: !!omap
-      - ec-code: 4.2.1.52
+      - ec-code:
+        - 4.2.1.52
+        - 4.3.3.7
       - kegg.reaction: R02292
     - confidence_score: 2
   - !!omap
@@ -25938,7 +25619,9 @@
     - gene_reaction_rule: CCM_02833 or CCM_03688 or CCM_06695
     - subsystem: Phenylalanine, tyrosine and tryptophan biosynthesis
     - annotation: !!omap
-      - ec-code: 1.13.11.11
+      - ec-code:
+        - 1.13.11.11
+        - 1.13.11.52
       - kegg.reaction: R00678
       - pubmed: 18820685
     - confidence_score: 2
@@ -27521,10 +27204,11 @@
       - H2O: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_01450 or CCM_01571 or CCM_01695 or CCM_05545
+    - gene_reaction_rule: CCM_01450 or CCM_01571 or CCM_01695 or CCM_05545 or CCM_05888
     - subsystem: Glutathione metabolism
     - annotation: !!omap
       - ec-code:
+        - 3.4.11.1
         - 3.4.11.2
         - ec-code/3.4.11.1
         - ec-code/3.4.11.2
@@ -36388,34 +36072,6 @@
     - subsystem: Transport, plasma membrane (non-carrier mediated)
     - confidence_score: 1
   - !!omap
-    - id: r1487
-    - name: Cholestenol delta-isomerase
-    - metabolites: !!omap
-      - ZYMST: -1
-      - aor0214: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_07516 or CCM_08895 or CCM_07586 or CCM_08895
-    - subsystem: Cholesterol Metabolism
-    - annotation: !!omap
-      - ec-code: 5.3.3.5
-    - confidence_score: 0
-  - !!omap
-    - id: r1495
-    - name: Sterol o-acyltransferase
-    - metabolites: !!omap
-      - COA: 1
-      - aor0040: -1
-      - aor0212: -1
-      - aor0213: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: CCM_07840
-    - subsystem: Cholesterol Metabolism
-    - annotation: !!omap
-      - ec-code: 2.3.1.26
-    - confidence_score: 0
-  - !!omap
     - id: r1510
     - name: Ethanolaminephosphotransferase.
     - metabolites: !!omap
@@ -37340,10 +36996,13 @@
       - MANNAN: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: CCM_04640 or CCM_08185 or CCM_08733 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_00160 or CCM_06392 or CCM_01277 or CCM_02744 or CCM_02902 or CCM_04718 or CCM_08185 or CCM_08733
+    - gene_reaction_rule: CCM_00160 or CCM_01277 or CCM_01968 or CCM_02744 or CCM_02902 or CCM_04640 or CCM_04718 or CCM_06392 or CCM_08185 or CCM_08733
     - subsystem: Polysaccharide metabolism (Starch, Cellulose, Chitin, and Xylan)
     - annotation: !!omap
-      - ec-code: 3.2.1.113
+      - ec-code:
+        - 3.2.1.101
+        - 3.2.1.113
+        - 3.2.1.24
     - confidence_score: 0
   - !!omap
     - id: r473
@@ -37897,6 +37556,1640 @@
     - subsystem: Exchange reactions
     - confidence_score: 1
   - !!omap
+    - id: wv_R00014
+    - name: Sedoheptulose-bisphosphatase
+    - metabolites: !!omap
+      - H2O: -1
+      - PI: 1
+      - S7P: 1
+      - sedoheptulose 1,7-bisphosphate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02605
+    - annotation: !!omap
+      - ec-code: 3.1.3.37
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00018
+    - name: Phosphoglycerate mutase
+    - metabolites: !!omap
+      - 2PG: 1
+      - 3PG: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01016
+    - annotation: !!omap
+      - ec-code: 5.4.2.11
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00056
+    - name: Quinone oxidoreductase
+    - metabolites: !!omap
+      - NADP: 1
+      - NADPH: -1
+      - Q: -2
+      - semiquinone : 2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07582
+    - annotation: !!omap
+      - ec-code: 1.6.5.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00066
+    - name: Peptide alpha-N-acetyltransferase
+    - metabolites: !!omap
+      - ACCOA: -1
+      - C00012_c: -1
+      - COA: 1
+      - nalpha-acetylpeptide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01241
+    - annotation: !!omap
+      - ec-code: 2.3.1.88
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00073
+    - name: Catalase peroxidase
+    - metabolites: !!omap
+      - H2O: 2
+      - O2: 1
+      - hydrogen peroxide: -2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01912
+    - annotation: !!omap
+      - ec-code: 1.11.1.21
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00078
+    - name: Cytochrome-c peroxidase
+    - metabolites: !!omap
+      - C00125_c: 2
+      - C00126_c: -2
+      - H2O: 2
+      - hydrogen peroxide: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06954
+    - annotation: !!omap
+      - ec-code: 1.11.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00079
+    - name: Superoxide dismutase
+    - metabolites: !!omap
+      - O2: 1
+      - hydrogen peroxide: 1
+      - superoxide: -2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03403
+    - annotation: !!omap
+      - ec-code: 1.15.1.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00096
+    - name: Acetyl-CoA hydrolase
+    - metabolites: !!omap
+      - AC: 1
+      - ACCOA: -1
+      - COA: 1
+      - H2O: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.2.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00105
+    - name: FMN dependent dehydrogenase, 
+    - metabolites: !!omap
+      - AC: 1
+      - CO2: 1
+      - H2O: 1
+      - LLAC: -1
+      - O2: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06299
+    - annotation: !!omap
+      - ec-code: 1.13.12.4
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00110
+    - name: UDP-glucurosyltransferase
+    - metabolites: !!omap
+      - H2O: -1
+      - UDP: 1
+      - aor0700: -1
+      - beta-d-glucuronoside: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_09558
+    - annotation: !!omap
+      - ec-code: 2.4.1.17
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00114
+    - name: Beta-glucuronidase
+    - metabolites: !!omap
+      - GLCUNT: 1
+      - H2O: -1
+      - alcohol: 1
+      - beta-d-glucuronoside: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04958
+    - annotation: !!omap
+      - ec-code: 3.2.1.31
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00118
+    - name: 2,5-diketo-D-gluconate reductase
+    - metabolites: !!omap
+      - 2,5-didehydro-d-gluconate: 1
+      - 2-dehydro-d-gluconate: -1
+      - NADP: -1
+      - NADPH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03850
+    - annotation: !!omap
+      - ec-code: 1.1.1.274
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00123
+    - name: 1-amicyclopropane-1-carboxylate synthase
+    - metabolites: !!omap
+      - 5MTA: 1
+      - ACPC: 1
+      - SAM: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03731
+    - annotation: !!omap
+      - ec-code: 4.4.1.14
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00131
+    - name: 3-hydroxybutyrate dehydrogenase
+    - metabolites: !!omap
+      - (r)-3-hydroxybutanoate: -1
+      - ACTAC: 1
+      - NAD: -1
+      - NADH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06032
+    - annotation: !!omap
+      - ec-code: 1.1.1.30
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00132
+    - name: L-2-hydroxyglutarate dehydrogenase
+    - metabolites: !!omap
+      - (s)-2-hydroxyglutarate: -1
+      - AKG: 1
+      - C01352_c: 1
+      - FAD: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05328
+    - annotation: !!omap
+      - ec-code: 1.1.99.2
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00144
+    - name: D-arabinitol 2-dehydrogenase
+    - metabolites: !!omap
+      - AOL: -1
+      - NAD: -1
+      - NADH: 1
+      - d-ribulose: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03371
+    - annotation: !!omap
+      - ec-code: 1.1.1.250
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00145
+    - name: D-ribulokinase
+    - metabolites: !!omap
+      - ADP: 1
+      - ATP: -1
+      - RL5P: 1
+      - d-ribulose: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00854
+    - annotation: !!omap
+      - ec-code: 2.7.1.47
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00148
+    - name: D-xylose 1-dehydrogenase (NADP)
+    - metabolites: !!omap
+      - NADP: -1
+      - NADPH: 1
+      - XYL: -1
+      - d-xylono-1,5-lactone: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04763
+    - annotation: !!omap
+      - ec-code: 1.1.1.179
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00166
+    - name: Mannose-1-phosphate guanylyltransferase
+    - metabolites: !!omap
+      - GDPMAN: 1
+      - GTP: -1
+      - PPI: 1
+      - alpha-d-mannose 1-phosphate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_08766
+    - annotation: !!omap
+      - ec-code: 2.7.7.13
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00196
+    - name: Beta-mannanase
+    - metabolites: !!omap
+      - 1,4-beta-d-mannan: -1
+      - MAN: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01279
+    - annotation: !!omap
+      - ec-code: 3.2.1.78
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00229
+    - name: Exo-1,4-beta-D-glucosaminidase
+    - metabolites: !!omap
+      - GLCN: 1
+      - d-glucosaminide: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04923
+    - annotation: !!omap
+      - ec-code: 3.2.1.165
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00230
+    - name: Glucan endo-1,3-beta-D-glucosidase
+    - metabolites: !!omap
+      - 13GLUCAN: -1
+      - DGLC: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01678
+    - annotation: !!omap
+      - ec-code: 3.2.1.39
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00238
+    - name: L-ascorbate oxidase
+    - metabolites: !!omap
+      - H2O: 2
+      - O2: -1
+      - l-ascorbate: -4
+      - monodehydroascorbate: 4
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02267
+    - annotation: !!omap
+      - ec-code: 1.10.3.3
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00241
+    - name: L-gulonolactone oxidase
+    - metabolites: !!omap
+      - O2: -1
+      - hydrogen peroxide: 1
+      - l-gulono-1,4-lactone: -1
+      - l-xylo-hex-2-ulono-1,4-lactone: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00852
+    - annotation: !!omap
+      - ec-code: 1.1.3.8
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00242
+    - name: L-galactose 1-dehydrogenase
+    - metabolites: !!omap
+      - NAD: -1
+      - NADH: 1
+      - l-galactono-1,4-lactone: 1
+      - l-galactose: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04947
+    - annotation: !!omap
+      - ec-code: 1.1.1.316
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00244
+    - name: Glutathione dehydrogenase (ascorbate)
+    - metabolites: !!omap
+      - RGT: -2
+      - glutathione disulfide: 1
+      - l-ascorbate: 1
+      - monodehydroascorbate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07575
+    - annotation: !!omap
+      - ec-code: 1.8.5.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00260
+    - name: UDP-N-acetylglucosamine-dolichyl-phosphate N-acetylglucosaminephosphotransferase
+    - metabolites: !!omap
+      - C00110_c: -1
+      - UDPNAG: -1
+      - UMP: 1
+      - n-acetyl-d-glucosaminyl-diphosphodolichol: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04175
+    - annotation: !!omap
+      - ec-code: 2.7.8.15
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00261
+    - name: N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase
+    - metabolites: !!omap
+      - UDP: 1
+      - UDPNAG: -1
+      - chitobiosyldiphosphodolichol: 1
+      - n-acetyl-d-glucosaminyl-diphosphodolichol: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_09129
+    - annotation: !!omap
+      - ec-code: 2.4.1.141     
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00264
+    - name: GDP-Man:Man2GlcNAc2-PP-dolichol alpha-1,6-mannosyltransferase
+    - metabolites: !!omap
+      - GDP: 1
+      - GDPMAN: -1
+      - d-man-alpha-(1->3)-[d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol: 1
+      - d-man-alpha-(1->3)-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02067
+    - annotation: !!omap
+      - ec-code: 2.4.1.257
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00269
+    - name: Dolichyl-P-Glc:Glc2Man9GlcNAc2-PP-dolichol alpha-1,2-glucosyltransferase
+    - metabolites: !!omap
+      - C00110_c: 1
+      - C01246_c: -1
+      - d-glc-alpha-(1->2)-d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol: 1
+      - d-glc-alpha-(1->3)-d-glc-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->2)-d-man-alpha-(1->3)-[d-man-alpha-(1->2)-d-man-alpha-(1->3)-d-man-alpha-(1->2)-d-man-alpha-(1->6)]-d-man-alpha-(1->6)]-d-man-beta-(1->4)-d-glcnac-beta-(1->4)-d-glcnac-diphosphodolichol: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00015
+    - annotation: !!omap
+      - ec-code: 2.4.1.256
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00271
+    - name: Dolichyl diphosphatase
+    - metabolites: !!omap
+      - C00110_c: 1
+      - C00621_c: -1
+      - H2O: -1
+      - PI: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05596
+    - annotation: !!omap
+      - ec-code: 3.6.1.43
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00303
+    - name: Nitrite reductase (NADPH)
+    - metabolites: !!omap
+      - H2O: 1
+      - HNO2: -1
+      - NADP: 3
+      - NADPH: -3
+      - ammonium hydroxide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02951
+    - annotation: !!omap
+      - ec-code: 1.7.1.4
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00304
+    - name: Nitrate reductase (NADH)
+    - metabolites: !!omap
+      - H2O: 1
+      - HNO2: 1
+      - HNO3: -1
+      - NAD: 1
+      - NADH: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02639
+    - annotation: !!omap
+      - ec-code: 1.7.1.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00306
+    - name: 2-nitropropane dioxygenase
+    - metabolites: !!omap
+      - 2-nitropropane: -2
+      - HNO2: 2
+      - O2: -1
+      - acetone: 2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04031
+    - annotation: !!omap
+      - ec-code: 1.13.11.32
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00319
+    - name: Alanine racemase
+    - metabolites: !!omap
+      - ALA: -1
+      - d-alanine: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05940
+    - annotation: !!omap
+      - ec-code: 5.1.1.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00320
+    - name: Aspartate racemase
+    - metabolites: !!omap
+      - ASP: -1
+      - aor0246: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05547
+    - annotation: !!omap
+      - ec-code: 5.1.1.13
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00323
+    - name: D-amino acid oxidase
+    - metabolites: !!omap
+      - GLY: -1
+      - H2O: -1
+      - NH3: 1
+      - O2: -1
+      - aor0367: 1
+      - hydrogen peroxide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00020
+    - annotation: !!omap
+      - ec-code: 1.4.3.3
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00334
+    - name: Omega-amidase
+    - metabolites: !!omap
+      - 2-oxosuccinamate: -1
+      - H2O: -1
+      - NH3: 1
+      - OA: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00553
+    - annotation: !!omap
+      - ec-code: 3.5.1.3
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00337
+    - name: Polyamine oxidase
+    - metabolites: !!omap
+      - 1,3-diaminopropane: 1
+      - 4-aminobutyraldehyde: 1
+      - H2O: -1
+      - O2: -1
+      - SPRMD: -1
+      - hydrogen peroxide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.5.3.14 
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00338
+    - name: Deoxyhypusine synthase
+    - metabolites: !!omap
+      - 1,3-diaminopropane: 1
+      - SPRMD: -1
+      - [eif5a-precursor]-deoxyhypusine: 1
+      - [eif5a-precursor]-lysine: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04765
+    - annotation: !!omap
+      - ec-code: 2.5.1.46
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00358
+    - name: Proline dehydrogenase
+    - metabolites: !!omap
+      - C01352_c: 1
+      - FAD: -1
+      - P5C: 1
+      - PRO: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02842
+    - annotation: !!omap
+      - ec-code: 1.5.5.2
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00360
+    - name: Delta-1-Pyrroline-5-carboxylate dehydrogenase
+    - metabolites: !!omap
+      - GLU: 1
+      - GLUGSAL: -1
+      - NADP: -1
+      - NADPH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06901
+    - annotation: !!omap
+      - ec-code: 1.2.1.88
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00367
+    - name: Diamine acetyltransferase
+    - metabolites: !!omap
+      - ACCOA: -1
+      - APRUT: 1
+      - COA: 1
+      - PTRSC: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00942
+    - annotation: !!omap
+      - ec-code: 2.3.1.57
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00373
+    - name: Ornithine cyclodeaminase
+    - metabolites: !!omap
+      - NH3: 1
+      - ORN: -1
+      - PRO: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 4.3.1.12
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00395
+    - name: Glutamate synthase (NADH)
+    - metabolites: !!omap
+      - AKG: -1
+      - GLN: -1
+      - GLU: 2
+      - NAD: 1
+      - NADH: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03495
+    - annotation: !!omap
+      - ec-code: 1.4.1.14
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00457
+    - name: Glutamine amidotransferase
+    - metabolites: !!omap
+      - -5[(5-phospho-1-deoxy-d-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-d-ribosyl)imidazole-4-carboxamide: -1
+      - AICAR: 1
+      - DIMGP: 1
+      - GLN: -1
+      - GLU: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04678
+    - annotation: !!omap
+      - ec-code:
+        - 2.4.2.-
+        - 4.1.3.-
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00468
+    - name: Valine-pyruvate aminotransferase
+    - metabolites: !!omap
+      - (r)-3-methyl-2-oxobutanoate: -1
+      - ALA: -1
+      - PYR: 1
+      - VAL: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04689
+    - annotation: !!omap
+      - ec-code: 2.6.1.66
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00497
+    - name: 3-hydroxy-2-methylbutyryl-CoA dehydrogenase
+    - metabolites: !!omap
+      - 2-methyl-2-hydroxybutyryl-coa: -1
+      - 2-methylacetoacetyl-coa: 1
+      - NAD: -1
+      - NADH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07593
+    - annotation: !!omap
+      - ec-code: 1.1.1.178
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00510
+    - name: Tyrosine aminotransferase
+    - metabolites: !!omap
+      - 4HPP: 1
+      - AKG: -1
+      - GLU: 1
+      - TYR: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06021
+    - annotation: !!omap
+      - ec-code: 2.6.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00520
+    - name: Aldehyde-lyases
+    - metabolites: !!omap
+      - 4-trimethylammoniobutanal: 1
+      - C01259_c: -1
+      - GLY: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 4.1.2.-
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00523
+    - name: Gamma-butyrobetaine dioxygenase
+    - metabolites: !!omap
+      - 4-trimethylammoniobutanoate: -1
+      - AKG: -1
+      - CAR: 1
+      - CO2: 1
+      - O2: -1
+      - SUCC: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_09523
+    - annotation: !!omap
+      - ec-code: 1.14.11.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00524
+    - name: Succinyl-diaminopimelate desuccinylase
+    - metabolites: !!omap
+      - H2O: -1
+      - SUCC: 1
+      - ll-2,6-diaminoheptanedioate: 1
+      - n-succinyl-ll-2,6-diaminoheptanedioate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_08717
+    - annotation: !!omap
+      - ec-code: 3.5.1.18
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00572
+    - name: Phenylalanine 4-monooxygenase
+    - metabolites: !!omap
+      - C15522_c: 1
+      - O2: -1
+      - PHE: -1
+      - TYR: 1
+      - tetrahydrobiopterin: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.14.16.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00577
+    - name: Phenylpyruvate tautomerase
+    - metabolites: !!omap
+      - 2-hydroxy-3-(4-hydroxyphenyl)propenoate: 1
+      - 4HPP: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 5.3.2.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00582
+    - name: acylpyruvate hydrolase
+    - metabolites: !!omap
+      - 3-acylpyruvate: -1
+      - FUM: 1
+      - H2O: -1
+      - PYR: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02220
+    - annotation: !!omap
+      - ec-code: 3.7.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00604
+    - name: Catalase peroxidase
+    - metabolites: !!omap
+      - CO2: 1
+      - O2: -1
+      - PHE: -1
+      - phenylacetamide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01912
+    - annotation: !!omap
+      - ec-code: 1.11.1.21
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00605
+    - name: Catalase and Catalase peroxidase
+    - metabolites: !!omap
+      - HAN: -2
+      - O2: -4
+      - cinnabarinic acid: 1
+      - hydrogen peroxide: 2
+      - superoxide: 2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01912
+    - annotation: !!omap
+      - ec-code:
+        - 1.11.1.6
+        - 1.11.1.21
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00610
+    - name: Formamidase
+    - metabolites: !!omap
+      - FOR: 1
+      - H2O: -1
+      - NH3: 1
+      - aor0326: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01689
+    - annotation: !!omap
+      - ec-code: 3.5.1.49
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00611
+    - name: Phosphinothricin acetyltransferase
+    - metabolites: !!omap
+      - ACCOA: -1
+      - COA: 1
+      - n-acetylphosphinothricin: 1
+      - phosphinothricin: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07875
+    - annotation: !!omap
+      - ec-code: 2.3.1.183
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00612
+    - name: Carboxyvinyl-carboxyphosphonate phosphorylmutase
+    - metabolites: !!omap
+      - 1-carboxyvinyl carboxyphosphonate: -1
+      - 3-(hydrohydroxyphosphoryl)pyruvate: 1
+      - CO2: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05734
+    - annotation: !!omap
+      - ec-code: 2.7.8.23
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00645
+    - name: Inosine triphosphate pyrophosphatase
+    - metabolites: !!omap
+      - H2O: -1
+      - IMP: 1
+      - ITP: -1
+      - PPI: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03944
+    - annotation: !!omap
+      - ec-code: 3.6.1.19
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00653
+    - name: Nucleotide diphosphatase
+    - metabolites: !!omap
+      - 3'-phospho-adenylate: 1
+      - H2O: -1
+      - PAPS: -1
+      - SLF: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03944
+    - annotation: !!omap
+      - ec-code: 3.6.1.9
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00655
+    - name: bis(5'-nucleosidyl)-tetraphosphatase
+    - metabolites: !!omap
+      - AMP: 1
+      - ATP: 1
+      - H2O: -1
+      - p1,p4-bis(5'-adenosyl) tetraphosphate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_08362
+    - annotation: !!omap
+      - ec-code: 3.6.1.17
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00656
+    - name: bis(5'-adenosyl)-triphosphatase
+    - metabolites: !!omap
+      - ADP: 1
+      - AMP: 1
+      - H2O: -1
+      - p1,p3-bis(5'-adenosyl) triphosphate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04282
+    - annotation: !!omap
+      - ec-code: 3.6.1.29
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00657
+    - name: Purine nucleosidase
+    - metabolites: !!omap
+      - AD: 1
+      - ADN: -1
+      - H2O: -1
+      - RIB: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06141
+    - annotation: !!omap
+      - ec-code: 3.2.2.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00665
+    - name: Dihydroorotate oxidase
+    - metabolites: !!omap
+      - DOROA: -1
+      - O2: -1
+      - OROA: 1
+      - hydrogen peroxide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_08217
+    - annotation: !!omap
+      - ec-code: 1.3.98.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00688
+    - name: Cytosine deaminase
+    - metabolites: !!omap
+      - CYTS: -1
+      - H2O: -1
+      - NH3: 1
+      - URA: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06584
+    - annotation: !!omap
+      - ec-code: 3.5.4.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00691
+    - name: Uridine phosphorylase
+    - metabolites: !!omap
+      - PI: -1
+      - R1P: 1
+      - URA: 1
+      - URI: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.4.2.3
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00750
+    - name: Apyrase
+    - metabolites: !!omap
+      - AMP: 1
+      - ATP: -1
+      - H2O: -2
+      - PI: 2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00441
+    - annotation: !!omap
+      - ec-code: 3.6.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00754
+    - name: Adenine deaminase
+    - metabolites: !!omap
+      - AD: -1
+      - H2O: -1
+      - HYXN: 1
+      - NH3: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07145
+    - annotation: !!omap
+      - ec-code: 3.5.4.2
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00770
+    - name: Protein geranylgeranyltransferase Type ll
+    - metabolites: !!omap
+      - C20119_c: -1
+      - GGPP: -1
+      - PPI: 1
+      - s-geranylgeranyl-protein: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05579
+    - annotation: !!omap
+      - ec-code: 2.5.1.60
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00772
+    - name: Squalene mooxygenase
+    - metabolites: !!omap
+      - NADP: 1
+      - NADPH: -1
+      - O2: -1
+      - S23E: 1
+      - SQL: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07184
+    - annotation: !!omap
+      - ec-code: 1.14.14.17
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00784
+    - name: C-22 sterol desaturase
+    - metabolites: !!omap
+      - ERGOT: 1
+      - ERTROL: -1
+      - NADP: 1
+      - NADPH: -1
+      - O2: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02962
+    - annotation: !!omap
+      - ec-code: 1.14.19.41
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00788
+    - name: Cycloartenol synthase
+    - metabolites: !!omap
+      - S23E: -1
+      - cycloartenol: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 5.4.99.8
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00791
+    - name: Cycloeucalel cycloisomerase
+    - metabolites: !!omap
+      - cycloeucalenol: -1
+      - obtusifoliol: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 5.5.1.9
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00796
+    - name: 24-dehydrocholesterol reductase
+    - metabolites: !!omap
+      - 5alpha-cholesta-7,24-dien-3beta-ol: 1
+      - C01189_c: -1
+      - NADP: -1
+      - NADPH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05983
+    - annotation: !!omap
+      - ec-code: 1.3.1.72
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00819
+    - name: Sphingolipid delta-4 desaturase
+    - metabolites: !!omap
+      - C18PSPH: 1
+      - C18SPH: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_09611
+    - annotation: !!omap
+      - ec-code: 1.14.19.17
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00825
+    - name: Delta8-fatty-acid desaturase
+    - metabolites: !!omap
+      - C18PSPH: -1
+      - H2O: 2
+      - NADP: 1
+      - NADPH: -1
+      - O2: -1
+      - delta8-phytosphingenine: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01221
+    - annotation: !!omap
+      - ec-code: 1.14.19.4
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00883
+    - name: 1-acylglycerophosphocholine O-acyltransferase
+    - metabolites: !!omap
+      - 1-alkyl-sn-glycero-3-phosphocholine: -1
+      - ACCOA: -1
+      - C04598_c: 1
+      - COA: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05827
+    - annotation: !!omap
+      - ec-code: 2.3.1.23
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00892
+    - name: 3-hydroxyacyl-[acyl-carrier-protein] dehydratase
+    - metabolites: !!omap
+      - C4DACP: 1
+      - C4HACP: -1
+      - H2O: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02997
+    - annotation: !!omap
+      - ec-code: 4.2.1.59
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00894
+    - name: Fatty-acyl-CoA synthase
+    - metabolites: !!omap
+      - ACCOA: -1
+      - C40COA: 1
+      - CO2: 1
+      - COA: 1
+      - MALCOA: -1
+      - NADP: 2
+      - NADPH: -2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02997
+    - annotation: !!omap
+      - ec-code: 2.3.1.86
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00955
+    - name: Delta-12 fatty acid desaturase
+    - metabolites: !!omap
+      - C181COA: -1
+      - C183COA: 1
+      - H2O: 2
+      - NAD: 1
+      - NADH: -1
+      - O2: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06866
+    - annotation: !!omap
+      - ec-code: 1.14.19.6
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R00974
+    - name: Long-chain-enoyl-CoA hydratase
+    - metabolites: !!omap
+      - 3-hydroxyhexanoyl-coa: -1
+      - C05271_c: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00065
+    - annotation: !!omap
+      - ec-code: 4.2.1.74
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01010
+    - name: 2,4-dienoyl-CoA reductase
+    - metabolites: !!omap
+      - NADP: -1
+      - NADPH: 1
+      - trans,trans-2,3,4,5-tetradehydroacyl-coa: 1
+      - trans-2,3-didehydroacyl-coa: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02294
+    - annotation: !!omap
+      - ec-code: 1.3.1.34
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01017
+    - name: Carnitine O-palmitoyltransferase
+    - metabolites: !!omap
+      - C160COA: -1
+      - CAR: -1
+      - COA: 1
+      - palmitoyl-carnitine: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02926
+    - annotation: !!omap
+      - ec-code: 2.3.1.21
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01031
+    - name: Long-chain-enoyl-CoA hydratase
+    - metabolites: !!omap
+      - 3-hydroxypalmitoyl-coa: -1
+      - trans-hexadec-2-enoyl-coa: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00065
+    - annotation: !!omap
+      - ec-code: 4.2.1.74
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01088
+    - name: Glutaryl-CoA dehydrogenase (ETF)
+    - metabolites: !!omap
+      - C01352_c: 1
+      - CO2: 1
+      - FAD: -1
+      - glutaryl-coa: -1
+      - trans-but-2-enoyl-coa: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01359
+    - annotation: !!omap
+      - ec-code: 1.3.8.6
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01102
+    - name: 6-pyruvoyl tetrahydrobiopterin synthase
+    - metabolites: !!omap
+      - 6-pyruvoyl-5,6,7,8-tetrahydropterin: 1
+      - AHTD: -1
+      - PI: 3
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 4.2.3.12
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01104
+    - name: Sepiapterin reductase
+    - metabolites: !!omap
+      - 6-pyruvoyl-5,6,7,8-tetrahydropterin: -1
+      - NADP: 2
+      - NADPH: -2
+      - tetrahydrobiopterin: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05251
+    - annotation: !!omap
+      - ec-code: 1.1.1.153
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01105
+    - name: Dihydropteridine reductase
+    - metabolites: !!omap
+      - 6,7-dihydropteridine: 1
+      - NADP: -1
+      - NADPH: 1
+      - tetrahydrobiopterin: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01430
+    - annotation: !!omap
+      - ec-code: 1.5.1.34
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01125
+    - name: Hydroxymethylpyrimidine kinase
+    - metabolites: !!omap
+      - 4-amino-5-hydroxymethyl-2-methylpyrimidine: -1
+      - ADP: 1
+      - AHMP: 1
+      - ATP: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_09434
+    - annotation: !!omap
+      - ec-code: 2.7.1.49
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01129
+    - name: Thiamine kinase
+    - metabolites: !!omap
+      - ADP: 1
+      - ATP: -1
+      - THME: -1
+      - THMP: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.1.89
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01130
+    - name: Thiamine-phosphate kinase
+    - metabolites: !!omap
+      - ADP: 1
+      - ATP: -1
+      - THDP: 1
+      - THMP: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.4.16
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01136
+    - name: Purine nucleosidase
+    - metabolites: !!omap
+      - H2O: -1
+      - NICD: 1
+      - RIB: 1
+      - nicotinamide beta riboside: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06141
+    - annotation: !!omap
+      - ec-code: 3.2.2.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01139
+    - name: Nicotinamide mononucleotide nucleosidase
+    - metabolites: !!omap
+      - H2O: -1
+      - NICD: 1
+      - R5P: 1
+      - nicotinamide mononucleotide: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.2.14
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01145
+    - name: Nicotinamide N-methyltransferase
+    - metabolites: !!omap
+      - 1-methylnicotinamide: 1
+      - NICD: -1
+      - SAH: 1
+      - SAM: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04599
+    - annotation: !!omap
+      - ec-code: 2.1.1.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01174
+    - name: cob(I)yrinic acid a,c-diamide adenosyltransferase
+    - metabolites: !!omap
+      - ATP: -1
+      - PI: 3
+      - adenosylcobinamide: 1
+      - cobinamide: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.5.1.17
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01177
+    - name: 2-octaprenylphenol hydroxylase
+    - metabolites: !!omap
+      - 2-octaprenylphenol: -1
+      - 6-hydroxy-2-octaprenylphenol: 1
+      - O2: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.13.14.-
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01184
+    - name: P-hydroxybenzoate hydroxylase
+    - metabolites: !!omap
+      - 3,4-dihydroxybenzoate: 1
+      - 4HBA: -1
+      - H2O: 1
+      - NADP: 1
+      - NADPH: -1
+      - O2: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.14.13.2
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01185
+    - name: 2-polyprenyl-6-hydroxyphel methylase
+    - metabolites: !!omap
+      - 6-hydroxy-2-octaprenylphenol: -1
+      - 6-methoxy-2-octaprenylphenol: 1
+      - SAH: 1
+      - SAM: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04502
+    - annotation: !!omap
+      - ec-code:
+        - 2.1.1.222
+        - 2.1.1.64
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01192
+    - name: 6,7-dimethyl-8-ribityllumazine synthase
+    - metabolites: !!omap
+      - 5-amino-6-ribityluracil: -1
+      - D8RL: 1
+      - DB4P: -1
+      - H2O: 2
+      - PI: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_06814
+    - annotation: !!omap
+      - ec-code: 2.5.1.78
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01204
+    - name: Biotin propionyl-CoA carboxylase ligase
+    - metabolites: !!omap
+      - ATP: -1
+      - BT: -1
+      - PPI: 1
+      - aor0114: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_05319
+    - annotation: !!omap
+      - ec-code: 6.3.4.10
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01208
+    - name: Malonyl-[acyl-carrier protein] O-methyltransferase
+    - metabolites: !!omap
+      - MALACP: -1
+      - SAH: 1
+      - SAM: -1
+      - malonyl-[acyl-carrier protein] methyl ester: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_04790
+    - annotation: !!omap
+      - ec-code: 2.1.1.197
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01222
+    - name: Alkyl hydroperoxide reductase
+    - metabolites: !!omap
+      - H2O: 1
+      - hydroperoxide: -1
+      - roh: 1
+      - tryparedoxin: -1
+      - tryparedoxin disulfide: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_03275
+    - annotation: !!omap
+      - ec-code: 1.11.1.15
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01230
+    - name: O-methyltransferase
+    - metabolites: !!omap
+      - SAH: 1
+      - SAM: -1
+      - aor0281: -1
+      - sterigmatocystin: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02106
+    - annotation: !!omap
+      - ec-code: 2.1.1.109
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01231
+    - name: Sterigmatocystin 8-O-methyltransferase
+    - metabolites: !!omap
+      - SAH: 1
+      - SAM: -1
+      - o-methylsterigmatocystin: 1
+      - sterigmatocystin: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_07823
+    - annotation: !!omap
+      - ec-code: 2.1.1.110
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01233
+    - name: Aflatoxin B synthase
+    - metabolites: !!omap
+      - CO2: 1
+      - H2O: 1
+      - METHOL: 1
+      - NADP: 2
+      - NADPH: -2
+      - O2: -2
+      - aor0050: 1
+      - o-methylsterigmatocystin: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01530
+    - annotation: !!omap
+      - ec-code: 1.14.13.175
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01235
+    - name: Catalase peroxidase
+    - metabolites: !!omap
+      - coniferyl alcohol: -1
+      - guaiacyl lignin: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01912
+    - annotation: !!omap
+      - ec-code: 1.11.1.21
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01246
+    - name: Caffeoyl-CoA O-methyltransferase
+    - metabolites: !!omap
+      - C00406_c: 1
+      - SAH: 1
+      - SAM: -1
+      - caffeoyl-coa: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.1.1.104
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01248
+    - name: 4-coumarate-CoA ligase
+    - metabolites: !!omap
+      - AMP: 1
+      - ATP: -1
+      - COA: -1
+      - PPI: 1
+      - cinnamoyl-coa: 1
+      - trans-cinnamate: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00779
+    - annotation: !!omap
+      - ec-code: 6.2.1.12
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01254
+    - name: Demethylmenaquinone methyltransferase
+    - metabolites: !!omap
+      - C05819_c: 1
+      - SAH: 1
+      - SAM: -1
+      - demethylmenaquinol: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00363
+    - annotation: !!omap
+      - ec-code: 2.1.1.163
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01255
+    - name: 2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase
+    - metabolites: !!omap
+      - (2s,3s)-2,3-dihydro-2,3-dihydroxybenzoate: -1
+      - C00196_c: 1
+      - NAD: -1
+      - NADH: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01528
+    - annotation: !!omap
+      - ec-code: 1.3.1.28
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01258
+    - name: Arylamine N-acetyltransferase
+    - metabolites: !!omap
+      - 5-acetylamino-6-formylamino-3-methyluracil: 1
+      - paraxanthine: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00179
+    - annotation: !!omap
+      - ec-code: 2.3.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01263
+    - name: 4-nitrophenylphosphatase
+    - metabolites: !!omap
+      - 4-nitrophenol: 1
+      - 4-nitrophenyl phosphate: -1
+      - H2O: -1
+      - PI: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01841
+    - annotation: !!omap
+      - ec-code: 3.1.3.41
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01264
+    - name: Arylamine N-acetyltransferase
+    - metabolites: !!omap
+      - ACCOA: -1
+      - COA: 1
+      - arylamine: -1
+      - n-acetylarylamine: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_00179
+    - annotation: !!omap
+      - ec-code: 2.3.1.5
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01265
+    - name: Carboxylesterase
+    - metabolites: !!omap
+      - H2O: -1
+      - alcohol: 1
+      - carboxylate: 1
+      - carboxylic ester: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_02209
+    - annotation: !!omap
+      - ec-code: 3.1.1.1
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01266
+    - name: Alpha-methylacyl-CoA racemase
+    - metabolites: !!omap
+      - (2r)-2-methylacyl-coa: 1
+      - (2s)-2-methylacyl-coa: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01386
+    - annotation: !!omap
+      - ec-code: 5.1.99.4
+    - confidence_score: 4
+  - !!omap
+    - id: wv_R01267
+    - name: Epoxide hydrolase
+    - metabolites: !!omap
+      - (+)-(1r,2r)-1,2-diphenylethane-1,2-diol : 1
+      - H2O: -1
+      - cis-stilbene oxide: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: CCM_01516
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+    - confidence_score: 4
+  - !!omap
     - id: xanIN
     - name: uptake of xanthine
     - metabolites: !!omap
@@ -37946,13 +39239,9 @@
   - !!omap
     - id: CCM_00020
   - !!omap
-    - id: CCM_00021
-  - !!omap
     - id: CCM_00032
   - !!omap
     - id: CCM_00040
-  - !!omap
-    - id: CCM_00061
   - !!omap
     - id: CCM_00065
   - !!omap
@@ -37980,13 +39269,13 @@
   - !!omap
     - id: CCM_00140
   - !!omap
-    - id: CCM_00141
-  - !!omap
     - id: CCM_00142
   - !!omap
     - id: CCM_00160
   - !!omap
     - id: CCM_00163
+  - !!omap
+    - id: CCM_00179
   - !!omap
     - id: CCM_00183
   - !!omap
@@ -38018,19 +39307,17 @@
   - !!omap
     - id: CCM_00246
   - !!omap
-    - id: CCM_00257
-  - !!omap
     - id: CCM_00262
   - !!omap
     - id: CCM_00270
-  - !!omap
-    - id: CCM_00275
   - !!omap
     - id: CCM_00279
   - !!omap
     - id: CCM_00285
   - !!omap
     - id: CCM_00296
+  - !!omap
+    - id: CCM_00302
   - !!omap
     - id: CCM_00310
   - !!omap
@@ -38150,8 +39437,6 @@
   - !!omap
     - id: CCM_00703
   - !!omap
-    - id: CCM_00704
-  - !!omap
     - id: CCM_00728
   - !!omap
     - id: CCM_00736
@@ -38182,13 +39467,11 @@
   - !!omap
     - id: CCM_00844
   - !!omap
+    - id: CCM_00852
+  - !!omap
     - id: CCM_00854
   - !!omap
-    - id: CCM_00856
-  - !!omap
     - id: CCM_00881
-  - !!omap
-    - id: CCM_00885
   - !!omap
     - id: CCM_00895
   - !!omap
@@ -38198,6 +39481,8 @@
   - !!omap
     - id: CCM_00935
   - !!omap
+    - id: CCM_00942
+  - !!omap
     - id: CCM_00954
   - !!omap
     - id: CCM_00956
@@ -38205,8 +39490,6 @@
     - id: CCM_00963
   - !!omap
     - id: CCM_00967
-  - !!omap
-    - id: CCM_00974
   - !!omap
     - id: CCM_00977
   - !!omap
@@ -38225,8 +39508,6 @@
     - id: CCM_01008
   - !!omap
     - id: CCM_01016
-  - !!omap
-    - id: CCM_01018
   - !!omap
     - id: CCM_01020
   - !!omap
@@ -38270,6 +39551,8 @@
   - !!omap
     - id: CCM_01210
   - !!omap
+    - id: CCM_01221
+  - !!omap
     - id: CCM_01222
   - !!omap
     - id: CCM_01231
@@ -38278,6 +39561,8 @@
   - !!omap
     - id: CCM_01239
   - !!omap
+    - id: CCM_01241
+  - !!omap
     - id: CCM_01242
   - !!omap
     - id: CCM_01247
@@ -38285,6 +39570,8 @@
     - id: CCM_01275
   - !!omap
     - id: CCM_01277
+  - !!omap
+    - id: CCM_01279
   - !!omap
     - id: CCM_01284
   - !!omap
@@ -38316,13 +39603,13 @@
   - !!omap
     - id: CCM_01425
   - !!omap
+    - id: CCM_01430
+  - !!omap
     - id: CCM_01432
   - !!omap
     - id: CCM_01434
   - !!omap
     - id: CCM_01437
-  - !!omap
-    - id: CCM_01449
   - !!omap
     - id: CCM_01450
   - !!omap
@@ -38342,8 +39629,6 @@
   - !!omap
     - id: CCM_01488
   - !!omap
-    - id: CCM_01490
-  - !!omap
     - id: CCM_01495
   - !!omap
     - id: CCM_01501
@@ -38352,9 +39637,13 @@
   - !!omap
     - id: CCM_01506
   - !!omap
+    - id: CCM_01516
+  - !!omap
     - id: CCM_01521
   - !!omap
     - id: CCM_01522
+  - !!omap
+    - id: CCM_01528
   - !!omap
     - id: CCM_01530
   - !!omap
@@ -38399,6 +39688,8 @@
     - id: CCM_01666
   - !!omap
     - id: CCM_01674
+  - !!omap
+    - id: CCM_01678
   - !!omap
     - id: CCM_01682
   - !!omap
@@ -38448,8 +39739,6 @@
   - !!omap
     - id: CCM_01813
   - !!omap
-    - id: CCM_01823
-  - !!omap
     - id: CCM_01839
   - !!omap
     - id: CCM_01841
@@ -38488,6 +39777,8 @@
   - !!omap
     - id: CCM_01962
   - !!omap
+    - id: CCM_01968
+  - !!omap
     - id: CCM_01970
   - !!omap
     - id: CCM_01972
@@ -38520,6 +39811,8 @@
   - !!omap
     - id: CCM_02087
   - !!omap
+    - id: CCM_02106
+  - !!omap
     - id: CCM_02117
   - !!omap
     - id: CCM_02121
@@ -38532,19 +39825,19 @@
   - !!omap
     - id: CCM_02155
   - !!omap
-    - id: CCM_02165
-  - !!omap
     - id: CCM_02175
   - !!omap
     - id: CCM_02182
   - !!omap
     - id: CCM_02189
   - !!omap
-    - id: CCM_02201
-  - !!omap
     - id: CCM_02207
   - !!omap
+    - id: CCM_02209
+  - !!omap
     - id: CCM_02219
+  - !!omap
+    - id: CCM_02220
   - !!omap
     - id: CCM_02260
   - !!omap
@@ -38554,11 +39847,15 @@
   - !!omap
     - id: CCM_02266
   - !!omap
+    - id: CCM_02267
+  - !!omap
     - id: CCM_02270
   - !!omap
     - id: CCM_02278
   - !!omap
     - id: CCM_02293
+  - !!omap
+    - id: CCM_02294
   - !!omap
     - id: CCM_02297
   - !!omap
@@ -38594,8 +39891,6 @@
   - !!omap
     - id: CCM_02448
   - !!omap
-    - id: CCM_02454
-  - !!omap
     - id: CCM_02472
   - !!omap
     - id: CCM_02473
@@ -38607,8 +39902,6 @@
     - id: CCM_02487
   - !!omap
     - id: CCM_02500
-  - !!omap
-    - id: CCM_02504
   - !!omap
     - id: CCM_02506
   - !!omap
@@ -38718,8 +40011,6 @@
   - !!omap
     - id: CCM_02926
   - !!omap
-    - id: CCM_02937
-  - !!omap
     - id: CCM_02941
   - !!omap
     - id: CCM_02943
@@ -38760,8 +40051,6 @@
   - !!omap
     - id: CCM_03012
   - !!omap
-    - id: CCM_03026
-  - !!omap
     - id: CCM_03045
   - !!omap
     - id: CCM_03046
@@ -38779,8 +40068,6 @@
     - id: CCM_03107
   - !!omap
     - id: CCM_03114
-  - !!omap
-    - id: CCM_03116
   - !!omap
     - id: CCM_03120
   - !!omap
@@ -38832,6 +40119,8 @@
   - !!omap
     - id: CCM_03267
   - !!omap
+    - id: CCM_03275
+  - !!omap
     - id: CCM_03277
   - !!omap
     - id: CCM_03279
@@ -38843,8 +40132,6 @@
     - id: CCM_03300
   - !!omap
     - id: CCM_03310
-  - !!omap
-    - id: CCM_03311
   - !!omap
     - id: CCM_03320
   - !!omap
@@ -38858,6 +40145,8 @@
   - !!omap
     - id: CCM_03363
   - !!omap
+    - id: CCM_03371
+  - !!omap
     - id: CCM_03372
   - !!omap
     - id: CCM_03373
@@ -38867,6 +40156,8 @@
     - id: CCM_03390
   - !!omap
     - id: CCM_03401
+  - !!omap
+    - id: CCM_03403
   - !!omap
     - id: CCM_03413
   - !!omap
@@ -38942,11 +40233,11 @@
   - !!omap
     - id: CCM_03725
   - !!omap
+    - id: CCM_03731
+  - !!omap
     - id: CCM_03736
   - !!omap
     - id: CCM_03749
-  - !!omap
-    - id: CCM_03752
   - !!omap
     - id: CCM_03753
   - !!omap
@@ -39022,8 +40313,6 @@
   - !!omap
     - id: CCM_04063
   - !!omap
-    - id: CCM_04090
-  - !!omap
     - id: CCM_04111
   - !!omap
     - id: CCM_04112
@@ -39048,6 +40337,8 @@
   - !!omap
     - id: CCM_04171
   - !!omap
+    - id: CCM_04175
+  - !!omap
     - id: CCM_04179
   - !!omap
     - id: CCM_04181
@@ -39059,8 +40350,6 @@
     - id: CCM_04198
   - !!omap
     - id: CCM_04207
-  - !!omap
-    - id: CCM_04210
   - !!omap
     - id: CCM_04216
   - !!omap
@@ -39142,6 +40431,8 @@
   - !!omap
     - id: CCM_04592
   - !!omap
+    - id: CCM_04599
+  - !!omap
     - id: CCM_04603
   - !!omap
     - id: CCM_04605
@@ -39208,6 +40499,8 @@
   - !!omap
     - id: CCM_04746
   - !!omap
+    - id: CCM_04763
+  - !!omap
     - id: CCM_04765
   - !!omap
     - id: CCM_04775
@@ -39215,6 +40508,8 @@
     - id: CCM_04777
   - !!omap
     - id: CCM_04786
+  - !!omap
+    - id: CCM_04790
   - !!omap
     - id: CCM_04801
   - !!omap
@@ -39248,9 +40543,15 @@
   - !!omap
     - id: CCM_04918
   - !!omap
+    - id: CCM_04923
+  - !!omap
     - id: CCM_04926
   - !!omap
     - id: CCM_04929
+  - !!omap
+    - id: CCM_04947
+  - !!omap
+    - id: CCM_04958
   - !!omap
     - id: CCM_04970
   - !!omap
@@ -39275,8 +40576,6 @@
     - id: CCM_05030
   - !!omap
     - id: CCM_05033
-  - !!omap
-    - id: CCM_05035
   - !!omap
     - id: CCM_05051
   - !!omap
@@ -39306,8 +40605,6 @@
   - !!omap
     - id: CCM_05126
   - !!omap
-    - id: CCM_05129
-  - !!omap
     - id: CCM_05136
   - !!omap
     - id: CCM_05145
@@ -39336,8 +40633,6 @@
   - !!omap
     - id: CCM_05216
   - !!omap
-    - id: CCM_05217
-  - !!omap
     - id: CCM_05218
   - !!omap
     - id: CCM_05219
@@ -39345,6 +40640,8 @@
     - id: CCM_05240
   - !!omap
     - id: CCM_05249
+  - !!omap
+    - id: CCM_05251
   - !!omap
     - id: CCM_05252
   - !!omap
@@ -39366,8 +40663,6 @@
   - !!omap
     - id: CCM_05296
   - !!omap
-    - id: CCM_05300
-  - !!omap
     - id: CCM_05303
   - !!omap
     - id: CCM_05313
@@ -39375,6 +40670,8 @@
     - id: CCM_05319
   - !!omap
     - id: CCM_05322
+  - !!omap
+    - id: CCM_05328
   - !!omap
     - id: CCM_05331
   - !!omap
@@ -39406,8 +40703,6 @@
   - !!omap
     - id: CCM_05434
   - !!omap
-    - id: CCM_05437
-  - !!omap
     - id: CCM_05446
   - !!omap
     - id: CCM_05473
@@ -39428,11 +40723,15 @@
   - !!omap
     - id: CCM_05545
   - !!omap
+    - id: CCM_05547
+  - !!omap
     - id: CCM_05550
   - !!omap
     - id: CCM_05551
   - !!omap
     - id: CCM_05577
+  - !!omap
+    - id: CCM_05579
   - !!omap
     - id: CCM_05589
   - !!omap
@@ -39498,13 +40797,9 @@
   - !!omap
     - id: CCM_05761
   - !!omap
-    - id: CCM_05781
-  - !!omap
     - id: CCM_05784
   - !!omap
     - id: CCM_05789
-  - !!omap
-    - id: CCM_05795
   - !!omap
     - id: CCM_05821
   - !!omap
@@ -39513,8 +40808,6 @@
     - id: CCM_05827
   - !!omap
     - id: CCM_05829
-  - !!omap
-    - id: CCM_05830
   - !!omap
     - id: CCM_05831
   - !!omap
@@ -39525,6 +40818,8 @@
     - id: CCM_05854
   - !!omap
     - id: CCM_05857
+  - !!omap
+    - id: CCM_05862
   - !!omap
     - id: CCM_05863
   - !!omap
@@ -39540,11 +40835,15 @@
   - !!omap
     - id: CCM_05880
   - !!omap
+    - id: CCM_05888
+  - !!omap
     - id: CCM_05895
   - !!omap
     - id: CCM_05896
   - !!omap
     - id: CCM_05911
+  - !!omap
+    - id: CCM_05940
   - !!omap
     - id: CCM_05945
   - !!omap
@@ -39582,6 +40881,10 @@
   - !!omap
     - id: CCM_06018
   - !!omap
+    - id: CCM_06021
+  - !!omap
+    - id: CCM_06032
+  - !!omap
     - id: CCM_06033
   - !!omap
     - id: CCM_06046
@@ -39607,6 +40910,8 @@
     - id: CCM_06124
   - !!omap
     - id: CCM_06127
+  - !!omap
+    - id: CCM_06141
   - !!omap
     - id: CCM_06143
   - !!omap
@@ -39712,6 +41017,8 @@
   - !!omap
     - id: CCM_06567
   - !!omap
+    - id: CCM_06584
+  - !!omap
     - id: CCM_06603
   - !!omap
     - id: CCM_06614
@@ -39806,8 +41113,6 @@
   - !!omap
     - id: CCM_06925
   - !!omap
-    - id: CCM_06927
-  - !!omap
     - id: CCM_06928
   - !!omap
     - id: CCM_06931
@@ -39817,6 +41122,8 @@
     - id: CCM_06943
   - !!omap
     - id: CCM_06949
+  - !!omap
+    - id: CCM_06954
   - !!omap
     - id: CCM_06956
   - !!omap
@@ -39978,9 +41285,15 @@
   - !!omap
     - id: CCM_07556
   - !!omap
+    - id: CCM_07575
+  - !!omap
+    - id: CCM_07582
+  - !!omap
     - id: CCM_07583
   - !!omap
     - id: CCM_07586
+  - !!omap
+    - id: CCM_07593
   - !!omap
     - id: CCM_07600
   - !!omap
@@ -40028,17 +41341,15 @@
   - !!omap
     - id: CCM_07800
   - !!omap
-    - id: CCM_07809
-  - !!omap
-    - id: CCM_07813
-  - !!omap
     - id: CCM_07814
   - !!omap
-    - id: CCM_07840
+    - id: CCM_07823
   - !!omap
     - id: CCM_07859
   - !!omap
     - id: CCM_07861
+  - !!omap
+    - id: CCM_07875
   - !!omap
     - id: CCM_07886
   - !!omap
@@ -40089,8 +41400,6 @@
     - id: CCM_08039
   - !!omap
     - id: CCM_08044
-  - !!omap
-    - id: CCM_08051
   - !!omap
     - id: CCM_08056
   - !!omap
@@ -40180,6 +41489,8 @@
   - !!omap
     - id: CCM_08353
   - !!omap
+    - id: CCM_08362
+  - !!omap
     - id: CCM_08408
   - !!omap
     - id: CCM_08417
@@ -40263,6 +41574,8 @@
     - id: CCM_08710
   - !!omap
     - id: CCM_08713
+  - !!omap
+    - id: CCM_08717
   - !!omap
     - id: CCM_08723
   - !!omap
@@ -40386,11 +41699,7 @@
   - !!omap
     - id: CCM_09041
   - !!omap
-    - id: CCM_09043
-  - !!omap
     - id: CCM_09050
-  - !!omap
-    - id: CCM_09057
   - !!omap
     - id: CCM_09067
   - !!omap
@@ -40405,8 +41714,6 @@
     - id: CCM_09091
   - !!omap
     - id: CCM_09107
-  - !!omap
-    - id: CCM_09110
   - !!omap
     - id: CCM_09112
   - !!omap
@@ -40526,6 +41833,8 @@
   - !!omap
     - id: CCM_09521
   - !!omap
+    - id: CCM_09523
+  - !!omap
     - id: CCM_09525
   - !!omap
     - id: CCM_09526
@@ -40533,6 +41842,8 @@
     - id: CCM_09530
   - !!omap
     - id: CCM_09551
+  - !!omap
+    - id: CCM_09558
   - !!omap
     - id: CCM_09560
   - !!omap
