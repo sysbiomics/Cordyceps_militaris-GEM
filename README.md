@@ -15,9 +15,11 @@ engineering; **Type of Model:** Reconstruction and refinement; **Taxonomy:** _Co
 - Reference:
 Raethong N, Wang H, Nielsen J, Vongsangnak W. 2019. Optimizing cultivation of _Cordyceps militaris_ for fast growth and cordycepin overproduction using rational design of synthetic media. Computational and Structural Biotechnology Journal doi:https://doi.org/10.1016/j.csbj.2019.11.003.
 
-- Pubmed ID: TBA
+- Pubmed ID: 31890138
 
-- Last update: 2019-12-01
+- PMC ID: PMC6926140
+
+- Last update: 2020-04-19
 
 - The model contains:
 
